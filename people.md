@@ -30,9 +30,12 @@ Dr. Ehsanollah Kabir is a burning candle of ethics and knowledge, whose unwaveri
 
 </div>
 
+
+
+
 <div style="display: flex; align-items: center; justify-content: space-between;">
 
-<div style="flex: 1; padding-right: 20px; text-align: justify;">
+<div style="flex: 1; padding-left: 20px; text-align: justify;">
 
 
 Dr. Lotfizad is an Associate Professor of Electrical Engineering at Tarbiat Modares University. 
@@ -50,6 +53,3 @@ He was my PhD thesis advisor, and his research interests focus on adaptive filte
 
 </div>
 
-<div style="display: flex; align-items: center; justify-content: space-between;">
-
-<div style="flex: 1; padding-left: 20px; text-align: justify;">
