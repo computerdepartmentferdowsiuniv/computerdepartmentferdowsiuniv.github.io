@@ -117,10 +117,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Hadi Sadoghi Yazdi"
   avatar           : "/assets/images/sadoghi.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **Iranian** person."
-  location         : "Ferdowsi University of Mashhad <br> Computer Department"
+  bio              : "Professor of Electrical and  <br> Computer Engineering"
+  location         : "<br> Ferdowsi University of Mashhad <br> Contact Information: <br> Phone:+98-51-38805117 <br> Areas of Expertise:<br> Pattern Recognition, Machine Learning, <br> Machine Vision, Signal processing" 
   email            :
   links:
     - label: "Email"
