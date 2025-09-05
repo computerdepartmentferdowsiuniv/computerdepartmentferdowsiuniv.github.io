@@ -43,3 +43,17 @@ header:
   </figure>
 
 </div>
+
+<!-- Block 1: متن چپ ، تصویر راست -->
+<div style="display:flex; direction:ltr; flex-direction:row; align-items:center; gap:20px; margin-bottom:40px; flex-wrap:wrap;">
+
+  <div style="flex:1; min-width:260px; text-align:justify;" dir="auto">
+  Bahreini is currently an Asistance Professor. She earned his Ph.D. degree inElectrical Engineering under the consultant of Prof. Sadoghi Yazdi from Ferdowsi University of Mashhad. Her research interests include Hyperspectral denoising, Machine Learning, Statistical Learning Theory, Pattern Recognition.
+  </div>
+
+  <figure style="flex:0 0 200px; margin:0; text-align:center;">
+    <img src="/assets/Peopleimages/Bahreini.png" alt="ََDr Bahreini" width="200" style="max-width:100%; height:auto; display:block;" />
+    <figcaption><em> Researcher in Electrical and Communication Systems</em></figcaption>
+  </figure>
+
+</div>
