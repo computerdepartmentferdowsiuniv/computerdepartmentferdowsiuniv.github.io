@@ -17,9 +17,9 @@ Dr. Ehsanollah Kabir is a burning candle of ethics and knowledge, whose unwaveri
 
 {% include figure 
    image_path="/assets/Peopleimages/Kabir.jpg" 
-   alt="Professor Hadi Sadoghi Yazdi" 
-   caption="Professor of Electrical and Computer Engineering" 
+   alt="Professor Ehsanollah Kabir" 
+   caption="Professor of Electrical Engineering" 
    class="align-right" 
-   width="300" 
+   width="200" 
 %}
 
