@@ -57,3 +57,18 @@ header:
   </figure>
 
 </div>
+
+<!-- Block 2: تصویر چپ ، متن راست -->
+<div style="display:flex; direction:ltr; flex-direction:row-reverse; align-items:center; gap:20px; margin-bottom:40px; flex-wrap:wrap;">
+
+  <div style="flex:1; min-width:260px; text-align:justify;" dir="auto">
+Yahya Forghani is currently an Associate Professor of Computer Engineering at Azad University of Mashhad, Iran. He earned his Ph.D. degree in Artificial Intelligence under the supervision of Prof. Sadoghi Yazdi from Ferdowsi University of Mashhad.
+
+  </div>
+
+  <figure style="flex:0 0 200px; margin:0; text-align:center;">
+    <img src="/assets/Peopleimages/Forghani.png" alt="Dr Forghani" width="200" style="max-width:100%; height:auto; display:block;" />
+    <figcaption><em>Associate Professor of of Computer Engineering at Azad University of Mashhad</em></figcaption>
+  </figure>
+
+</div>
