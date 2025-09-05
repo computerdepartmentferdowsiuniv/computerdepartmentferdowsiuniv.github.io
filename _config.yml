@@ -101,11 +101,20 @@ facebook:
   publisher              :
 og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
-# - https://developers.google.com/structured-data/customize/social-profiles
+
+# Social media profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  - label: "Email"
+    icon: "fas fa-envelope"
+    url: "mailto:h.sadoghi@um.ac.ir"
+  - label: "Website" 
+    icon: "fas fa-globe"
+    url: "http://prof.um.ac.ir/h-sadoghi/"
+  - label: "Google Scholar"
+    icon: "ai ai-google-scholar"
+    url: "https://scholar.google.com/citations?user=wEBTP4oAAAAJ"
+
+
 
 # Analytics
 analytics:
@@ -116,30 +125,19 @@ analytics:
 
 
 # Site Author
+
+# Author information
 author:
-  avatar           : "/assets/images/sadoghi.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Professor of Electrical and  <br> Computer Engineering"
+  name: "Hadi Sadoghi Yazdi"
+  avatar: "/assets/images/Sadoghi.jpg"
+  bio: "Professor of Electrical and  <br> Computer Engineering"
   location         : "<br> Ferdowsi University of Mashhad <br> Contact Information: <br> Phone:+98-51-38805117 <br> Areas of Expertise:<br> Pattern Recognition, Machine Learning, <br> Machine Vision, Signal processing" 
-  email            :
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "h-sadoghi.github.io"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+    - label: "University Profile"
+      icon: "fas fa-university"
+      url: "http://prof.um.ac.ir/h-sadoghi/"
+
+
 
 # Site Footer
 footer:
