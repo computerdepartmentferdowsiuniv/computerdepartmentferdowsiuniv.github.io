@@ -16,3 +16,11 @@ I am Hadi Sadoghi Yazdi, a Professor of Electrical and Computer Engineering at F
 My work focuses on pattern recognition, machine learning, machine vision, signal processing, and image processing.  
 As Director of the Pattern Recognition Laboratory, I mentor students and collaborate on research projects.
 
+{% include figure 
+   image_path="/assets/images/sadoghi_portrate.png" 
+   alt="Professor Hadi Sadoghi Yazdi" 
+   caption="Professor of Electrical and Computer Engineering" 
+   class="align-right" 
+   width="300" 
+%}
+
