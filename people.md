@@ -13,38 +13,33 @@ header:
 
 # People Individuals who have had an impact on the Pattern Recognition Laboratory
 
-<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 40px;">
 
-  <div style="flex: 1; padding-right: 20px; text-align: justify;">
 
+<!-- Block 1: متن چپ ، تصویر راست -->
+<div style="display:flex; direction:ltr; flex-direction:row; align-items:center; gap:20px; margin-bottom:40px; flex-wrap:wrap;">
+
+  <div style="flex:1; min-width:260px; text-align:justify;" dir="auto">
   Dr. Ehsanollah Kabir is a burning candle of ethics and knowledge, whose unwavering commitment to integrity and excellence lights the path for others. His profound wisdom and ethical guidance inspire those around him. Dr. Ehsanollah Kabir is a professor of Electrical Engineering at Tarbiat Modares University. Born on November 1, 1958, in Tehran, Iran. His research interests include document image analysis and cultural heritage technology. He was my master's thesis advisor and my doctoral advisor. My master's thesis focused on Persian OCR, and for my doctoral studies, I worked on target tracking in video for normal behavior detection.
-
   </div>
 
-  <div style="flex: 0 0 200px; text-align: center;">
-
-  <img src="/assets/Peopleimages/Kabir.png" alt="Professor Ehsanollah Kabir" width="200"/><br/>
-  <em>Professor of Electrical Engineering at Tarbiat Modares University</em>
-
-  </div>
+  <figure style="flex:0 0 200px; margin:0; text-align:center;">
+    <img src="/assets/Peopleimages/Kabir.png" alt="Professor Ehsanollah Kabir" width="200" style="max-width:100%; height:auto; display:block;" />
+    <figcaption><em>Professor of Electrical Engineering at Tarbiat Modares University</em></figcaption>
+  </figure>
 
 </div>
 
+<!-- Block 2: تصویر چپ ، متن راست -->
+<div style="display:flex; direction:ltr; flex-direction:row-reverse; align-items:center; gap:20px; margin-bottom:40px; flex-wrap:wrap;">
 
-<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 40px;">
-
-  <div style="flex: 0 0 200px; text-align: center;">
-
-  <img src="/assets/Peopleimages/Lotfizad.png" alt="Professor Lotfizad" width="200"/><br/>
-  <em>Associate Professor of Electrical Engineering at Tarbiat Modares University</em>
-
-  </div>
-
-  <div style="flex: 1; padding-left: 20px; text-align: justify;">
-
-  Dr. Lotfizad is an Associate Professor of Electrical Engineering at Tarbiat Modares University.  
+  <div style="flex:1; min-width:260px; text-align:justify;" dir="auto">
+  Dr. Lotfizad is an Associate Professor of Electrical Engineering at Tarbiat Modares University. 
   He was my PhD thesis advisor, and his research interests focus on adaptive filters.
-
   </div>
+
+  <figure style="flex:0 0 200px; margin:0; text-align:center;">
+    <img src="/assets/Peopleimages/Lotfizad.png" alt="Professor Lotfizad" width="200" style="max-width:100%; height:auto; display:block;" />
+    <figcaption><em>Associate Professor of Electrical Engineering at Tarbiat Modares University</em></figcaption>
+  </figure>
 
 </div>
