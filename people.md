@@ -11,7 +11,7 @@ header:
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 ---
 
-People Individuals who have had an impact on the Pattern Recognition Laboratory
+# People Individuals who have had an impact on the Pattern Recognition Laboratory
 
 <div style="display: flex; align-items: center; justify-content: space-between;">
 
@@ -24,9 +24,32 @@ Dr. Ehsanollah Kabir is a burning candle of ethics and knowledge, whose unwaveri
 <div style="flex: 0 0 200px; text-align: center;">
 
 <img src="/assets/Peopleimages/Kabir.png" alt="Professor Ehsanollah Kabir" width="200"/><br/>
-<em>Professor of Electrical Engineering</em>
+<em>Professor of Electrical Engineering at Tarbiat Modares University</em>
 
 </div>
 
 </div>
 
+<div style="display: flex; align-items: center; justify-content: space-between;">
+
+<div style="flex: 1; padding-right: 20px; text-align: justify;">
+
+
+Dr. Lotfizad is an Associate Professor of Electrical Engineering at Tarbiat Modares University. 
+
+He was my PhD thesis advisor, and his research interests focus on adaptive filters.
+
+</div>
+
+<div style="flex: 0 0 200px; text-align: center;">
+
+<img src="/assets/Peopleimages/Lotfizad.png" alt="Professor Ehsanollah Kabir" width="200"/><br/>
+<em>Associate Professor of Electrical Engineering at Tarbiat Modares University</em>
+
+</div>
+
+</div>
+
+<div style="display: flex; align-items: center; justify-content: space-between;">
+
+<div style="flex: 1; padding-left: 20px; text-align: justify;">
