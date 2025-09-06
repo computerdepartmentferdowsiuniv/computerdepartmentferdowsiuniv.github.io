@@ -135,3 +135,102 @@ S.M. Hosseini completed his master’s degree under the supervision of Dr. Hadi 
 
 </div>
 
+<!-- Block 1: متن چپ ، تصویر راست -->
+<div style="display:flex; direction:ltr; flex-direction:row; align-items:center; gap:20px; margin-bottom:40px; flex-wrap:wrap;">
+
+  <div style="flex:1; min-width:260px; text-align:justify;" dir="auto">
+Ehsan Shams is an accomplished AI expert with a background in artificial intelligence, specializing in this field since 2017. He has played a pivotal role in developing various AI products across diverse teams, driven by his deep passion for the subject. Ehsan's contributions extend to research, where he has published several papers based on his hands-on experience. He is known for his calm demeanor, kindness, and exceptional problem-solving abilities, making him an influential figure in the Pattern Recognition Laboratory. He earned his Masters degree in Artificial Intelligence from Ferdowsi University of Mashhad, Iran, under the supervision of Prof. Sadoghi Yazdi.
+
+ </div>
+
+  <figure style="flex:0 0 200px; margin:0; text-align:center;">
+    <img src="/assets/Peopleimages/Shams.png" alt="Shams" width="200" style="max-width:100%; height:auto; display:block;" />
+    <figcaption><em> AI expert with a background in Machine Learning</em></figcaption>
+  </figure>
+
+</div>
+
+
+<!-- Block 2: تصویر چپ ، متن راست -->
+<div style="display:flex; direction:ltr; flex-direction:row-reverse; align-items:center; gap:20px; margin-bottom:40px; flex-wrap:wrap;">
+
+  <div style="flex:1; min-width:260px; text-align:justify;" dir="auto">
+Dr. Soheila Ashkezari-T is an Assistant Professor and researcher in machine learning and artificial intelligence at the Faculty of Mathematical Sciences, Department of Computer Science, Ferdowsi University of Mashhad. She specializes in adaptive filtering, distributed processing, pattern recognition, and machine learning. Her extensive research includes developing distributed learning algorithms for graph networks and advancing spectral clustering techniques for graph analysis. She earned his Masters and Ph.D. degrees in Artificial Intelligence from Ferdowsi University of Mashhad, Iran, under the supervision of Prof. Sadoghi Yazdi. Currently, she is interested in graph neural networks (GNNs) and their applications, particularly in analyzing biomedical signals, social network data analysis, and other innovative applications of GNNs.
+
+
+  </div>
+
+  <figure style="flex:0 0 200px; margin:0; text-align:center;">
+    <img src="/assets/Peopleimages/Ashkezari.png" alt="Ashkezari" width="200" style="max-width:100%; height:auto; display:block;" />
+    <figcaption><em>Assistant Professor at the Faculty of Mathematical Sciences, Ferdowsi University of Mashhad</em></figcaption>
+  </figure>
+
+</div>
+
+
+<!-- Block 1: متن چپ ، تصویر راست -->
+<div style="display:flex; direction:ltr; flex-direction:row; align-items:center; gap:20px; margin-bottom:40px; flex-wrap:wrap;">
+
+  <div style="flex:1; min-width:260px; text-align:justify;" dir="auto">
+Ehsan Shams is an accomplished AI expert with a background in artificial intelligence, specializing in this field since 2017. He has played a pivotal role in developing various AI products across diverse teams, driven by his deep passion for the subject. Ehsan's contributions extend to research, where he has published several papers based on his hands-on experience. He is known for his calm demeanor, kindness, and exceptional problem-solving abilities, making him an influential figure in the Pattern Recognition Laboratory. He earned his Masters degree in Artificial Intelligence from Ferdowsi University of Mashhad, Iran, under the supervision of Prof. Sadoghi Yazdi.
+
+ </div>
+
+  <figure style="flex:0 0 200px; margin:0; text-align:center;">
+    <img src="/assets/Peopleimages/Ghazikhani.png" alt="Ghazikhani" width="200" style="max-width:100%; height:auto; display:block;" />
+    <figcaption><em> Assistant Professor at Emam Reza University</em></figcaption>
+  </figure>
+
+</div>
+
+
+<!-- Block 2: تصویر چپ ، متن راست -->
+<div style="display:flex; direction:ltr; flex-direction:row-reverse; align-items:center; gap:20px; margin-bottom:40px; flex-wrap:wrap;">
+
+  <div style="flex:1; min-width:260px; text-align:justify;" dir="auto">
+Mohammad GhasemiGol is currently a research assistant professor in the School of Cybersecurity at Old Dominion University. Before, he was a research assistant professor at University of North Dakota and associate researcher at Imperial College London. He is also served as an assistant professor of computer engineering at the University of Birjand, since 2016. He was the IT director and the director of the Computer Emergency Response Team (CERT) at the University of Birjand for more than five years. 
+
+His research is focused on various aspects of AI, machine learning, and cybersecurity including incident handling, intrusion detection and response system, insider threats, alert management, clustering and classification methods, deep learning, safe learning, explainable AI algorithms, and biomedical data analysis. He earned his B.S.C degree in Software under the Consultant of Prof. Sadoghi Yazdi from Ferdowsi University of Mashhad.
+  </div>
+
+  <figure style="flex:0 0 200px; margin:0; text-align:center;">
+    <img src="/assets/Peopleimages/Ghasemigol.png" alt="Ghasemigol" width="200" style="max-width:100%; height:auto; display:block;" />
+    <figcaption><em>assistant professor in the School of Cybersecurity at Old Dominion University</em></figcaption>
+  </figure>
+
+</div>
+
+<!-- Block 1: متن چپ ، تصویر راست -->
+<div style="display:flex; direction:ltr; flex-direction:row; align-items:center; gap:20px; margin-bottom:40px; flex-wrap:wrap;">
+
+  <div style="flex:1; min-width:260px; text-align:justify;" dir="auto">
+Dr. Parsa Bagherzadeh is a Postdoctoral Fellow at McGill University and Mila, doing research on medical informatics.
+
+He obtained his PhD from Concordia University, where he was a member of the CLaC Lab.
+
+He earned his Masters degree in Artificial Intelligence from Ferdowsi University of Mashhad, Iran, under the supervision of Prof. Sadoghi Yazdi and  obtained his Bachelor degree in Computer Engineering from University of Birjand, Iran.
+
+
+ </div>
+
+  <figure style="flex:0 0 200px; margin:0; text-align:center;">
+    <img src="/assets/Peopleimages/Bagherzadeh.png" alt="Bagherzadeh" width="200" style="max-width:100%; height:auto; display:block;" />
+    <figcaption><em> Assistant Professor at Emam Reza University</em></figcaption>
+  </figure>
+
+</div>
+
+<!-- Block 2: تصویر چپ ، متن راست -->
+<div style="display:flex; direction:ltr; flex-direction:row-reverse; align-items:center; gap:20px; margin-bottom:40px; flex-wrap:wrap;">
+
+  <div style="flex:1; min-width:260px; text-align:justify;" dir="auto">
+Mohammad Ali Majidi is a Ph.D. candidate in Artificial Intelligence at the Faculty of Computer Engineering, Ferdowsi University of Mashhad. His research interests span adaptive filtering and model-based learning methods, including Bayesian filters and Kalman filters. Under the guidance of Professor Hadi Sadoghi Yazdi, both during his master's and Ph.D. studies, Majidi has focused on developing novel algorithms for adaptive systems and their applications in intelligent systems.
+
+  </div>
+
+  <figure style="flex:0 0 200px; margin:0; text-align:center;">
+    <img src="/assets/Peopleimages/majidi.png" alt="majidi" width="200" style="max-width:100%; height:auto; display:block;" />
+    <figcaption><em>Ph.D. candidate in Artificial Intelligence Ferdowsi University of Mashhad</em></figcaption>
+  </figure>
+
+</div>
