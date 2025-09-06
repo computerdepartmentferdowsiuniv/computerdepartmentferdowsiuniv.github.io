@@ -72,3 +72,66 @@ Yahya Forghani is currently an Associate Professor of Computer Engineering at Az
   </figure>
 
 </div>
+
+
+<!-- Block 1: متن چپ ، تصویر راست -->
+<div style="display:flex; direction:ltr; flex-direction:row; align-items:center; gap:20px; margin-bottom:40px; flex-wrap:wrap;">
+
+  <div style="flex:1; min-width:260px; text-align:justify;" dir="auto">
+Javad Hamidzadeh is currently an Associate Professor of Computer Engineering at Sadjad University. He is also the director of the Secure Intelligent Systems (SIS) Lab at Sadjad University. He received the B.S. and M.S. degrees in computer engineering from Sharif University of Technology in 1996 and 1998, respectively. He earned his Ph.D. degree in Artificial Intelligence under the consultant of Prof. Sadoghi Yazdi from Ferdowsi University of Mashhad in 2012. His research interests include Machine Learning, Statistical Learning Theory, Pattern Recognition, and Soft Computing.
+  </div>
+
+  <figure style="flex:0 0 200px; margin:0; text-align:center;">
+    <img src="/assets/Peopleimages/Hamidzadeh.png" alt="ََDr HamidZadeh" width="200" style="max-width:100%; height:auto; display:block;" />
+    <figcaption><em> Associate Professor of Computer Engineering at Sadjad University</em></figcaption>
+  </figure>
+
+</div>
+
+
+<!-- Block 2: تصویر چپ ، متن راست -->
+<div style="display:flex; direction:ltr; flex-direction:row-reverse; align-items:center; gap:20px; margin-bottom:40px; flex-wrap:wrap;">
+
+  <div style="flex:1; min-width:260px; text-align:justify;" dir="auto">
+Dr. Alireza Naeimi-Sadigh is an Associate Professor in the Computer Science Department at Semnan University. He completed his Ph.D. in Artificial Intelligence at Ferdowsi University of Mashhad in 2021 under the supervision of Professor Sadoghi Yazdi. His research focuses on Machine Learning, Adaptive Networks, and Pattern Recognition.
+
+  </div>
+
+  <figure style="flex:0 0 200px; margin:0; text-align:center;">
+    <img src="/assets/Peopleimages/Naeimi.png" alt="Dr Naeimi" width="200" style="max-width:100%; height:auto; display:block;" />
+    <figcaption><em>Associate Professor in the Computer Science Department at Semnan University</em></figcaption>
+  </figure>
+
+</div>
+
+
+<!-- Block 1: متن چپ ، تصویر راست -->
+<div style="display:flex; direction:ltr; flex-direction:row; align-items:center; gap:20px; margin-bottom:40px; flex-wrap:wrap;">
+
+  <div style="flex:1; min-width:260px; text-align:justify;" dir="auto">
+Reza Izanloo is an accomplished AI expert with a background in adaptive filters (especially Kalman Filter), specializing in this field since 2016. Now, he reserachs on AI tools to enhance different jobs as an AI specialist in his Academy named Hoosh_Amigh. And also he works in North Khorasan Electrical Power Distribution Company as a manager of information and Security office. He earned his Masters degree in Artificial Intelligence from Ferdowsi University of Mashhad, Iran, under the supervision of Prof. Sadoghi Yazdi.
+ </div>
+
+  <figure style="flex:0 0 200px; margin:0; text-align:center;">
+    <img src="/assets/Peopleimages/Izanloo.png" alt="ََIzanloo" width="200" style="max-width:100%; height:auto; display:block;" />
+    <figcaption><em> AI expert with a background in adaptive filters</em></figcaption>
+  </figure>
+
+</div>
+
+
+<!-- Block 2: تصویر چپ ، متن راست -->
+<div style="display:flex; direction:ltr; flex-direction:row-reverse; align-items:center; gap:20px; margin-bottom:40px; flex-wrap:wrap;">
+
+  <div style="flex:1; min-width:260px; text-align:justify;" dir="auto">
+S.M. Hosseini completed his master’s degree under the supervision of Dr. Hadi Sadoghi Yazdi at Ferdowsi University of Mashhad. During two years as the head of the Pattern Recognition Lab, he led more than ten applied projects. As a co-founder of Aitrends (aitrends.ir), he focuses on processing online data such as images, text, audio, and sensor data, integrating it with AI hardware. His main expertise lies in machine learning and deep neural networks, working to advance AI-driven applications in real-time environments.
+
+  </div>
+
+  <figure style="flex:0 0 200px; margin:0; text-align:center;">
+    <img src="/assets/Peopleimages/Hosseini_40.png" alt="Hosseini" width="200" style="max-width:100%; height:auto; display:block;" />
+    <figcaption><em>co-founder of Aitrends</em></figcaption>
+  </figure>
+
+</div>
+
