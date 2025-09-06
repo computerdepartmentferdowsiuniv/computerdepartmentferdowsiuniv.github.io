@@ -2,10 +2,8 @@
 layout: single
 title: "People"
 permalink: /people/
-permalink: /music-player/
 
 author_profile: true
-audio: true 
 
 classes: wide
 header:
