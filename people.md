@@ -286,3 +286,18 @@ Dr. Jalal A. Nasiri is an Assistant Professor and researcher in machine learning
   </figure>
 
 </div>
+
+<!-- Block 2: تصویر چپ ، متن راست -->
+<div style="display:flex; direction:ltr; flex-direction:row-reverse; align-items:center; gap:20px; margin-bottom:40px; flex-wrap:wrap;">
+
+  <div style="flex:1; min-width:260px; text-align:justify;" dir="auto">
+Mostafa Sabzekar received the B.S. degree in computer engineering from Kharzami University of Tehran, Iran, in 2007, and the M.S. and Ph.D. degrees in Computer Engineering from Ferdowsi University of Mashhad, Iran, in 2009, and 2017, respectively. He is currently an Associate professor at Birjand University of Technology, Birjand, Iran. His research focuses mainly on machine learning, Bioinformatics, and cloud computing. He earned his Master degree in AI under the Consultant of Prof. Sadoghi Yazdi from Ferdowsi University of Mashhad.
+
+  </div>
+
+  <figure style="flex:0 0 200px; margin:0; text-align:center;">
+    <img src="/assets/Peopleimages/sabzekar.png" alt="sabzekar" width="200" style="max-width:100%; height:auto; display:block;" />
+    <figcaption><em>Associate professor at Birjand University of Technology</em></figcaption>
+  </figure>
+
+</div>
