@@ -1,11 +1,11 @@
 ---
 layout: single
-title: "پروژه‌ها"
+title: "Projects"
 permalink: /projects/
 header:
   overlay_color: "#5e616c"
-  overlay_image: /assets/images/sadoghi_portrate.jpg # یک تصویر برای هدر انتخاب کنید
-  caption: "عکس از [**Unsplash**](https://unsplash.com)"
+  overlay_image: /assets/images/background.png # یک تصویر برای هدر انتخاب کنید
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 classes: wide
 ---
 
