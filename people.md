@@ -2,7 +2,11 @@
 layout: single
 title: "People"
 permalink: /people/
+permalink: /music-player/
+
 author_profile: true
+audio: true 
+
 classes: wide
 header:
   overlay_image: "/assets/images/background.jpg"
@@ -10,6 +14,27 @@ header:
   overlay_color: "#5e616c"
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 ---
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Music Player</title>
+</head>
+<body>
+    <audio id="backgroundMusic" loop>
+        <source src="{{ '/assets/music/Shigeru.mp3' | relative_url }}" type="audio/mpeg">
+    </audio>
+    
+    <script>
+        const audio = document.getElementById('backgroundMusic');
+        audio.volume = 0.5;
+        audio.play();
+        
+        // ارتباط با صفحه اصلی
+        window.parent.postMessage('music_loaded', '*');
+    </script>
+</body>
+</html>
 
 # People Individuals who have had an impact on the Pattern Recognition Laboratory
 
@@ -231,6 +256,22 @@ Mohammad Ali Majidi is a Ph.D. candidate in Artificial Intelligence at the Facul
   <figure style="flex:0 0 200px; margin:0; text-align:center;">
     <img src="/assets/Peopleimages/majidi.png" alt="majidi" width="200" style="max-width:100%; height:auto; display:block;" />
     <figcaption><em>Ph.D. candidate in Artificial Intelligence Ferdowsi University of Mashhad</em></figcaption>
+  </figure>
+
+</div>
+
+<!-- Block 1: متن چپ ، تصویر راست -->
+<div style="display:flex; direction:ltr; flex-direction:row; align-items:center; gap:20px; margin-bottom:40px; flex-wrap:wrap;">
+
+  <div style="flex:1; min-width:260px; text-align:justify;" dir="auto">
+  Dr. Mehdi Salkhordeh is currently an Associate Professor of Computer Engineering at Sadjad University. He earned his Ph.D. degree in Artificial Intelligence under the consultant of Prof. Sadoghi Yazdi from Ferdowsi University of Mashhad.
+
+
+ </div>
+
+  <figure style="flex:0 0 200px; margin:0; text-align:center;">
+    <img src="/assets/Peopleimages/Haghighi.png" alt="Haghighi" width="200" style="max-width:100%; height:auto; display:block;" />
+    <figcaption><em> Assistant Professor at Sajjad University</em></figcaption>
   </figure>
 
 </div>
