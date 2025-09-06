@@ -15,26 +15,7 @@ header:
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 ---
 
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Music Player</title>
-</head>
-<body>
-    <audio id="backgroundMusic" loop>
-        <source src="{{ '/assets/music/Shigeru.mp3' | relative_url }}" type="audio/mpeg">
-    </audio>
-    
-    <script>
-        const audio = document.getElementById('backgroundMusic');
-        audio.volume = 0.5;
-        audio.play();
-        
-        // ارتباط با صفحه اصلی
-        window.parent.postMessage('music_loaded', '*');
-    </script>
-</body>
-</html>
+
 
 # People Individuals who have had an impact on the Pattern Recognition Laboratory
 
@@ -272,6 +253,38 @@ Mohammad Ali Majidi is a Ph.D. candidate in Artificial Intelligence at the Facul
   <figure style="flex:0 0 200px; margin:0; text-align:center;">
     <img src="/assets/Peopleimages/Haghighi.png" alt="Haghighi" width="200" style="max-width:100%; height:auto; display:block;" />
     <figcaption><em> Assistant Professor at Sajjad University</em></figcaption>
+  </figure>
+
+</div>
+
+<!-- Block 2: تصویر چپ ، متن راست -->
+<div style="display:flex; direction:ltr; flex-direction:row-reverse; align-items:center; gap:20px; margin-bottom:40px; flex-wrap:wrap;">
+
+  <div style="flex:1; min-width:260px; text-align:justify;" dir="auto">
+Dr. Nayyeri is a Assistant Professor in Computer Science. He earned his Masters degree in Artificial Intelligence from Ferdowsi University of Mashhad, Iran, under the supervision of Prof. Sadoghi Yazdi.
+
+
+  </div>
+
+  <figure style="flex:0 0 200px; margin:0; text-align:center;">
+    <img src="/assets/Peopleimages/Nayyeri.png" alt="Nayyeri" width="200" style="max-width:100%; height:auto; display:block;" />
+    <figcaption><em>Assistant Professor in Computer Science</em></figcaption>
+  </figure>
+
+</div>
+
+<!-- Block 1: متن چپ ، تصویر راست -->
+<div style="display:flex; direction:ltr; flex-direction:row; align-items:center; gap:20px; margin-bottom:40px; flex-wrap:wrap;">
+
+  <div style="flex:1; min-width:260px; text-align:justify;" dir="auto">
+Dr. Jalal A. Nasiri is an Assistant Professor and researcher in machine learning and artificial intelligence at the Faculty of Mathematical Sciences, Department of Computer Science, Ferdowsi University of Mashhad. He earned her Masters degree in Artificial Intelligence from Ferdowsi University of Mashhad, Iran, under the consultant of Prof. Sadoghi Yazdi. His main research interest focuses on Machine Leaning and Natural language Processing (NLP).
+
+
+ </div>
+
+  <figure style="flex:0 0 200px; margin:0; text-align:center;">
+    <img src="/assets/Peopleimages/Nasiri.png" alt="Nasiri" width="200" style="max-width:100%; height:auto; display:block;" />
+    <figcaption><em> Assistant Professor at Fedosi University of Mashhad</em></figcaption>
   </figure>
 
 </div>
