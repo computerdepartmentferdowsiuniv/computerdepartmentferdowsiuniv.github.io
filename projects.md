@@ -29,15 +29,23 @@ classes: wide
   </div>
 
   <!-- پروژه ۲ -->
-  <div class="project-card">
-    <a href="/projects/project-2/">
-      <img src="/assets/images/project2-thumb.jpg" alt="پروژه ۲" class="project-image">
-      <div class="project-content">
-        <h3 class="project-title">نام پروژه دوم</h3>
-        <p class="project-description">توضیح کوتاه درباره پروژه دوم که ویژگی‌های کلیدی آن را بیان می‌کند.</p>
+  <div class="project-card" style="width: 300px; border: 1px solid #ddd; border-radius: 10px; overflow: hidden;">
+    <a href="/projects/project-2/" style="text-decoration: none; color: inherit;">
+      <img src="/assets/Projectsimages/StreetLight/Streetlightingcontrol.png" 
+           alt="Project2" 
+           class="project-image"
+           style="width: 100%; height: 200px; object-fit: cover; display: block;">
+      <div class="project-content" style="padding: 10px;">
+        <h3 class="project-title" style="font-size: 16px; font-weight: bold; margin: 0 0 10px;">
+          Street lighting control system, using the internal clock of AMI meters to replace conventional astronomical clocks
+        </h3>
+        <p class="project-description" style="font-size: 14px; margin: 0;">
+            
+        </p>
       </div>
     </a>
   </div>
+
 
   <!-- پروژه ۳ -->
   <div class="project-card">
