@@ -14,7 +14,7 @@ classes: wide
   <!-- پروژه ۱ -->
   <div class="project-card">
     <a href="/projects/project-1/">
-      <img src="/assets/Projectsimages/FireMain.png" alt="Project1" class="project-image"      style="width: 40%; height: 40%;">
+      <img src="/assets/Projectsimages/FireMain.png" alt="Project1" class="project-image"      style="width: auto; height: auto;">
       <div class="project-content">
         <h3 class="project-title">Design and Manufacture of Firefighter Vital Signs Locator Kit with Transmitter and Recorder</h3>
         <p class="project-description">Design and Fabrication of a Portable Vital Signs Monitoring and Location Tracking System for Firefighters.</p>
