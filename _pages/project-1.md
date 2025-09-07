@@ -62,6 +62,7 @@ This comprehensive guide explores the **fundamental processor system architectur
 This diagram depicts the directional data flow between a laboratory environment and a central server system. The arrow indicates that information, experimental data, or research results are transmitted from the laboratory (smaller entity) to the central server (larger entity) for storage, processing, or further distribution. This represents a typical data management architecture in research or clinical settings.
 
 ![LaboratoryCentralServerDiagram](/assets/Projectsimages/LaboratoryCentralServerDiagram.png)
+
 Figure 2: Laboratory to Central Server Diagram- Data communication flow from laboratory to central server infrastructure.
 
 
@@ -70,9 +71,6 @@ Figure 2: Laboratory to Central Server Diagram- Data communication flow from lab
 - <a href="https://equivital.com/products/ex-eq02-lifemonitor" target="_blank" style="text-decoration:none; color:inherit;">
       <strong>Integrated Monitoring</strong> 
   </a> – Measures vital signs such as heart rate, body temperature, and oxygen saturation in real-time.  
-- <a href="https://www.draeger.com/en_see/Applications/Products/Firefighting-Solutions/Firefighter-Safety/Dräger-PSS-LB" target="_blank" style="text-decoration:none; color:inherit;">
-      <strong>Location Tracking</strong> 
-  </a> – Built-in transmitter provides accurate firefighter positioning inside hazardous environments.  
 - <a href="https://us.msasafety.com/connected-firefighter/firegrid?locale=en" target="_blank" style="text-decoration:none; color:inherit;">
       <strong>Data Recording &amp; Transmission</strong> 
   </a> – Stores and wirelessly transmits vital data to a remote monitoring station for rapid response.  
