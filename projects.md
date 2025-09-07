@@ -9,18 +9,26 @@ header:
 classes: wide
 ---
 
+<!-- پروژه 1 -->
 <div class="projects-grid">
-  
   <!-- پروژه ۱ -->
-  <div class="project-card">
-    <a href="/projects/project-1/">
-      <img src="/assets/Projectsimages/FireMain.png" alt="Project1" class="project-image"   style="width: auto; height: 40%;">
-      <div class="project-content">
-        <h3 class="project-title">Design and Manufacture of Firefighter Vital Signs Locator Kit with Transmitter and Recorder</h3>
-        <p class="project-description">Design and Fabrication of a Portable Vital Signs Monitoring and Location Tracking System for Firefighters.</p>
+  <div class="project-card" style="width: 300px; border: 1px solid #ddd; border-radius: 10px; overflow: hidden;">
+    <a href="/projects/project-1/" style="text-decoration: none; color: inherit;">
+      <img src="/assets/Projectsimages/FireMain.png" 
+           alt="Project1" 
+           class="project-image"
+           style="width: 100%; height: 200px; object-fit: cover; display: block;">
+      <div class="project-content" style="padding: 10px;">
+        <h3 class="project-title" style="font-size: 16px; font-weight: bold; margin: 0 0 10px;">
+          Design and Manufacture of Firefighter Vital Signs Locator Kit with Transmitter and Recorder
+        </h3>
+        <p class="project-description" style="font-size: 14px; margin: 0;">
+          Design and Fabrication of a Portable Vital Signs Monitoring and Location Tracking System for Firefighters.
+        </p>
       </div>
     </a>
   </div>
+</div>
 
   <!-- پروژه ۲ -->
   <div class="project-card">
