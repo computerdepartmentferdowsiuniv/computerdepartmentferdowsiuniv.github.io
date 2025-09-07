@@ -66,6 +66,40 @@ This diagram depicts the directional data flow between a laboratory environment 
 Figure 2: Laboratory to Central Server Diagram- Data communication flow from laboratory to central server infrastructure.
 
 
+## Indoor positioning system
+
+<a href="https://en.wikipedia.org/wiki/Indoor_positioning_system#:~:text=An%20indoor%20positioning%20system%20(IPS,parking%20garages%2C%20and%20underground%20locations." style="text-decoration:none; color:inherit;" target="_blank">
+      <strong>Indoor positioning system</strong>
+    </a> Using a GPS-independent positioning system called Pedestrian Dead Reckoning (PDR) which is developed based on the Indoor Positioning System (INS)
+Using a low-power long-range network called LoRa to communicate between the firefighter kit and the operations control center server and also obtaining the location of a node in the network by detecting the signal strength of that node with three independent servers around the building Hardware consists of two parts: 
+**Kit with firefighter**
+**Server in the operation control center**
+
+### Components
+a) INS Positioning
+b) Using Kalman Filter
+c) External Modifier in Indoor Environment: Positioning by LoRa Network
+
+
+
+![INSFlowchart1](/assets/Projectsimages/INSFlowchart.png)
+
+This flowchart outlines the operational framework of an Inertial Navigation System <a href="https://en.wikipedia.org/wiki/Inertial_navigation_system" style="text-decoration:none; color:inherit;" target="_blank">
+      <strong>INS</strong>
+    </a> 
+
+, which determines position, velocity, and orientation in 3D space. The system integrates sensor inputs—accelerometers for linear acceleration, gyroscopes for angular velocity, and optionally magnetometers for compass reference—along with previous state data. External correctors such as GPS periodically calibrate errors. Through continuous algorithmic processing, the INS outputs location, speed, and heading in real time, enabling reliable navigation even without external signals, crucial for aviation, maritime, space, and autonomous vehicles.
+
+## Demonstration of the performance of the inertial positioning system at  <a href="https://www.um.ac.ir/" style="text-decoration:none; color:inherit;" target="_blank"> 
+   <strong> Ferdowsi University of Mashhad </strong>
+  </a> 
+
+
+
+![IPSFFUM1](/assets/Projectsimages/IPS_FUM.png)
+
+
+
 ## Related Links and products
 
 - <a href="https://equivital.com/products/ex-eq02-lifemonitor" target="_blank" style="text-decoration:none; color:inherit;">
