@@ -23,7 +23,9 @@ header:
 <div style="display:flex; direction:ltr; flex-direction:row; align-items:center; gap:20px; margin-bottom:40px; flex-wrap:wrap;">
 
   <div style="flex:1; min-width:260px; text-align:justify;" dir="auto">
-  [Dr. Ehsanollah Kabir](https://scholar.google.com/citations?user=FiD6uO8AAAAJ&hl=en) is a burning candle of ethics and knowledge, whose unwavering commitment to integrity and excellence lights the path for others. His profound wisdom and ethical guidance inspire those around him. Dr. Ehsanollah Kabir is a professor of Electrical Engineering at Tarbiat Modares University. Born on November 1, 1958, in Tehran, Iran. His research interests include document image analysis and cultural heritage technology. He was my master's thesis advisor and my doctoral advisor. My master's thesis focused on Persian OCR, and for my doctoral studies, I worked on target tracking in video for normal behavior detection.
+  <a href="https://scholar.google.com/citations?user=FiD6uO8AAAAJ&hl=en" style="text-decoration:none; color:inherit;">
+      <strong>Dr. Ehsanollah Kabir</strong>
+    </a> is a burning candle of ethics and knowledge, whose unwavering commitment to integrity and excellence lights the path for others. His profound wisdom and ethical guidance inspire those around him. Dr. Ehsanollah Kabir is a professor of Electrical Engineering at Tarbiat Modares University. Born on November 1, 1958, in Tehran, Iran. His research interests include document image analysis and cultural heritage technology. He was my master's thesis advisor and my doctoral advisor. My master's thesis focused on Persian OCR, and for my doctoral studies, I worked on target tracking in video for normal behavior detection.
   </div>
 
   <figure style="flex:0 0 200px; margin:0; text-align:center;">
