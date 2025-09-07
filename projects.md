@@ -9,7 +9,6 @@ header:
 classes: wide
 ---
 
-<!-- پروژه 1 -->
 <div class="projects-grid">
   <!-- پروژه ۱ -->
   <div class="project-card" style="width: 300px; border: 1px solid #ddd; border-radius: 10px; overflow: hidden;">
@@ -28,7 +27,6 @@ classes: wide
       </div>
     </a>
   </div>
-</div>
 
   <!-- پروژه ۲ -->
   <div class="project-card">
