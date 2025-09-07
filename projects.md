@@ -14,10 +14,10 @@ classes: wide
   <!-- پروژه ۱ -->
   <div class="project-card">
     <a href="/projects/project-1/">
-      <img src="/assets/images/project1-thumb.jpg" alt="پروژه ۱" class="project-image">
+      <img src="/assets/images/FireMain.png" alt="پروژه ۱" class="project-image">
       <div class="project-content">
-        <h3 class="project-title">نام پروژه اول</h3>
-        <p class="project-description">توضیح کوتاه درباره پروژه اول که ویژگی‌های کلیدی آن را بیان می‌کند.</p>
+        <h3 class="project-title">Design and Manufacture of Firefighter Vital Signs Locator Kit with Transmitter and Recorder</h3>
+        <p class="project-description">Design and Fabrication of a Portable Vital Signs Monitoring and Location Tracking System for Firefighters.</p>
       </div>
     </a>
   </div>

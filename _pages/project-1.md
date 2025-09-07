@@ -59,4 +59,5 @@ This comprehensive guide explores the **fundamental processor system architectur
 
 This diagram depicts the directional data flow between a laboratory environment and a central server system. The arrow indicates that information, experimental data, or research results are transmitted from the laboratory (smaller entity) to the central server (larger entity) for storage, processing, or further distribution. This represents a typical data management architecture in research or clinical settings.
 
+![LaboratoryCentralServerDiagram](/assets/Projectsimages/LaboratoryCentralServerDiagram.png)
 Figure 2: Laboratory to Central Server Diagram- Data communication flow from laboratory to central server infrastructure.
