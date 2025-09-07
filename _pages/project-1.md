@@ -28,26 +28,27 @@ This work presents the design and fabrication of a portable locator kit equipped
 This comprehensive guide explores the **fundamental processor system architecture** that forms the backbone of modern computing systems. The diagram illustrates a basic information processing system with four key components connected in a network structure, representing how data moves through a processing pipeline from input source to final output destination.
 
 ![ProcessorSystemDiagram1](/assets/Projectsimages/ProcessorSystemDiagram.png)
+
 *Figure 1: Processor System Architecture Diagram showing the flow of information between system components*
 
 ### Key Components of the Processor System Architecture
 
-1. **Sender Component**
+**Sender Component**
    - The origin point of data transmission
    - Initiates the information flow process
    - Provides raw input to the system
 
-2. **Input Information Channel**
+**Input Information Channel**
    - Communication pathway from sender to processor
    - Transmits data in a structured format
    - Ensures integrity of incoming information
 
-3. **Central Processing Unit (Processor)**
+**Central Processing Unit (Processor)**
    - The computational heart of the system
    - Executes instructions on received data
    - Transforms input into meaningful output
 
-4. **Output Delivery System**
+**Output Delivery System**
    - Transmits processed information to destination
    - Completes the information processing cycle
    - Delivers results in usable format
@@ -55,7 +56,8 @@ This comprehensive guide explores the **fundamental processor system architectur
 
 ![Constructed1](/assets/Projectsimages/Constructed.png)
 
-2. **Transmission Phase**: Input information travels through dedicated channels
+## Transmission Phase
+### Input information travels through dedicated channels
 
 This diagram depicts the directional data flow between a laboratory environment and a central server system. The arrow indicates that information, experimental data, or research results are transmitted from the laboratory (smaller entity) to the central server (larger entity) for storage, processing, or further distribution. This represents a typical data management architecture in research or clinical settings.
 
