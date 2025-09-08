@@ -93,9 +93,6 @@ classes: wide
         <h3 class="project-title" style="font-size: 16px; font-weight: bold; margin: 0 0 10px;">
           Smart Mirror: Revolutionizing Interaction with AI-Powered Technology
         </h3>
-        <p class="project-description" style="font-size: 14px; margin: 0;">
-            
-        </p>
       </div>
     </a>
   </div>
