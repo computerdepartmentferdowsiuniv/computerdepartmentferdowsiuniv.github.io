@@ -90,10 +90,7 @@ This flowchart outlines the operational framework of an Inertial Navigation Syst
 
 , which determines position, velocity, and orientation in 3D space. The system integrates sensor inputs—accelerometers for linear acceleration, gyroscopes for angular velocity, and optionally magnetometers for compass reference—along with previous state data. External correctors such as GPS periodically calibrate errors. Through continuous algorithmic processing, the INS outputs location, speed, and heading in real time, enabling reliable navigation even without external signals, crucial for aviation, maritime, space, and autonomous vehicles.
 
-## Demonstration of the performance of the inertial positioning system at  <a href="https://www.um.ac.ir/" style="text-decoration:none; color:inherit;" target="_blank"> 
-   <strong> Ferdowsi University of Mashhad </strong>
-  </a> 
-
+## Demonstration of the performance of the inertial positioning system at <a href="https://www.um.ac.ir/" style="text-decoration:none; color:inherit;" target="_blank"><strong>Ferdowsi University of Mashhad</strong></a>
 
 
 ![IPSFFUM1](/assets/Projectsimages/IPS_FUM.png)
