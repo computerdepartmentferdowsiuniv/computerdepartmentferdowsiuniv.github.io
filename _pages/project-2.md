@@ -9,7 +9,7 @@ classes: wide
 
 # Street lighting control system — using the internal clock of AMI meters to replace conventional astronomical clocks
 
-**Cooperation:** Research Office, Mashhad Electricity Distribution Company
+**Cooperation:** <a href="https://research.meedc.ir/" style="text-decoration:underline; color:green;" target="_blank"><strong>Research Office, Mashhad Electricity Distribution Company</strong></a>
 
 ---
 
