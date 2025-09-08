@@ -5,9 +5,9 @@ permalink: /projects/
 author_profile: true
 classes: wide
 header:
-  overlay_color: "#5e616c"
-  overlay_image: /assets/images/background.jpg # یک تصویر برای هدر انتخاب کنید
+  overlay_image: "/assets/images/background.jpg"
   overlay_filter: 0.3
+  overlay_color: "#5e616c"
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 ---
 
