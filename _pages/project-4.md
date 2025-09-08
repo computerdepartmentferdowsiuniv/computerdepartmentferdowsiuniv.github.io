@@ -55,3 +55,32 @@ Locations of Wi-Fi access points installed as part of the Indoor Positioning Sys
     </div>
 </div>
 
+<a href="https://en.um.ac.ir/content/Department-of-Computer-Engineering.html" style="text-decoration:underline; color:green;" target="_blank"><strong>Computer Deparrtment of Ferdowsin University of Mashhad</strong></a>
+
+
+#### Indoor Mapping
+Indoor positioning using **fingerprinting** relies on **supervised learning**, which requires **labeled data** to train the model. Many studies emphasize the modeling process, often overlooking the critical role of labeling in ensuring the system's comprehensiveness and usability. Traditionally, the positioning task is treated as a classification problem, with predefined reference points where signals are collected. While this method works well in controlled settings, it is not feasible in more dynamic environments like a university campus. To address these challenges, a **mobile-compatible map format** was necessary.
+
+The original map, available in AutoCAD format, was unsuitable for mobile applications due to its proprietary nature. After considering several alternatives, ***GeoJSON*** was selected due to its open-standard and broad compatibility with modern software platforms. Consequently, the indoor map of all floors and corridors of the Faculty of Engineering at Ferdowsi University of Mashhad was converted into GeoJSON format. This approach allowed for the precise identification of all points on the map, across multiple floors, using **geographical coordinates (latitude and longitude)**, making them ideal as labels for the learning model.
+
+
+*Faculty of Engineering Indoor Map*
+
+#### Mobile Application and Server-Side Code
+An **Android application** was developed using the <a href="https://en.wikipedia.org/wiki/Flutter_(software)" style="text-decoration:underline; color:green;" target="_blank"><strong>Flutter</strong></a> framework to facilitate positioning. The app’s main feature is an interactive indoor map, allowing users to navigate easily through touch gestures—zooming, panning, and rotating the map. Additional features like switching between floors and displaying room names and hallways further enhance the user experience, enabling users to locate their desired destination.
+
+The app serves two key functions:
+1. **Recording Wi-Fi signals for training data** and transmitting this data to the server.
+2. **Capturing Wi-Fi signals during testing**, sending them to the server, and **displaying the predicted location** on the map, as determined by the learning model.
+
+*Mobile App*
+
+Once the signals are captured, users can send the recorded data to the server. This data includes the **timestamp**, **device model**, **latitude and longitude** of the signal capture, **floor number**, and a list of detected Wi-Fi signals. For each Wi-Fi access point, the list records the **SSID**, **BSSID**, and **received signal strength** in ***dBm (decibel-milliwatts)***.
+
+Communication between the mobile app and server is facilitated through a *Flask API*, and upon receipt, the data is stored in a *SQLite database*.
+
+$$
+dBm = 10 \times \log_{10}\left(\frac{P}{1 mW}\right)
+$$
+
+
