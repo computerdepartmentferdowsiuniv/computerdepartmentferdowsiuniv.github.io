@@ -88,6 +88,8 @@ flowchart TD
 - **AI models**: Gesture recognition trained for children’s interaction.  
 - **Fallbacks**: Default pre-programmed actions if tracking fails.  
 
+## The Interactive Wall: Immersive AR for Dynamic Learning and Engagement: Product Catalog & Solutions Guide
+
 <div style="display: flex; justify-content: space-between; align-items: center; gap: 10px;">
   <div style="flex: 1;">
     <img src="/assets/Projectsimages/InteractiveWall/catalog-back-new.png" alt="catalog-front 1" style="width: 100%; height: auto;">
