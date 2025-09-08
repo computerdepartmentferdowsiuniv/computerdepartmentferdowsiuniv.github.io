@@ -5,7 +5,7 @@ permalink: /projects/project-3/
 classes: wide
 ---
 
-![InteractiveWall_Main](/assets/Projectsimages\InteractiveWall/InteractiveWall_1.png)
+![InteractiveWall_Main](/assets/Projectsimages/InteractiveWall/InteractiveWall_1.png)
 
 **Cooperation:** <a href="https://www.um.ac.ir/" style="text-decoration:underline; color:green;" target="_blank"><strong>Ferdowsi University of Mashhad</strong></a>
 
@@ -42,6 +42,9 @@ The **Interactive Wall** system consists of:
 - An **AI engine** (Python-based) for gesture recognition and adaptive interaction.  
 - A **C# configuration tool** for setup and customization.  
 - A **Unity game engine** environment for creating interactive educational and entertainment applications.  
+
+![InteractiveWall_3](/assets/Projectsimages/InteractiveWall/InteractiveWall_3.png)
+
 
 This combination enables robust gesture-based interaction, immersive gameplay, and educational applications.  
 
