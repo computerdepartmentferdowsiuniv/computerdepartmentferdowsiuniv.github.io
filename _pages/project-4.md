@@ -38,7 +38,7 @@ Visitors to large complexes like hospitals, offices, stores, and universities of
 
 This production presents contributions in two key areas: **software development** and **machine learning**. First, the floor plan of the Faculty of Engineering was converted from AutoCAD to **GeoJSON**, an open-source format compatible with applications. An **Android app** was developed using Flutter to capture Wi-Fi signals and display the predicted location on a map. The data collected is stored on a **server**, where machine learning operations are also carried out. 
 
-The machine learning component employs the **fingerprinting method** for positioning. During the offline phase, the data is cleaned, preprocessed, and stored in a database. To improve positioning accuracy, **Gaussian Process Regression** was used to enrich the offline data by considering the effect of the number of reference points. In the online phase, a **buffering mechanism** was introduced to provide smoother, more reliable location predictions. The final location is determined using the **weighted k-nearest neighbors (k-NN) algorithm**, and various **distance metrics** were analyzed for their impact on prediction accuracy.
+The machine learning component employs the <a href="https://mapsted.com/blog/location-fingerprinting-explained" style="text-decoration:underline; color:green;" target="_blank"><strong>fingerprinting method</strong></a> for positioning. During the offline phase, the data is cleaned, preprocessed, and stored in a database. To improve positioning accuracy, <a href="https://en.wikipedia.org/wiki/Gaussian_process" style="text-decoration:underline; color:green;" target="_blank"><strong>Gaussian Process Regression</strong></a> was used to enrich the offline data by considering the effect of the number of reference points. In the online phase, a **buffering mechanism** was introduced to provide smoother, more reliable location predictions. The final location is determined using the **weighted k-nearest neighbors (k-NN) algorithm**, and various **distance metrics** were analyzed for their impact on prediction accuracy.
 Locations of Wi-Fi access points installed as part of the Indoor Positioning System (IPS). These access points are strategically placed to ensure optimal signal coverage and accurate positioning throughout the building. Their placement is crucial for minimizing dead zones and improving the overall precision of the system.
 
 <div style="display: flex; justify-content: center;">
@@ -53,9 +53,8 @@ Locations of Wi-Fi access points installed as part of the Indoor Positioning Sys
 </div>
 
 
-
 #### Indoor Mapping
-Indoor positioning using **fingerprinting** relies on **supervised learning**, which requires **labeled data** to train the model. Many studies emphasize the modeling process, often overlooking the critical role of labeling in ensuring the system's comprehensiveness and usability. Traditionally, the positioning task is treated as a classification problem, with predefined reference points where signals are collected. While this method works well in controlled settings, it is not feasible in more dynamic environments like a university campus. To address these challenges, a **mobile-compatible map format** was necessary.
+Indoor positioning using <a href="https://www.pointr.tech/blog/location-fingerprinting-what-is-it-should-you-choose-it" style="text-decoration:underline; color:green;" target="_blank"><strong>fingerprinting</strong></a> relies on **supervised learning**, which requires **labeled data** to train the model. Many studies emphasize the modeling process, often overlooking the critical role of labeling in ensuring the system's comprehensiveness and usability. Traditionally, the positioning task is treated as a classification problem, with predefined reference points where signals are collected. While this method works well in controlled settings, it is not feasible in more dynamic environments like a university campus. To address these challenges, a **mobile-compatible map format** was necessary.
 
 The original map, available in AutoCAD format, was unsuitable for mobile applications due to its proprietary nature. After considering several alternatives, ***GeoJSON*** was selected due to its open-standard and broad compatibility with modern software platforms. Consequently, the indoor map of all floors and corridors of the Faculty of Engineering at Ferdowsi University of Mashhad was converted into GeoJSON format. This approach allowed for the precise identification of all points on the map, across multiple floors, using **geographical coordinates (latitude and longitude)**, making them ideal as labels for the learning model.
 
@@ -75,7 +74,6 @@ Once the signals are captured, users can send the recorded data to the server. T
 
 Communication between the mobile app and server is facilitated through a *Flask API*, and upon receipt, the data is stored in a *SQLite database*.
 
-\[ dBm = 10 \times \log_{10}\left(\frac{P}{1 mW}\right)\]
 
 
 
