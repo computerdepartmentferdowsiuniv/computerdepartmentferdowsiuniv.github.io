@@ -9,9 +9,9 @@ header:
 classes: wide
 ---
 
-<div class="projects-grid">
+<div class="projects-grid" style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 20px;">
   <!-- پروژه ۱ -->
-  <div class="project-card" style="width: 300px; border: 1px solid #ddd; border-radius: 10px; overflow: hidden;">
+  <div class="project-card" style="width: calc(33.33% - 20px); border: 1px solid #ddd; border-radius: 10px; overflow: hidden; margin-bottom: 20px;">
     <a href="/projects/project-1/" style="text-decoration: none; color: inherit;">
       <img src="/assets/Projectsimages/FireMain.png" 
            alt="Project1" 
@@ -29,7 +29,7 @@ classes: wide
   </div>
 
   <!-- پروژه ۲ -->
-  <div class="project-card" style="width: 300px; border: 1px solid #ddd; border-radius: 10px; overflow: hidden;">
+  <div class="project-card" style="width: calc(33.33% - 20px); border: 1px solid #ddd; border-radius: 10px; overflow: hidden; margin-bottom: 20px;">
     <a href="/projects/project-2/" style="text-decoration: none; color: inherit;">
       <img src="/assets/Projectsimages/StreetLight/Streetlightingcontrol.png" 
            alt="Project2" 
@@ -46,17 +46,34 @@ classes: wide
     </a>
   </div>
 
-
   <!-- پروژه ۳ -->
-  <div class="project-card" style="width: 300px; border: 1px solid #ddd; border-radius: 10px; overflow: hidden;">
+  <div class="project-card" style="width: calc(33.33% - 20px); border: 1px solid #ddd; border-radius: 10px; overflow: hidden; margin-bottom: 20px;">
     <a href="/projects/project-3/" style="text-decoration: none; color: inherit;">
       <img src="/assets/Projectsimages/InteractiveWall/InteractiveWall_4.png" 
-           alt="Project2" 
+           alt="Project3" 
            class="project-image"
            style="width: 100%; height: 200px; object-fit: cover; display: block;">
       <div class="project-content" style="padding: 10px;">
         <h3 class="project-title" style="font-size: 16px; font-weight: bold; margin: 0 0 10px;">
           Interactive Wall — An Augmented Reality System for Education, Entertainment, and Smart Advertising
+        </h3>
+        <p class="project-description" style="font-size: 14px; margin: 0;">
+            
+        </p>
+      </div>
+    </a>
+  </div>
+
+  <!-- پروژه 4 -->
+  <div class="project-card" style="width: calc(33.33% - 20px); border: 1px solid #ddd; border-radius: 10px; overflow: hidden; margin-bottom: 20px;">
+    <a href="/projects/project-4/" style="text-decoration: none; color: inherit;">
+      <img src="/assets/Projectsimages/IPS/EngineeringFUM.png" 
+           alt="Project4" 
+           class="project-image"
+           style="width: 100%; height: 200px; object-fit: cover; display: block;">
+      <div class="project-content" style="padding: 10px;">
+        <h3 class="project-title" style="font-size: 16px; font-weight: bold; margin: 0 0 10px;">
+          Indoor Positioning System
         </h3>
         <p class="project-description" style="font-size: 14px; margin: 0;">
             
