@@ -75,8 +75,7 @@ Once the signals are captured, users can send the recorded data to the server. T
 
 Communication between the mobile app and server is facilitated through a *Flask API*, and upon receipt, the data is stored in a *SQLite database*.
 
-$$
-dBm = 10 \times \log_{10}\left(\frac{P}{1 mW}\right)
-$$
+\[ dBm = 10 \times \log_{10}\left(\frac{P}{1 mW}\right)\]
+
 
 
