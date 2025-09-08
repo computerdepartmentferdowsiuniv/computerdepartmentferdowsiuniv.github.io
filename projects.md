@@ -82,6 +82,24 @@ classes: wide
     </a>
   </div>
 
+<!-- پروژه 5 -->
+  <div class="project-card" style="width: calc(33.33% - 20px); border: 1px solid #ddd; border-radius: 10px; overflow: hidden; margin-bottom: 20px;">
+    <a href="/projects/project-5/" style="text-decoration: none; color: inherit;">
+      <img src="/assets/Projectsimages/SmartMirror/SmartMirrorMain.jpg" 
+           alt="Project5" 
+           class="project-image"
+           style="width: 100%; height: 200px; object-fit: cover; display: block;">
+      <div class="project-content" style="padding: 10px;">
+        <h3 class="project-title" style="font-size: 16px; font-weight: bold; margin: 0 0 10px;">
+          Smart Mirror: Revolutionizing Interaction with AI-Powered Technology
+        </h3>
+        <p class="project-description" style="font-size: 14px; margin: 0;">
+            
+        </p>
+      </div>
+    </a>
+  </div>
+
 </div>
 
 <style>
