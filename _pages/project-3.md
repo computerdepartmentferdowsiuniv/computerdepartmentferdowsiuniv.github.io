@@ -190,7 +190,7 @@ Interactive Wall  An intelligent AI-powered system that creates virtual, interac
 - Showcased in **Mashhad Municipality exhibitions**.  
 - Tested with children in **interactive educational sessions**.  
 
-![InteractiveWall_Children](/assets/Projectsimages/InteractiveWall/InteractiveWall_5.jpg)  
+![InteractiveWall_Children](/assets/Projectsimages/InteractiveWall/InteractiveWall_5.png)  
 
 **Capabilities**  
 - Games & entertainment  
