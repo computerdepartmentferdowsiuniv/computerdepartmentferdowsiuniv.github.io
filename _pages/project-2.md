@@ -5,7 +5,7 @@ permalink: /projects/project-2/
 classes: wide
 ---
 
-![astronomicalclocks1](/assets/Projectsimages/astronomicalclocks.png)
+![astronomicalclocks1](/assets/Projectsimages/StreetLight/astronomicalclocks.png)
 
 # Street lighting control system — using the internal clock of AMI meters to replace conventional astronomical clocks
 
