@@ -128,4 +128,4 @@ classes: wide
 
 ## Pattern Recognition Team
 
-![PRGroup](/assets/images/PR_Group.png)
+![PRGroup](/assets/images/PR_Goup.png)
