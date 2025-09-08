@@ -49,7 +49,7 @@ Locations of Wi-Fi access points installed as part of the Indoor Positioning Sys
 
 
 <div style="display: flex; justify-content: center;">
-    <img src="/assets/Projectsimages/IPS/WiFiLocation.jpg" alt="WiFiLocation" style="width: 50%; height: 50%;">
+    <img src="/assets/Projectsimages/IPS/WiFiLocation.JPG" alt="WiFiLocation" style="width: 50%; height: 50%;">
 </div>
 
 
