@@ -107,3 +107,10 @@ classes: wide
   line-height: 1.6;
 }
 </style>
+
+
+## Pattern Recognition Team
+
+<img src="/assets/images/PR_Group.jpg" alt="PrGroup1">
+
+
