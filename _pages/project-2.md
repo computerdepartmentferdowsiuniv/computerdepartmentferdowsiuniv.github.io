@@ -16,6 +16,7 @@ classes: wide
 ## Abstract
 This report proposes a practical industrial solution to replace standalone astronomical clocks in street lighting controllers by using the internal clock of AMI (Advanced Metering Infrastructure) smart meters installed in street distribution panels. Time and date are read from the meter via the RS-485 port using the DLMS/COSEM protocol (Low Security Level — LLS). This reduces maintenance (battery replacement), avoids clock drift and noise-induced errors, and leverages existing infrastructure for more reliable on/off scheduling.
 
+
 ---
 
 ## 1. Problem statement
@@ -24,6 +25,7 @@ This report proposes a practical industrial solution to replace standalone astro
 - Internal battery failure causing clock resets and incorrect sunrise/sunset calculations.  
 - Susceptibility to electrical noise and interference that corrupts timekeeping.  
 - Result: street lamps ON during daylight or OFF after dark → energy waste and safety issues.
+
 
 **Desired behaviour:** accurate automatic switching aligned to true local sunrise/sunset, with low maintenance and high reliability.
 
@@ -102,6 +104,21 @@ Use the **internal real-time clock of AMI smart meters** (already present in str
 - Uses existing meter infrastructure — reduces extra hardware and maintenance (no battery swaps).  
 - Potentially more accurate and synchronized time (especially if meters are NTP/GPS-synced at the head-end).  
 - Centralized management possibility through head-end systems.
+
+<div style="display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+  <div style="flex: 1;">
+    <img src="/assets/Projectsimages/StreetLight/Hardware1.png" alt="Hardware 1" style="width: 100%; height: auto;">
+  </div>
+  <div style="flex: 1;">
+    <img src="/assets/Projectsimages/StreetLight/Hardware2.png" alt="Hardware 2" style="width: 100%; height: auto;">
+  </div>
+  <div style="flex: 1;">
+    <img src="/assets/Projectsimages/StreetLight/Hardware3.png" alt="Hardware 3" style="width: 100%; height: auto;">
+  </div>
+</div>
+
+
+
 
 **Limitations & risks**
 - If meter clock is itself wrong (misconfiguration or attack), lights may misbehave — require validation/fallback.  
