@@ -16,11 +16,12 @@ classes: wide
 ## Abstract  
 
 The <a href="https://multi-ball.com/?https%3A%2F%2Fmulti-ball.com%2Fpages%2Fthank_you&utm_term=interactive+wall&utm_campaign=MB_Search_Facilities_REST&campaignid=21173878966&utm_source=adwords&utm_medium=ppc&hsa_acc=1413865182&hsa_cam=21173878966&hsa_grp=166468327888&hsa_ad=696068068543&hsa_src=g&hsa_tgt=kwd-329259232684&hsa_kw=interactive+wall&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gad_source=1&gad_campaignid=21173878966&gbraid=0AAAAAouPjQ7Vv7qiLo702B1IXel-VuRwj&gclid=CjwKCAjw_fnFBhB0EiwAH_MfZlS5BBsdDJ7VhI_wL9yZnJhcmvJJEn0DvgE5ydIHbGiHT47e0VKEaRoCHgUQAvD_BwE" style="text-decoration:none; color:red;" target="_blank"><strong>Interactive Wall</strong></a>
-project introduces a smart **Augmented Reality (AR)** system that transforms ordinary walls into engaging, interactive spaces for children. Using a **3D depth camera** (e.g., Microsoft Kinect), real-time image processing, artificial intelligence, and game engines, the system provides immersive **educational and entertainment experiences**.  
+project introduces a smart <a href="https://en.wikipedia.org/wiki/Augmented_reality" style="text-decoration:underline; color:green;" target="_blank"><strong>Augmented Reality (AR)</strong></a> system that transforms ordinary walls into engaging, interactive spaces for children. Using a **3D depth camera** (e.g., Microsoft Kinect), real-time image processing, artificial intelligence, and game engines, the system provides immersive **educational and entertainment experiences**.  
 
 Applications range from **language and mathematics learning** to **interactive games for children with autism**, as well as **innovative advertising solutions**.  
 
 ---
+
 
 ## 1. Problem Statement  
 
