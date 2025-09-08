@@ -150,6 +150,8 @@ flowchart
 
 ![MashhadCon1](/assets/Projectsimages/StreetLight/MashhadCon.png)
 
+Manufacturing 30 samples of the aforementioned device based on changing the structure of existing watches (by reverse engineering and changing the program of existing microcontrollers and adding the required hardware components) Installation in 30 locations in the holy city of <a href="https://en.wikipedia.org/wiki/Mashhad" style="text-decoration:none; color:blue;" target="_blank"><strong>Mashhad</strong></a> and successful exit from this test.
+Efforts to finalize the design and present the design in a national format for mass production
 
 
 ## 8. References (select)
