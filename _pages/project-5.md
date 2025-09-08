@@ -11,13 +11,13 @@ A **smart mirror** is an innovative device that combines the traditional functio
 
 <div style="display: flex; justify-content: space-between; align-items: center; gap: 10px;">
   <div style="flex: 1;">
-    <img src="/assets/img/SmartMirrorMain.jpg" alt="SmartMirrorMain" style="width: 100%; height: auto;">
+    <img src="/assets/Projectsimages/SmartMirror/SmartMirrorMain.jpg" alt="SmartMirrorMain" style="width: 100%; height: auto;">
   </div>
   <div style="flex: 1;">
-    <img src="/assets/img/SmartMirror_1.jpg" alt="SmartMirror_1" style="width: 100%; height: auto;">
+    <img src="/assets/Projectsimages/SmartMirrorSmartMirror_1.jpg" alt="SmartMirror_1" style="width: 100%; height: auto;">
   </div>
   <div style="flex: 1;">
-    <img src="/assets/img/SmartMirrorColor.jpg" alt="SmartMirrorColor" style="width: 100%; height: auto;">
+    <img src="/assets/Projectsimages/SmartMirrorSmartMirrorColor.jpg" alt="SmartMirrorColor" style="width: 100%; height: auto;">
   </div>
 </div>
 
@@ -34,7 +34,7 @@ Smart mirrors leverage AI and advanced technologies to provide a range of featur
 7. **Smart Advertising and Engagement**: In commercial spaces, mirrors display tailored advertisements based on user demographics, enhancing customer engagement.
 
 <div style="display: flex; justify-content: center;">
-    <img src="/assets/img/SmartMirror_Construction.jpg" alt="SmartMirror_Construction" style="width: 50%; height: 50%;">
+    <img src="/assets/Projectsimages/SmartMirrorSmartMirror_Construction.jpg" alt="SmartMirror_Construction" style="width: 50%; height: 50%;">
 </div>
 
 ## Applications of Smart Mirrors
@@ -53,13 +53,13 @@ Smart mirrors have been successfully deployed in high-profile locations, demonst
 - **Holy Shrine of Imam Reza (Haram-e Razavi)**: Installed in key areas, these mirrors display offline and online information, including <a href="https://en.wikipedia.org/wiki/Prayer_times" style="text-decoration:underline; color:green;" target="_blank"><strong>prayer times</strong></a>, weather updates, and crowd management data, enhancing the visitor experience.
 
 <div style="display: flex; justify-content: center;">
-    <img src="/assets/img/SmartMirror_DaroSsalam.jpg" alt="SmartMirror_DaroSsalam" style="width: 50%; height: 50%;">
+    <img src="/assets/Projectsimages/SmartMirrorSmartMirror_DaroSsalam.jpg" alt="SmartMirror_DaroSsalam" style="width: 50%; height: 50%;">
 </div>
 
 - **Maedeh Hotel**: Function as interactive information stands, offering guests personalized services like weather updates and city guides, with touch-screen interfaces for feedback and tailored content.
 
 <div style="display: flex; justify-content: center;">
-    <img src="/assets/img/SmartMirror_Hotel.jpg" alt="SmartMirror_Hotel" style="width: 50%; height: 50%;">
+    <img src="/assets/Projectsimages/SmartMirrorSmartMirror_Hotel.jpg" alt="SmartMirror_Hotel" style="width: 50%; height: 50%;">
 </div>
 
 <a href="https://www.imamreza.ac.ir/en" style="text-decoration:underline; color:green;" target="_blank"><strong>Holy Shrine of Imam Reza</strong></a>
