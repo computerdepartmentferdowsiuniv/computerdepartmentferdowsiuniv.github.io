@@ -5,7 +5,12 @@ permalink: /projects/project-3/
 classes: wide
 ---
 
-![InteractiveWall_Main](/assets/Projectsimages/InteractiveWall/InteractiveWall_1.png)
+
+<img src="/assets/Projectsimages/InteractiveWall/InteractiveWall_1.png" 
+     alt="InteractiveWall Main" 
+     style="width: 50%; height: 50%;">
+
+     
 
 **Cooperation:** <a href="https://www.um.ac.ir/" style="text-decoration:underline; color:green;" target="_blank"><strong>Ferdowsi University of Mashhad</strong></a>
 
