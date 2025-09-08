@@ -100,47 +100,47 @@ flowchart TD
   
 </div>
 
-Product Overview
+## Product Overview
 Interactive Wall  An intelligent AI-powered system that creates virtual, interactive environments on any wall surface.
 
-System Components
-Computer - Central processing unit
-3D Camera - Motion and gesture detection
-Video Projector - Display projection system
-Audio System - Sound integration
-Lighting - Environmental lighting control
-Key Features
-Management software for camera and game settings
-Single or multi-player interactive games (competitive/cooperative modes)
-Adaptable to various wall dimensions
-Ball detection system (different sizes and colors)
-Real-time interaction processing
-Application Categories
-1. Recreational 
-Creates exciting and smart interactive spaces
-Entertainment-focused games and activities
-2. Educational 
-Dynamic learning environments
-Mathematics and language learning applications
-Interactive educational content with visual elements
-3. Sports 
-Athletic training and skill development
-Physical activity enhancement
-Performance improvement tools
-Expandable Services
-Climbing wall integration with speed-based competitive games
-Custom game content development based on client requirements
-Specialized interactive game development for specific applications
-Operational Flow
-Projector displays images/games on the wall
-Camera adjusts to environment conditions
-Camera captures user interactions and sends data to system
-System processes interactions and displays real-time results
-Contact Information
-Ferdowsi University of Mashhad Growth Center
-Telegram:@HadiSadoghiYazdi
-Website 1:h-sadoghi.github.io
-Website 2:hadisadoghiyazdi1971.github.io
+### System Components
+- Computer - Central processing unit
+- 3D Camera - Motion and gesture detection
+- Video Projector - Display projection system
+- Audio System - Sound integration
+- Lighting - Environmental lighting control
+### Key Features
+- Management software for camera and game settings
+- Single or multi-player interactive games (competitive/cooperative modes)
+- Adaptable to various wall dimensions
+- Ball detection system (different sizes and colors)
+- Real-time interaction processing
+### Application Categories
+- Recreational 
+    Creates exciting and smart interactive spaces
+    Entertainment-focused games and activities
+- Educational 
+    Dynamic learning environments
+    Mathematics and language learning applications
+    Interactive educational content with visual elements
+- Sports 
+    Athletic training and skill development
+    Physical activity enhancement
+    Performance improvement tools
+    Expandable Services
+    Climbing wall integration with speed-based competitive games
+    Custom game content development based on client requirements
+    Specialized interactive game development for specific applications
+### Operational Flow
+- Projector displays images/games on the wall
+- Camera adjusts to environment conditions
+- Camera captures user interactions and sends data to system
+- System processes interactions and displays real-time results
+### Contact Information
+- Ferdowsi University of Mashhad Growth Center
+- Telegram:@HadiSadoghiYazdi
+- Website 1:h-sadoghi.github.io
+- Website 2:hadisadoghiyazdi1971.github.io
 
 
 
