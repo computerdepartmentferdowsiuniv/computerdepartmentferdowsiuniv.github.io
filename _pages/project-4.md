@@ -43,9 +43,6 @@ Locations of Wi-Fi access points installed as part of the Indoor Positioning Sys
 
 <div style="display: flex; justify-content: center;">
     <img src="/assets/Projectsimages/IPS/ComputerGroup_ENG_FUM.jpg" alt="ENG_FUM1" style="width: 50%; height: 50%;">
-    <div class="caption">
-        Computer Deparrtment of Ferdowsin University of Mashhad
-    </div>
 </div>
 
 <a href="https://en.um.ac.ir/content/Department-of-Computer-Engineering.html" style="text-decoration:underline; color:green;" target="_blank"><strong>Computer Deparrtment of Ferdowsin University of Mashhad</strong></a>
@@ -53,9 +50,6 @@ Locations of Wi-Fi access points installed as part of the Indoor Positioning Sys
 
 <div style="display: flex; justify-content: center;">
     <img src="/assets/Projectsimages/IPS/WiFiLocation.jpg" alt="WiFiLocation" style="width: 50%; height: 50%;">
-    <div class="caption">
-        Wifi Locations
-    </div>
 </div>
 
 
