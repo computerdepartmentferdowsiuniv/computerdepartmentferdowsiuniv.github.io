@@ -25,8 +25,8 @@ Modern outdoor positioning systems, such as the **Global Positioning System (GPS
 
 ### IPS applied at the Engineering Department of Ferdowsi University of Mashhad, Iran 
 
-<div style="flex: 1;">
-    <img src="/assets/Projectsimages/IPS/ENG_FUM.png" alt="ENG_FUM" style="width: 100%; height: auto;">
+<div style="display: flex; justify-content: center;">
+    <img src="/assets/Projectsimages/IPS/ENG_FUM.png" alt="ENG_FUM" style="width: 50%; height: 50%;">
 </div>
 
 
