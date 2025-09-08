@@ -162,6 +162,9 @@ footer:
       # url:
   since: "2013"
 
+markdown: kramdown
+mathjax: true
+
 
 # Reading Files
 include:
