@@ -12,13 +12,13 @@ The **Mobile Sensor-Based Environmental Air Pollution Monitoring System** is an 
 
 <div style="display: flex; justify-content: space-between; align-items: center; gap: 10px;">
   <div style="flex: 1;">
-    <img src="/assets/img/AirPolution_Sensor.jpg" alt="AirPolution_Sensor" style="width: 100%; height: auto;">
+    <img src="/assets/Projectsimages/AirPollution/AirPolution_Sensor.jpg" alt="AirPolution_Sensor" style="width: 100%; height: auto;">
   </div>
   <div style="flex: 1;">
-    <img src="/assets/img/SavingRealTimeSensor.jpg" alt="SavingRealTimeSensor" style="width: 100%; height: auto;">
+    <img src="/assets/Projectsimages/AirPollution/SavingRealTimeSensor.jpg" alt="SavingRealTimeSensor" style="width: 100%; height: auto;">
   </div>
   <div style="flex: 1;">
-    <img src="/assets/img/ApplyingTocity.jpg" alt="ApplyingTocity" style="width: 100%; height: auto;">
+    <img src="/assets/Projectsimages/AirPollution/ApplyingTocity.jpg" alt="ApplyingTocity" style="width: 100%; height: auto;">
   </div>
 </div>
 <div class="caption">
