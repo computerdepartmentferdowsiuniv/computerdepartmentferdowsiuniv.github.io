@@ -26,6 +26,14 @@ This report proposes a practical industrial solution to replace standalone astro
 - Susceptibility to electrical noise and interference that corrupts timekeeping.  
 - Result: street lamps ON during daylight or OFF after dark → energy waste and safety issues.
 
+<div style="display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+  <div style="flex: 1;">
+    <img src="/assets/Projectsimages/StreetLight/NighTime.png" alt="NighTime" style="width: 100%; height: auto;">
+  </div>
+  <div style="flex: 1;">
+    <img src="/assets/Projectsimages/StreetLight/DayTime.png" alt="DayTime" style="width: 100%; height: auto;">
+  </div>
+</div>
 
 **Desired behaviour:** accurate automatic switching aligned to true local sunrise/sunset, with low maintenance and high reliability.
 
@@ -73,9 +81,20 @@ Use the **internal real-time clock of AMI smart meters** (already present in str
 
 ## 5. System architecture (recommended)
 
-[AMI Smart Meter (Clock)] <--RS-485 (DLMS/COSEM)—> [Lighting Controller (reads clock)] --> [Switch/Relay/Contactor to street lights]
+The system architecture consists of three main components:
 
+  - AMI Smart Meter (Clock): Provides the internal time.
 
+  - Lighting Controller: Reads the clock from the meter via RS-485 using DLMS/COSEM protocol.
+
+  - Switch/Relay Unit: The controller actuates this to turn street lights ON/OFF.
+
+flowchart 
+    A[AMI Smart Meter (Clock)] -- RS-485 / DLMS-COSEM --> B[Lighting Controller]
+    B --> C[Switch / Relay / Contactor]
+    C --> D[Street Lights]
+
+![Flowchart_AMI11](/assets/Projectsimages/StreetLight/Flowchart_AMI1.png)
 
 
 **Key components**
@@ -126,6 +145,12 @@ Use the **internal real-time clock of AMI smart meters** (already present in str
 - DLMS LLS has weak security — evaluate against organizational policy.
 
 ---
+
+## Installation of a prototype and testing in one of the electricity corridors of District 9 of <a href="https://en.wikipedia.org/wiki/Mashhad" style="text-decoration:none; color:inherit;" target="_blank"><strong>Mashhad</strong></a>.
+
+![MashhadCon1](/assets/Projectsimages/StreetLight/MashhadCon.png)
+
+
 
 ## 8. References (select)
 
