@@ -111,10 +111,4 @@ classes: wide
 
 ## Pattern Recognition Team
 
-<img src="/assets/images/PR_Group.jpg" alt="PrGroup1">
-
-
-<img src="/assets/images/PR_Group.jpg" alt="PrGroup1" 
-     onerror="this.onerror=null; this.src='https://via.placeholder.com/400x300/ff0000/ffffff?text=Image+Not+Found+in+assets-images';">
-
 ![PRGroup](/assets/images/PR_Group.png)
