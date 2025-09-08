@@ -2,11 +2,13 @@
 layout: single
 title: "Projects"
 permalink: /projects/
+author_profile: true
+classes: wide
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/background.jpg # یک تصویر برای هدر انتخاب کنید
+  overlay_filter: 0.3
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-classes: wide
 ---
 
 <div class="projects-grid" style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 20px;">
