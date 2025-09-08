@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Smart Mirror"
-permalink: /projects/smart-mirror/
+permalink: /projects/project-5/
 classes: wide
 ---
 
