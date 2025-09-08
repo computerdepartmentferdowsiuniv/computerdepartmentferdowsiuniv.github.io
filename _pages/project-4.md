@@ -48,6 +48,9 @@ Locations of Wi-Fi access points installed as part of the Indoor Positioning Sys
     </div>
 </div>
 
+<a href="https://en.um.ac.ir/content/Department-of-Computer-Engineering.html" style="text-decoration:underline; color:green;" target="_blank"><strong>Computer Deparrtment of Ferdowsin University of Mashhad</strong></a>
+
+
 <div style="display: flex; justify-content: center;">
     <img src="/assets/Projectsimages/IPS/WiFiLocation.jpg" alt="WiFiLocation" style="width: 50%; height: 50%;">
     <div class="caption">
@@ -55,7 +58,6 @@ Locations of Wi-Fi access points installed as part of the Indoor Positioning Sys
     </div>
 </div>
 
-<a href="https://en.um.ac.ir/content/Department-of-Computer-Engineering.html" style="text-decoration:underline; color:green;" target="_blank"><strong>Computer Deparrtment of Ferdowsin University of Mashhad</strong></a>
 
 
 #### Indoor Mapping
