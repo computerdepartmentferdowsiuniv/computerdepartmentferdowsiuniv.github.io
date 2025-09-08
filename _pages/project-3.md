@@ -77,13 +77,28 @@ flowchart TD
     C --> D[Unity Game Environment]  
     D --> E[Interactive Wall Projection]  
 
-![InteractiveWall_Workflow](/assets/img/catalog-front-new.jpg)  
+![InteractiveWall_FlowGraph](/assets/Projectsimages/InteractiveWall/InteractiveWallFlowchart.png)
+
+
+  
 
 **Key components**  
 - **Camera calibration**: Ensures accurate depth sensing.  
 - **Real-time processing**: Optimized for minimal latency.  
 - **AI models**: Gesture recognition trained for children’s interaction.  
 - **Fallbacks**: Default pre-programmed actions if tracking fails.  
+
+<div style="display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+  <div style="flex: 1;">
+    <img src="/assets/Projectsimages/InteractiveWall/catalog-back-new.png" alt="catalog-front 1" style="width: 100%; height: auto;">
+  </div>
+  <div style="flex: 1;">
+    <img src="/assets/Projectsimages/InteractiveWall/catalog-front-new.png" alt="catalog-front-new 2" style="width: 100%; height: auto;">
+  </div>
+  
+</div>
+
+
 
 ---
 
