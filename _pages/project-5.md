@@ -56,11 +56,6 @@ Smart mirrors have been successfully deployed in high-profile locations, demonst
     <img src="/assets/Projectsimages/SmartMirror/SmartMirror_DaroSsalam.jpg" alt="SmartMirror_DaroSsalam" style="width: 50%; height: 50%;">
 </div>
 
-- **Maedeh Hotel**: Function as interactive information stands, offering guests personalized services like weather updates and city guides, with touch-screen interfaces for feedback and tailored content.
-
-<div style="display: flex; justify-content: center;">
-    <img src="/assets/Projectsimages/SmartMirror/SmartMirror_Hotel.jpg" alt="SmartMirror_Hotel" style="width: 50%; height: 50%;">
-</div>
 
 <a href="https://haram.razavi.ir/" style="text-decoration:underline; color:green;" target="_blank"><strong>Holy Shrine of Imam Reza</strong></a>
 
