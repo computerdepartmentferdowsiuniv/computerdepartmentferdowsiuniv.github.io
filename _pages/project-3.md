@@ -5,11 +5,9 @@ permalink: /projects/project-3/
 classes: wide
 ---
 
-![InteractiveWall_Main](/assets/Projectsimages/InteractiveWall/InteractiveWall_1.jpg)
+![InteractiveWall_Main](/assets/Projectsimages\InteractiveWall/InteractiveWall_1.png)
 
-# Interactive Wall — Augmented Reality for Children’s Education and Entertainment  
-
-**Cooperation:** <a href="https://www.um.ac.ir/" style="text-decoration:underline; color:green;" target="_blank"><strong>Ferdowsi University of Mashhad</strong></a>, <a href="https://mashhad.ir/" style="text-decoration:underline; color:green;" target="_blank"><strong>Mashhad Municipality</strong></a>
+**Cooperation:** <a href="https://www.um.ac.ir/" style="text-decoration:underline; color:green;" target="_blank"><strong>Ferdowsi University of Mashhad</strong></a>
 
 ---
 
