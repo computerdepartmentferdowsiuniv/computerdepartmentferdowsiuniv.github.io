@@ -158,10 +158,8 @@ Efforts to finalize the design and present the design in a national format for m
 
 - <a href="https://www.dlms.com/" style="text-decoration:none; color:inherit;" target="_blank"><strong>DLMS User Association — Official site</strong></a>  
 - <a href="https://webstore.iec.ch/en/publication/71751" style="text-decoration:none; color:inherit;" target="_blank"><strong>IEC 62056 — DLMS/COSEM (IEC webstore)</strong></a>  
-- <a href="https://www.ibm.com/think/topics/advanced-metering-infrastructure" style="text-decoration:none; color:inherit;" target="_blank"><strong>What is AMI? — IBM overview</strong></a>  
 - <a href="https://www.gurux.fi/DLMSIntro" style="text-decoration:none; color:inherit;" target="_blank"><strong>Gurux — DLMS/COSEM introduction and Clock (Class 8) notes</strong></a>  
 - <a href="https://en.wikipedia.org/wiki/RS-485" style="text-decoration:none; color:inherit;" target="_blank"><strong>RS-485 overview (practical considerations)</strong></a>  
-- <a href="https://www.ti.com/lit/pdf/slla272" style="text-decoration:none; color:inherit;" target="_blank"><strong>RS-485 design guide — TI application note (PDF)</strong></a>  
 - <a href="https://icube.ch/Security/security1.html" style="text-decoration:none; color:inherit;" target="_blank"><strong>DLMS security basics — LLS/HLS overview</strong></a>
 
 ---

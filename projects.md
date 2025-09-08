@@ -48,12 +48,19 @@ classes: wide
 
 
   <!-- پروژه ۳ -->
-  <div class="project-card">
-    <a href="/projects/project-3/">
-      <img src="/assets/images/project3-thumb.jpg" alt="پروژه ۳" class="project-image">
-      <div class="project-content">
-        <h3 class="project-title">نام پروژه سوم</h3>
-        <p class="project-description">توضیح کوتاه درباره پروژه سوم که ویژگی‌های کلیدی آن را بیان می‌کند.</p>
+  <div class="project-card" style="width: 300px; border: 1px solid #ddd; border-radius: 10px; overflow: hidden;">
+    <a href="/projects/project-3/" style="text-decoration: none; color: inherit;">
+      <img src="/assets/Projectsimages/InteractiveWall/InteractiveWall_4.png" 
+           alt="Project2" 
+           class="project-image"
+           style="width: 100%; height: 200px; object-fit: cover; display: block;">
+      <div class="project-content" style="padding: 10px;">
+        <h3 class="project-title" style="font-size: 16px; font-weight: bold; margin: 0 0 10px;">
+          Interactive Wall — An Augmented Reality System for Education, Entertainment, and Smart Advertising
+        </h3>
+        <p class="project-description" style="font-size: 14px; margin: 0;">
+            
+        </p>
       </div>
     </a>
   </div>
