@@ -6,7 +6,7 @@ classes: wide
 author_profile: true
 ---
 
-The **Smart Coaching and Pose Analysis System** is an advanced video-based solution designed to enhance training and performance evaluation by analyzing human poses in real-time. Leveraging <a href="https://en.wikipedia.org/wiki/Computer_vision" style="text-decoration:underline; color:green;" target="_blank"><strong>computer vision</strong></a> and <a href="https://en.wikipedia.org/wiki/Machine_learning" style="text-decoration:underline; color:green;" target="_blank"><strong>machine learning</strong></a>, this system extracts skeletal data from video feeds, compares coach and user movements, and provides actionable feedback for skill improvement in sports, fitness, or rehabilitation.
+The **Smart Coaching and Pose Analysis System** is an advanced video-based solution designed to enhance training and performance evaluation by analyzing human poses in real-time. Leveraging computer vision and machine learning, this system extracts skeletal data from video feeds, compares coach and user movements, and provides actionable feedback for skill improvement in sports, fitness, or rehabilitation.
 
 ## Architecture of created system 
 The following flowchart implemented and represent a sophisticated computer vision system that combines machine learning (YOLO, Detectron2) with traditional signal processing techniques (median and mean filtering) to analyze human movement in videos. Such systems are commonly used in applications like sports analysis, physical therapy assessment, security monitoring, or human-computer interaction research.
@@ -14,7 +14,7 @@ The following flowchart implemented and represent a sophisticated computer visio
 
 <div style="display: flex; justify-content: space-between; align-items: center; gap: 10px;">
   <div style="flex: 1;">
-    <img src="/assets/Projectsimages/SmartCoach/Diagram_SmartCoach.jpg" alt="Smart Coach Diagram " style="width: 100%; height: 50%; object-fit: contain;">
+    <img src="/assets/Projectsimages/SmartCoach/Diagram_SmartCoach.jpg" alt="Smart Coach Diagram " style="width: 50%; height: 10%; object-fit: contain;">
   </div>
 </div>
 <div class="caption" style="text-align: center; margin-top: 8px;">
