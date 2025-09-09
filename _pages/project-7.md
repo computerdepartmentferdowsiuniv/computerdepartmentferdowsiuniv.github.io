@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Intelligent Driver Violation Detection System"
-permalink: /projects/driver-violation-detection/
+permalink: /projects/project-6/
 classes: wide
 author_profile: true
 header:
