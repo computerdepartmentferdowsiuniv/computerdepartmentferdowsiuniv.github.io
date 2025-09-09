@@ -43,7 +43,7 @@ This system leverages cutting-edge technology to deliver impactful features for 
 1. **Real-Time Violation Detection**: Identifies driver behaviors such as smoking, mobile phone use, altercations, and sleeping using advanced <a href="https://en.wikipedia.org/wiki/Machine_learning" style="text-decoration:underline; color:green;" target="_blank"><strong>machine learning algorithms</strong></a>.
 2. **Local Processing**: Performs on-device analysis, ensuring low latency and eliminating dependency on external servers for real-time monitoring.
 3. **Environmental Awareness**: Integrates contextual data from the driver’s surroundings to enhance detection accuracy and reduce false positives.
-4. **User-Friendly Reporting**: Provides a centralized <a href="https://en.wikipedia.org/wiki/Dashboard_(business)" style="text-decoration:underline; color:green;" target="_blank"><strong>reporting dashboard</strong></a> for authorities to review violations and receive actionable alerts.
+4. **User-Friendly Reporting**: Provides a centralized reporting dashboard for authorities to review violations and receive actionable alerts.
 5. **Scalable Deployment**: Designed for integration across fleets, supporting multiple vehicles with minimal infrastructure changes.
 
 ## Applications and Impact
@@ -52,7 +52,7 @@ The system offers significant benefits for various stakeholders:
 
 1. **Road Safety Enhancement**: Reduces accidents caused by distracted or unsafe driving behaviors, protecting passengers and other road users.
 2. **Fleet Management**: Enables transport authorities and companies to monitor driver compliance and improve operational safety standards.
-3. **Regulatory Compliance**: Supports adherence to <a href="https://en.wikipedia.org/wiki/Road_safety" style="text-decoration:underline; color:green;" target="_blank"><strong>road safety regulations</strong></a> by providing documented evidence of violations.
+3. **Regulatory Compliance**: Supports adherence to road safety regulations by providing documented evidence of violations.
 4. **Driver Training**: Facilitates targeted training programs based on detected violations, promoting safer driving habits.
 
 ## Technical Specifications
