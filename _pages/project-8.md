@@ -12,11 +12,11 @@ The **Real-Time Emotion Detection System** is an innovative solution designed to
 
 <div style="display: flex; justify-content: space-between; align-items: center; gap: 10px;">
   <div style="flex: 1;">
-    <img src="/assets/Projectsimages/Emotionimages/EmotionalDetector.jpg" alt="Camera Unit" style="width: 100%; height: auto;">
+    <img src="/assets/Projectsimages/Emotionimages/EmotionalDetector.jpg" alt="Real-Time Emotion Detection System Components" style="width: 100%; height: auto; object-fit: contain;">
   </div>
 </div>
-<div class="caption">
-    Real-Time Emotion Detection System Components
+<div class="caption" style="text-align: center; margin-top: 8px;">
+  Real-Time Emotion Detection System Components
 </div>
 
 ## Key Features and Benefits
