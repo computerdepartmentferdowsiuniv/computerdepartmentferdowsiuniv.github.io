@@ -122,7 +122,7 @@ header:
     </a>
   </div>
 
-<!-- پروژه 8 -->
+  <!-- پروژه 8 -->
   <div class="project-card" style="width: calc(33.33% - 20px); border: 1px solid #ddd; border-radius: 10px; overflow: hidden; margin-bottom: 20px;">
     <a href="/projects/project-8/" style="text-decoration: none; color: inherit;">
       <img src="/assets/Projectsimages/Emotionimages/EmotionalDetector.jpg" 
@@ -136,6 +136,8 @@ header:
       </div>
     </a>
   </div>
+
+
 </div>
 
 <style>
