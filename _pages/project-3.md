@@ -3,6 +3,7 @@ layout: single
 title: "Interactive Wall — An Augmented Reality System for Education and Entertainment"
 permalink: /projects/project-3/
 classes: wide
+author_profile: true
 ---
 
 

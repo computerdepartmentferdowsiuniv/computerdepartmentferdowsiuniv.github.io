@@ -3,6 +3,7 @@ layout: single
 title: "Street lighting control system, using the internal clock of AMI meters to replace conventional astronomical clocks"
 permalink: /projects/project-2/
 classes: wide
+author_profile: true
 ---
 
 ![astronomicalclocks1](/assets/Projectsimages/StreetLight/astronomicalclocks.png)

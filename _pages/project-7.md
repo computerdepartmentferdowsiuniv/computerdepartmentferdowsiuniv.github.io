@@ -7,8 +7,7 @@ author_profile: true
 ---
 
 
-
-The **Intelligent Driver Violation Detection System** is an advanced camera-based solution designed to enhance road safety by automatically detecting driver violations in real-time. Utilizing <a href="https://en.wikipedia.org/wiki/Computer_vision" style="text-decoration:underline; color:green;" target="_blank"><strong>computer vision</strong></a> and local data processing, the system identifies unsafe behaviors such as smoking, mobile phone use, altercations, and sleeping among bus drivers, ensuring comprehensive monitoring with environmental awareness.
+The <a href="https://link.springer.com/article/10.1007/s44196-024-00427-6" style="text-decoration:underline; color:green;" target="_blank"><strong>Intelligent Driver Violation Detection System</strong></a> is an advanced camera-based solution designed to enhance road safety by automatically detecting driver violations in real-time. Utilizing <a href="https://en.wikipedia.org/wiki/Computer_vision" style="text-decoration:underline; color:green;" target="_blank"><strong>computer vision</strong></a> and local data processing, the system identifies unsafe behaviors such as smoking, mobile phone use, altercations, and sleeping among bus drivers, ensuring comprehensive monitoring with environmental awareness.
 
 **Left to right:** Camera Unit, Violation Detection Processing, Reporting Panel
 

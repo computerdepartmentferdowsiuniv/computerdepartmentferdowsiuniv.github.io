@@ -9,6 +9,7 @@ header:
   overlay_filter: 0.3
   overlay_color: "#5e616c"
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+  icon: "/assets/images/Professor_Sadoghi_Academic_Icon.png"
 ---
 
 <div class="projects-grid" style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 20px;">

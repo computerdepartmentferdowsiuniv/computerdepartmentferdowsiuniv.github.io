@@ -3,6 +3,7 @@ layout: single
 title: "Design and Manufacture of a Locator Kit, Transmitter and Recorder of Vital Signs for Firefighters"
 permalink: /projects/project-1/
 classes: wide
+author_profile: true
 ---
 
 ![outline_project11](/assets/Projectsimages/outline_project1.png)

@@ -3,6 +3,7 @@ layout: single
 title: "Indoor Positioning System"
 permalink: /projects/project-4/
 classes: wide
+author_profile: true
 ---
 
 

@@ -3,6 +3,7 @@ layout: single
 title: "Smart Mirror"
 permalink: /projects/project-5/
 classes: wide
+author_profile: true
 ---
 
 A **smart mirror** is an innovative device that combines the traditional functionality of a mirror with advanced digital technology, transforming it into a powerful tool for modern living. Beyond reflecting your image, it displays real-time information such as <a href="https://en.wikipedia.org/wiki/Weather_forecasting" style="text-decoration:underline; color:green;" target="_blank"><strong>weather updates</strong></a>, calendar events, traffic reports, and news. Powered by <a href="https://en.wikipedia.org/wiki/Artificial_intelligence" style="text-decoration:underline; color:green;" target="_blank"><strong>artificial intelligence (AI)</strong></a>, smart mirrors deliver personalized content tailored to individual preferences, ensuring a unique and enhanced user experience.

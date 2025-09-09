@@ -3,6 +3,7 @@ layout: single
 title: "Mobile Sensor-Based Environmental Air Pollution Monitoring System"
 permalink: /projects/project-6/
 classes: wide
+author_profile: true
 ---
 
 
