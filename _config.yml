@@ -20,6 +20,7 @@ rtl                      : # true, false (default) # turns direction of the page
 title                    : "Sadoghi Portfolio"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
+favicon                  : "/assets/images/Professor_Sadoghi_Academic_Icon.png"
 name                     : "Hadi Sadoghi Yazdi"
 description              : "A hub for my ideas, projects, and achievements. Explore my work, research, and insights in the field of data science, and engineering."
 #url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"

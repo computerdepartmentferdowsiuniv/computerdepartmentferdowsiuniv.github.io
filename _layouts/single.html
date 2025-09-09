@@ -84,4 +84,13 @@ layout: default
   {% elsif page.id and page.related %}
     {% include page__related.html posts=site.posts %}
   {% endif %}
+
+{% if page.header.icon %}
+  <div class="page-icon-container">
+    <img src="{{ page.header.icon | relative_url }}" alt="Projects Icon" class="page-icon">
+  </div>
+{% endif %}
+
+
 </div>
+
