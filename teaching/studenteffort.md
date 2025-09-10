@@ -42,7 +42,7 @@ header:
   </div>
 
   <div class="footer">
-    Click on each card to view lesson details
+    
   </div>
 </div>
 

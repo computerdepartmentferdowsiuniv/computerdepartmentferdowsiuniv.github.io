@@ -13,8 +13,17 @@ main:
     url: /people/
   - title: "Teaching"
     url: /teaching/
+
+teaching:
+  - title: "Teaching Home"
+    url: /teaching/
   - title: "Student Effort"
-    url: /studenteffort/
+    url: /teaching/studenteffort/
+  - title: "Pattern Effort"
+    url: /teaching/studenteffort/patterneffort/
+  - title: "Circuit Effort"
+    url: /teaching/studenteffort/circuiteffort/
+  
 
 
 
