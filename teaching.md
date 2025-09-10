@@ -39,7 +39,7 @@ header:
       </a>
     </div>
     <div class="project-card">
-      <a href="/teaching/circuit1/">
+      <a href="https://laboratorypatternrecognition.github.io/CircuitElectronics/Introduction_CircuitElectronics.html">
         <img src="{{ '/assets/images/startPic.jpg' | relative_url }}" 
              alt="Circuit Analysis" 
              class="project-image">

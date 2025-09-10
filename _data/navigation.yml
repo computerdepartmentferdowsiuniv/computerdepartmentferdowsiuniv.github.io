@@ -16,7 +16,7 @@ main:
 
 teaching:
 - title: "Circuit"
-  url: /teaching/circuit1/
+  url: /teaching/circuit/
   children:
         - title: "Lecture 1"
           url: /teaching/course1/lecture1/
