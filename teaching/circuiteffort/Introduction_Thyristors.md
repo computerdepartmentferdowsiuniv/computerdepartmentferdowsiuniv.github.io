@@ -18,7 +18,7 @@ header:
 
 <div style="display: flex; justify-content: space-between; align-items: center; gap: 10px;">
   <div style="flex: 1;">
-    <img src="/assets/Courseimages/CircuitElectronicsImages/Thyristorimages/thyristor_01.webp" alt="PySpice Installation Step 3" style="width: 50%; height: 50%; object-fit: contain;">
+    <img src="/assets/Courseimages/CircuitElectronicsImages/Thyristorimages/thyristor_01.webp" alt="Thyristor" style="width: 50%; height: 50%; object-fit: contain;">
   </div>
 </div>
 <div class="caption" style="text-align: center; margin-top: 8px;">
@@ -43,7 +43,7 @@ A **thyristor** is a solid-state semiconductor device that acts as a bistable sw
 
 <div style="display: flex; justify-content: space-between; align-items: center; gap: 10px;">
   <div style="flex: 1;">
-    <img src="/assets/Courseimages/CircuitElectronicsImages/Thyristorimages/thyristor_02.jpg" alt="PySpice Installation Step 3" style="width: 50%; height: 50%; object-fit: contain;">
+    <img src="/assets/Courseimages/CircuitElectronicsImages/Thyristorimages/thyristor_02.jpg" alt="Thyristor Application" style="width: 50%; height: 50%; object-fit: contain;">
   </div>
 </div>
 <div class="caption" style="text-align: center; margin-top: 8px;">
@@ -64,7 +64,7 @@ Let's answer this using an application of the thyristor, **Motor Speed Control**
 
 <div style="display: flex; justify-content: space-between; align-items: center; gap: 10px;">
   <div style="flex: 1;">
-    <img src="/assets/Courseimages/CircuitElectronicsImages/Thyristorimages/DC_Motor_Controller.png" alt="PySpice Installation Step 3" style="width: 50%; height: 50%; object-fit: contain;">
+    <img src="/assets/Courseimages/CircuitElectronicsImages/Thyristorimages/DC_Motor_Controller.png" alt="DC Motor Controller" style="width: 50%; height: 50%; object-fit: contain;">
   </div>
 </div>
 <div class="caption" style="text-align: center; margin-top: 8px;">
