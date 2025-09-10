@@ -15,8 +15,12 @@ main:
     url: /teaching/
 
 teaching:
-- title: "Course 1"
+- title: "Circuit"
   url: /teaching/circuit1/
+  children:
+        - title: "Lecture 1"
+          url: /teaching/course1/lecture1/
+
 
 
 #main:
