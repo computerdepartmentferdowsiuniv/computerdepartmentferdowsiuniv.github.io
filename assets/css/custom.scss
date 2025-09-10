@@ -1,0 +1,21 @@
+// Highlight active sidebar item
+.sidebar nav ul li.active > a {
+    color: #ff6b6b; // رنگ مورد نظر شما
+    font-weight: bold;
+    background-color: #f8f9fa;
+    border-left: 3px solid #ff6b6b;
+}
+
+// Hover effect
+.sidebar nav ul li a:hover {
+    color: #ff6b6b; // رنگ هنگام hover
+    background-color: #f1f3f5;
+}
+
+// For child items
+.sidebar nav ul li ul li.active > a {
+    color: #ff6b6b;
+    font-weight: bold;
+    background-color: #e9ecef;
+    border-left: 2px solid #ff6b6b;
+}
