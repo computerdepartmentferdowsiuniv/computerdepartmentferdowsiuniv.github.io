@@ -13,7 +13,7 @@ header:
 
 <div class="container">
   <div class="header">
-    <h1>Course Topics</h1>
+    <h1>Topics of Student Effort</h1>
     <p> </p>
   </div>
 

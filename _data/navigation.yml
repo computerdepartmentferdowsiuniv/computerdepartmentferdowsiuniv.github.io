@@ -15,12 +15,6 @@ main:
     url: /teaching/
 
 teaching:
-  - title: "Teaching Home"
-    url: /teaching/
-  - title: "Student Effort"
-    url: /teaching/studenteffort/
-  - title: "Pattern Effort"
-    url: /teaching/studenteffort/patterneffort/
   - title: "Circuit Effort"
     url: /teaching/studenteffort/circuiteffort/
   
