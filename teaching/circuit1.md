@@ -59,8 +59,8 @@ with schemdraw.Drawing():
 ```
 
 
+![StartPicure](/assets/Courseimages/CircuitElectronicsImages/introduction1.jpg)
     
-![svg](output_3_0.svg)
     
 
 
@@ -116,7 +116,8 @@ with schemdraw.Drawing() as d:
 
 
     
-![svg](output_4_0.svg)
+![StartPicure](/assets/Courseimages/CircuitElectronicsImages/introduction2.jpg)
+
     
 
 
@@ -131,7 +132,6 @@ from lcapy import R, C, L
 
 
     
-![png](output_6_0.png)
     
 
 
@@ -159,7 +159,8 @@ cct.draw()
 
 
     
-![png](output_8_0.png)
+![StartPicure](/assets/Courseimages/CircuitElectronicsImages/introduction3.jpg)
+
     
 
 
@@ -236,7 +237,7 @@ plt.show()
 
 
     
-![png](output_11_1.png)
+![StartPicure](/assets/Courseimages/CircuitElectronicsImages/introduction4.jpg)
     
 
 
@@ -267,7 +268,9 @@ node_A = analysis.A
 print('Node {}: {:5.2f} V'.format(str(node_A), float(node_A)))
 ```
 
-    Node a:  1.64 V
+Dispay this: 
+  
+  Node a:  1.64 V
 
 
     C:\Users\Hadi\AppData\Local\Temp\ipykernel_6512\1259790737.py:23: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
