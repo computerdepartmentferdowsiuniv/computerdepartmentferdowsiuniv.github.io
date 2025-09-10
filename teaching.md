@@ -14,8 +14,8 @@ header:
 ---
 
 ## Course Topics
-- ![PatRec](../assets/imgages/PR1.JPG)[**Pattern Recognition**]
-- ![MacLear](../assets/imgages/machinelearning1.JPG)[**Machine learning**]
-- ![Cir](../assets/imgages/startPic.jpg)[**Circuit analysis**]
-- ![Sig](../assets/imgages/ECG_1.jpg)[**Signal processing**]
-- ![AIEssen](../assets/imgages/DeepDream2.JPG)[**AI Essentials**]
+- ![PatRec](../assets/images/PR1.JPG)[**Pattern Recognition**]
+- ![MacLear](../assets/images/machinelearning1.JPG)[**Machine learning**]
+- ![Cir](../assets/images/startPic.jpg)[**Circuit analysis**]
+- ![Sig](../assets/images/ECG_1.jpg)[**Signal processing**]
+- ![AIEssen](../assets/images/DeepDream2.JPG)[**AI Essentials**]
