@@ -137,7 +137,7 @@ header:
             </div>
             <!-- Circuit Analysis -->
             <div class="project-card">
-                <a href="/teaching/circuit-analysis/">
+                <a href="/teaching/circuit1/">
                     <img src="../assets/images/startPic.jpg" 
                          alt="Circuit Analysis" 
                          class="project-image">
