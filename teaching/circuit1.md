@@ -23,18 +23,20 @@ Circuit analysis is a fundamental skill in many engineering disciplines. It allo
 - Power Systems
 
 **Note:**
-Although machine learning algorithms are used in circuit design to reduce the time and complexity associated with it, achieving the highest possible accuracy in predictions requires a neural network trained with examples using the RC charging equation (see [NN with RC](https://www.researchgate.net/publication/344787842_Mathematical_Modeling_and_Prediction_of_Neural_Network_Training_based_on_RC_Circuits) ).
+Although machine learning algorithms are used in circuit design to reduce the time and complexity associated with it, achieving the highest possible accuracy in predictions requires a neural network trained with examples using the RC charging equation (see <a href="https://www.researchgate.net/publication/344787842_Mathematical_Modeling_and_Prediction_of_Neural_Network_Training_based_on_RC_Circuits" style="text-decoration:none; color:inherit;" target="_blank"> <strong>Mathematical Modeling and Prediction of Neural Network Training based on RC Circuits</strong></a>).
 
 ## Basic Components:
 
 ### Sources, Resistors, Capacitors, Inductors, Sources, Transistors, Op-Amps:
 
-- **Resistors**: Components that resist the flow of electric current, creating a voltage drop and dissipating energy as heat.
-- **Capacitors**: Devices that store and release electrical energy by accumulating charge on their plates.
-- **Inductors**: Coils of wire that store energy in a magnetic field when current passes through them.
-- **Sources**: Components that provide electrical power, such as batteries or voltage/current sources.
-- **Transistors**: Semiconductor devices used to amplify or switch electronic signals, including Bipolar Junction Transistors (BJT) and Field-Effect Transistors (FET).
-- **Op-Amps**: Operational amplifiers are high-gain voltage amplifiers with differential inputs, used in various signal processing applications.
+*   <a href="https://www.khanacademy.org/science/electrical-engineering/ee-circuit-analysis-topic/ee-resistor-circuits/a/ee-resistors" style="text-decoration:none; color:inherit;" target="_blank"><strong>Resistors</strong></a>: Components that resist the flow of electric current, creating a voltage drop and dissipating energy as heat.
+*   <a href="https://www.allaboutcircuits.com/textbook/direct-current/chpt-13/capacitors-and-calculus/" style="text-decoration:none; color:inherit;" target="_blank"><strong>Capacitors</strong></a>: Devices that store and release electrical energy by accumulating charge on their plates.
+*   <a href="https://www.electronics-tutorials.ws/inductor/inductor.html" style="text-decoration:none; color:inherit;" target="_blank"><strong>Inductors</strong></a>: Coils of wire that store energy in a magnetic field when current passes through them.
+*   <a href="https://www.khanacademy.org/science/electrical-engineering/ee-circuit-analysis-topic/circuit-elements/a/ee-voltage-and-current-sources" style="text-decoration:none; color:inherit;" target="_blank"><strong>Sources</strong></a>: Components that provide electrical power, such as batteries or voltage/current sources.
+*   <a href="https://www.techtarget.com/whatis/definition/transistor" style="text-decoration:none; color:inherit;" target="_blank"><strong>Transistors</strong></a>: Semiconductor devices used to amplify or switch electronic signals, including Bipolar Junction Transistors (BJT) and Field-Effect Transistors (FET).
+*   <a href="https://www.analog.com/en/resources/analog-dialogue/raqs/raq-issue-177.html" style="text-decoration:none; color:inherit;" target="_blank"><strong>Op-Amps</strong></a>: Operational amplifiers are high-gain voltage amplifiers with differential inputs, used in various signal processing applications.
+   
+
 
 
 ## schemdraw
