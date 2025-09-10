@@ -62,7 +62,15 @@ Thyristors are used in various applications, including:
 
 Let's answer this using an application of the thyristor, **Motor Speed Control**!
 
-![DC_Motor_Controller](./images/DC_Motor_Controller.png)
+<div style="display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+  <div style="flex: 1;">
+    <img src="/assets/Courseimages/CircuitElectronicsImages/Thyristorimages/DC_Motor_Controller.png" alt="PySpice Installation Step 3" style="width: 50%; height: 50%; object-fit: contain;">
+  </div>
+</div>
+<div class="caption" style="text-align: center; margin-top: 8px;">
+  DC Motor Controller
+</div>
+
 
 The single thyristor used in a half-wave-controlled rectifier is connected in series with the load. The thyristor conducts when it is activated at a certain firing angle during the positive half-cycle of the input AC supply. The firing angle and the input AC voltage amplitude determine the output voltage waveform. The amount of power supplied to the load can be regulated by varying the firing angle, which also influences the average output voltage. The drawback of half-wave-controlled rectifiers is that they only use half of the AC waveform that is input. Average voltage applied to the motor would be:
 
@@ -75,7 +83,15 @@ We’ll explore phase-controlling in more detail in the following sections.
 
 ## How Does a Thyristor Work?
 
-![thyristor_05](./images/thyristor_05.jpg)
+<div style="display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+  <div style="flex: 1;">
+    <img src="/assets/Courseimages/CircuitElectronicsImages/Thyristorimages/thyristor_05.jpg" alt="PySpice Installation Step 3" style="width: 50%; height: 50%; object-fit: contain;">
+  </div>
+</div>
+<div class="caption" style="text-align: center; margin-top: 8px;">
+  thyristor 
+</div>
+
 
 Thyristors, unlike the junction diode which is a two-layer (P-N) semiconductor device, or the commonly used bipolar transistor which is a three-layer (P-N-P or N-P-N) switching device, are composed of four layers of alternating P-type and N-type semiconductor materials (P-N-P-N structure), forming three PN junctions. They have three terminals: anode, cathode, and gate. When a small current is applied to the gate, the thyristor switches from a non-conductive to a conductive state, allowing current to flow between the anode and cathode. The device remains conducting until the current drops below a certain threshold or is externally interrupted. This P-N-P-N structure image is just a model, not real.
 
@@ -89,7 +105,15 @@ The two-transistor equivalent circuit (in the image above) shows that the collec
 
 ## Types of Thyristors
 
-![Devices_Example](./images/devices.jpg)
+<div style="display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+  <div style="flex: 1;">
+    <img src="/assets/Courseimages/CircuitElectronicsImages/Thyristorimages/devices.jpg" alt="PySpice Installation Step 3" style="width: 50%; height: 50%; object-fit: contain;">
+  </div>
+</div>
+<div class="caption" style="text-align: center; margin-top: 8px;">
+  Devices Example
+</div>
+
 
 - **Silicon Controlled Rectifier (SCR):** The most common type, used for controlling power in AC and DC systems.
 - **Gate Turn-Off Thyristor (GTO):** Can be turned on and off via the gate signal.
@@ -109,7 +133,15 @@ The V-I characteristics basically consist of three regions or modes of operation
 
 ### Reverse Blocking Mode
 
-![Reverse Blocking Mode](./images/junctions.png)
+<div style="display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+  <div style="flex: 1;">
+    <img src="/assets/Courseimages/CircuitElectronicsImages/Thyristorimages/junctions.png" alt="PySpice Installation Step 3" style="width: 50%; height: 50%; object-fit: contain;">
+  </div>
+</div>
+<div class="caption" style="text-align: center; margin-top: 8px;">
+  Reverse Blocking Mode
+</div>
+
 
 When the positive terminal of supply is connected to the cathode and the negative terminal is connected to anode with gate circuit open, then SCR operates in the reverse blocking mode. In this mode, junction $J_{1}$ and $J_{3}$ become reverse-biased, whereas junction $J_{2}$ becomes forward-biased.
 
@@ -121,7 +153,15 @@ But this method of conducting SCR is not recommended as it may damage the SCR or
 
 ### Forward Blocking Mode
 
-![Forward Blocking Mode](./images/junctions2.png)
+<div style="display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+  <div style="flex: 1;">
+    <img src="/assets/Courseimages/CircuitElectronicsImages/Thyristorimages/junctions2.png" alt="PySpice Installation Step 3" style="width: 50%; height: 50%; object-fit: contain;">
+  </div>
+</div>
+<div class="caption" style="text-align: center; margin-top: 8px;">
+  Forward Blocking Mode
+</div>
+
 
 In the forward blocking mode of operation of SCR, the anode is connected to the positive terminal, and cathode is connected to the negative terminal of the power source with the gate circuit open. In this mode, the junction $J_{1}$ and $J_{3}$ get forward-biased, whereas the junction $J_{2}$ gets reverse-biased.
 
@@ -131,7 +171,16 @@ Just as in the reverse blocking mode, the SCR can be made to conduct in the forw
 
 ### Forward Conducting Mode
 
-![Forward Conducting Mode](./images/junctions3.png)
+<div style="display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+  <div style="flex: 1;">
+    <img src="/assets/Courseimages/CircuitElectronicsImages/Thyristorimages/junctions3.png" alt="PySpice Installation Step 3" style="width: 50%; height: 50%; object-fit: contain;">
+  </div>
+</div>
+<div class="caption" style="text-align: center; margin-top: 8px;">
+  Forward conducting Mode
+</div>
+
+
 
 In the forward conduction mode of SCR, the anode is connected to the positive terminal and the cathode is connected to the negative terminal with the gate circuit closed (i.e., application of small gate voltage). In this mode, all three junctions ($J_{1}$, $J_{2}$, and $J_{3}$) act as a short circuit, as shown in the figure below, and hence the SCR conducts current.
 
@@ -165,7 +214,15 @@ The reverse voltage above which the breakdown of SCR takes place, i.e., the brea
 
 ## How to turn off the thyristor?
 
-![Thyristor_Structure](./images/thyristor_structure.png)
+<div style="display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+  <div style="flex: 1;">
+    <img src="/assets/Courseimages/CircuitElectronicsImages/Thyristorimages/thyristor_structure.png" alt="PySpice Installation Step 3" style="width: 50%; height: 50%; object-fit: contain;">
+  </div>
+</div>
+<div class="caption" style="text-align: center; margin-top: 8px;">
+  Thyristor Structure
+</div>
+
 
 Once the thyristor has self-latched into its “ON” state and passing a current, it can only be turned “OFF” again by either removing the supply voltage and therefore the Anode ($I_A$) current completely, or by reducing its Anode to Cathode current by some external means (the opening of a switch, for example) to below a value commonly called the “minimum holding current”, $I_H$.
 
@@ -192,7 +249,15 @@ So by applying a Gate signal at the appropriate time during the positive half of
 
 ## Phase Control
 
-![Phase_Control](./images/phase_control.jpg)
+<div style="display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+  <div style="flex: 1;">
+    <img src="/assets/Courseimages/CircuitElectronicsImages/Thyristorimages/phase_control.jpg" alt="PySpice Installation Step 3" style="width: 50%; height: 50%; object-fit: contain;">
+  </div>
+</div>
+<div class="caption" style="text-align: center; margin-top: 8px;">
+  Phase Control
+</div>
+
 
 Single-phase-controlled rectifiers are grouped into various types based on the converters used to control the output voltage. These categories include semi-converters, dual, full, and series converters.
 
