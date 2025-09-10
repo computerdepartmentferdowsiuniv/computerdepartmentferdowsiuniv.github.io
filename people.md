@@ -178,7 +178,8 @@ Dr. Soheila Ashkezari-T is an Assistant Professor and researcher in machine lear
 <div style="display:flex; direction:ltr; flex-direction:row; align-items:center; gap:20px; margin-bottom:40px; flex-wrap:wrap;">
 
   <div style="flex:1; min-width:260px; text-align:justify;" dir="auto">
-Ehsan Shams is an accomplished AI expert with a background in artificial intelligence, specializing in this field since 2017. He has played a pivotal role in developing various AI products across diverse teams, driven by his deep passion for the subject. Ehsan's contributions extend to research, where he has published several papers based on his hands-on experience. He is known for his calm demeanor, kindness, and exceptional problem-solving abilities, making him an influential figure in the Pattern Recognition Laboratory. He earned his Masters degree in Artificial Intelligence from Ferdowsi University of Mashhad, Iran, under the supervision of Prof. Sadoghi Yazdi.
+Dr. Adel Ghazikhani is an Assistant Professor and member of the faculty of computer engineering in Imam Reza International University. He is a Data scientist with PhD in computer engineering. Experience in creating several AI products. I have been in the
+software development industry for 20 years. Started from desktop programming with visual basic, and then web programming with php and now AI programming with python. He earned his Ph.D. degrees in Artificial Intelligence from Ferdowsi University of Mashhad, Iran, under the consultant of Prof. Sadoghi Yazdi.
 
  </div>
 
