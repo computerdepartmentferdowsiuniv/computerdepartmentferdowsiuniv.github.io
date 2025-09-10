@@ -1,3 +1,19 @@
+---
+layout: single
+title: "Thyristors"
+permalink: /teaching/studenteffort/circuiteffort/Introduction_Thyristors/
+author_profile: false
+classes: wide
+sidebar:
+  nav: "teaching"
+header:
+  overlay_image: "/assets/images/background.jpg"
+  overlay_filter: 0.3
+  overlay_color: "#5e616c"
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+---
+
+
 # Thyristors
 
 <div style="display: flex; justify-content: space-between; align-items: center; gap: 10px;">
