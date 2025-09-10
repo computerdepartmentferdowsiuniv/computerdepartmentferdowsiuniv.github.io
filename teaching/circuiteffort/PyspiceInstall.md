@@ -52,7 +52,15 @@ If you have extracted the Zip file to a different path, update the command above
 
 In the next step, add this to the system path as well, Follow the steps below according to the image.
 
-![Picture2_upscayl_4x_realesrgan-x4plus.png](attachment:Picture2_upscayl_4x_realesrgan-x4plus.png)
+<div style="display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+  <div style="flex: 1;">
+    <img src="/assets/Courseimages/CircuitElectronicsImages/PySpiceinstallation/1.jpg" alt="PySpiceinstallation1" style="width: 50%; height: 50%; object-fit: contain;">
+  </div>
+</div>
+<div class="caption" style="text-align: center; margin-top: 8px;">
+   add this to the system path as well
+</div>
+
 
 Again!! If you have extracted the Zip file to a different path, update the command above to suit your preferred path.
 
@@ -70,7 +78,15 @@ pip show PySpice
 
 The output of the command above is as follows:
 
-![image.png](attachment:image.png)
+<div style="display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+  <div style="flex: 1;">
+    <img src="/assets/Courseimages/CircuitElectronicsImages/PySpiceinstallation/2.jpg" alt="PySpiceinstallation2" style="width: 50%; height: 50%; object-fit: contain;">
+  </div>
+</div>
+<div class="caption" style="text-align: center; margin-top: 8px;">
+   The output of the command
+</div>
+
 
 And also, for added assurance, run the following command inside a Python file:
 
@@ -150,3 +166,12 @@ plt.grid(True)
 # Show the plot
 plt.show()
 ```
+
+<div style="display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+  <div style="flex: 1;">
+    <img src="/assets/Courseimages/CircuitElectronicsImages/PySpiceinstallation/3.jpg" alt="PySpiceinstallation3" style="width: 50%; height: 50%; object-fit: contain;">
+  </div>
+</div>
+<div class="caption" style="text-align: center; margin-top: 8px;">
+   Execution Result
+</div>
