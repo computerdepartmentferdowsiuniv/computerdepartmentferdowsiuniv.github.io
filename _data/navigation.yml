@@ -14,9 +14,9 @@ main:
   - title: "Teaching"
     url: /teaching/
   - title: "Student Effort"
-    url: /Student Effort/
+    url: /studenteffort/
 
-Student Effort:
+studenteffort:
 - title: "Circuit"
   url: /teaching/studenteffort/
   children:
