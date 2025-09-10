@@ -170,7 +170,7 @@ header:
             </div>
         </div>
         <div class="footer">
-            طراحی شده با ❤️ | کلیک بر روی هر کارت برای مشاهده جزئیات درس
+            Click on any card to view course details
         </div>
     </div>
 </body>
