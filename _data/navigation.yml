@@ -5,12 +5,17 @@ main:
     url: /about/
   - title: "Projects"
     url: /projects/
-  - title: "Teaching"
+  - title: "Presentation"
     url: /contact/
   - title: "Publications"
     url: /blog/
   - title: "People"
     url: /people/
+  - title: "Teaching"
+  - teaching:
+    - title: "Course 1"
+      url: /teaching/course1/
+
 
 #main:
  # - title: "Quick-Start Guide"
