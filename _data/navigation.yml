@@ -13,10 +13,12 @@ main:
     url: /people/
   - title: "Teaching"
     url: /teaching/
+  - title: "Student Effort"
+    url: /Student Effort/
 
-teaching:
+Student Effort:
 - title: "Circuit"
-  url: /teaching/circuit/
+  url: /teaching/circuiteffort/
   children:
         - title: "Lecture 1"
           url: /teaching/course1/lecture1/

@@ -19,7 +19,7 @@ header:
 
   <div class="projects-grid">
     <div class="project-card">
-      <a href="/teaching/pattern-recognition/">
+      <a href="https://laboratorypatternrecognition.github.io/PatternRecognition_S/pattern_recognition.html">
         <img src="{{ '/assets/images/PR1.JPG' | relative_url }}" 
              alt="Pattern Recognition" 
              class="project-image">
@@ -29,7 +29,7 @@ header:
       </a>
     </div>
     <div class="project-card">
-      <a href="/teaching/machine-learning/">
+      <a href="https://laboratorypatternrecognition.github.io/MachineLearningS/machine_learning.html">
         <img src="{{ '/assets/images/machinelearning1.JPG' | relative_url }}" 
              alt="Machine Learning" 
              class="project-image">
@@ -49,7 +49,7 @@ header:
       </a>
     </div>
     <div class="project-card">
-      <a href="/teaching/signal-processing/">
+      <a href="[/teaching/signal-processing/](https://laboratorypatternrecognition.github.io/SignalSystem/SignalSystemStart.html)">
         <img src="{{ '/assets/images/ECG_1.jpg' | relative_url }}" 
              alt="Signal Processing" 
              class="project-image">
@@ -59,7 +59,17 @@ header:
       </a>
     </div>
     <div class="project-card">
-      <a href="/teaching/ai-essentials/">
+      <a href="/teaching/StudentEffort/">
+        <img src="{{ '/assets/images/StudentEffort.jpg' | relative_url }}" 
+             alt="StudentEffort" 
+             class="project-image">
+        <div class="project-content">
+          <h3 class="project-title">Student Effort</h3>
+        </div>
+      </a>
+    </div>
+    <div class="project-card">
+      <a href="https://laboratorypatternrecognition.github.io/AI-Essentials/Home_Page.html">
         <img src="{{ '/assets/images/DeepDream2.JPG' | relative_url }}" 
              alt="AI Essentials" 
              class="project-image">
