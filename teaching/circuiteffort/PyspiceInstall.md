@@ -169,7 +169,7 @@ plt.show()
 
 <div style="display: flex; justify-content: space-between; align-items: center; gap: 10px;">
   <div style="flex: 1;">
-    <img src="{{ site.url }}/assets/Courseimages/CircuitElectronicsImages/PySpiceinstallation/3.jpg" alt="PySpiceinstallation3" style="width: 50%; height: 50%; object-fit: contain;">
+    <img src="../../assets/Courseimages/CircuitElectronicsImages/PySpiceinstallation/3.jpg" alt="PySpiceinstallation3" style="width: 50%; height: 50%; object-fit: contain;">
   </div>
 </div>
 <div class="caption" style="text-align: center; margin-top: 8px;">
