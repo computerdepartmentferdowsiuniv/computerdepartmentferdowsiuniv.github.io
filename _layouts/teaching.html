@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>کارت‌های درسی</title>
+    <title>{{ page.title }}</title>
     <style>
         * {
             box-sizing: border-box;
@@ -11,28 +11,46 @@
             padding: 0;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
+        
         body {
             background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
             padding: 30px;
             min-height: 100vh;
+            color: #333;
         }
+        
         .container {
             max-width: 1200px;
             margin: 0 auto;
         }
-        h1 {
+        
+        .header {
             text-align: center;
             margin-bottom: 40px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .header h1 {
             color: #2c3e50;
             font-size: 2.5rem;
-            text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+            margin-bottom: 10px;
         }
+        
+        .header p {
+            color: #7f8c8d;
+            font-size: 1.2rem;
+        }
+        
         .projects-grid {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
             gap: 25px;
         }
+        
         .project-card {
             width: calc(33.33% - 25px);
             border: 1px solid #ddd;
@@ -43,16 +61,19 @@
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
+        
         .project-card:hover {
             transform: translateY(-5px);
             box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
         }
+        
         .project-card a {
             text-decoration: none;
             color: inherit;
             display: block;
             height: 100%;
         }
+        
         .project-image {
             width: 100%;
             height: 200px;
@@ -60,9 +81,11 @@
             display: block;
             border-bottom: 1px solid #eee;
         }
+        
         .project-content {
             padding: 20px;
         }
+        
         .project-title {
             font-size: 18px;
             font-weight: bold;
@@ -70,37 +93,46 @@
             color: #2c3e50;
             text-align: center;
         }
-        /* طراحی واکنش‌گرا برای صفحه‌نمایش‌های کوچک‌تر */
+        
         @media (max-width: 992px) {
             .project-card {
                 width: calc(50% - 25px);
             }
         }
+        
         @media (max-width: 768px) {
             .project-card {
                 width: 100%;
                 max-width: 400px;
             }
-            h1 {
+            
+            .header h1 {
                 font-size: 2rem;
             }
         }
+        
         .footer {
             text-align: center;
             margin-top: 50px;
             color: #7f8c8d;
             font-size: 0.9rem;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Course Topics</h1>
+        <div class="header">
+            <h1>دروس ارائه شده</h1>
+            <p>انتخاب از میان دوره‌های آموزشی باکیفیت</p>
+        </div>
+        
         <div class="projects-grid">
-            <!-- Pattern Recognition -->
             <div class="project-card">
                 <a href="/teaching/pattern-recognition/">
-                    <img src="../assets/images/PR1.JPG" 
+                    <img src="{{ '/assets/images/PR1.JPG' | relative_url }}" 
                          alt="Pattern Recognition" 
                          class="project-image">
                     <div class="project-content">
@@ -108,10 +140,10 @@
                     </div>
                 </a>
             </div>
-            <!-- Machine Learning -->
+
             <div class="project-card">
                 <a href="/teaching/machine-learning/">
-                    <img src="../assets/images/machinelearning1.JPG" 
+                    <img src="{{ '/assets/images/machinelearning1.JPG' | relative_url }}" 
                          alt="Machine Learning" 
                          class="project-image">
                     <div class="project-content">
@@ -119,10 +151,10 @@
                     </div>
                 </a>
             </div>
-            <!-- Circuit Analysis -->
+
             <div class="project-card">
-                <a href="/teaching/circuit1/">
-                    <img src="../assets/images/startPic.jpg" 
+                <a href="/teaching/circuit-analysis/">
+                    <img src="{{ '/assets/images/startPic.jpg' | relative_url }}" 
                          alt="Circuit Analysis" 
                          class="project-image">
                     <div class="project-content">
@@ -130,10 +162,10 @@
                     </div>
                 </a>
             </div>
-            <!-- Signal Processing -->
+
             <div class="project-card">
                 <a href="/teaching/signal-processing/">
-                    <img src="../assets/images/ECG_1.jpg" 
+                    <img src="{{ '/assets/images/ECG_1.jpg' | relative_url }}" 
                          alt="Signal Processing" 
                          class="project-image">
                     <div class="project-content">
@@ -141,10 +173,10 @@
                     </div>
                 </a>
             </div>
-            <!-- AI Essentials -->
+
             <div class="project-card">
                 <a href="/teaching/ai-essentials/">
-                    <img src="../assets/images/DeepDream2.JPG" 
+                    <img src="{{ '/assets/images/DeepDream2.JPG' | relative_url }}" 
                          alt="AI Essentials" 
                          class="project-image">
                     <div class="project-content">
@@ -153,11 +185,10 @@
                 </a>
             </div>
         </div>
+        
         <div class="footer">
-            Click on any card to view course details
+            طراحی شده با ❤️ | کلیک بر روی هر کارت برای مشاهده جزئیات درس
         </div>
     </div>
 </body>
 </html>
-
-
