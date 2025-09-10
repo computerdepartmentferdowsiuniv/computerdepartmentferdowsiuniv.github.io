@@ -13,6 +13,9 @@ header:
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 ---
 
-## List of Course
-### Circuit
-
+## Course Topics
+- ![PatRec](../assets/imgages/PR1.JPG)[**Pattern Recognition**]
+- ![MacLear](../assets/imgages/machinelearning1.JPG)[**Machine learning**]
+- ![Cir](../assets/imgages/startPic.jpg)[**Circuit analysis**]
+- ![Sig](../assets/imgages/ECG_1.jpg)[**Signal processing**]
+- ![AIEssen](../assets/imgages/DeepDream2.JPG)[**AI Essentials**]
