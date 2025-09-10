@@ -59,7 +59,7 @@ header:
       </a>
     </div>
     <div class="project-card">
-      <a href="/teaching/StudentEffort/">
+      <a href="/teaching/studenteffort/">
         <img src="{{ '/assets/images/StudentEffort.jpg' | relative_url }}" 
              alt="StudentEffort" 
              class="project-image">
