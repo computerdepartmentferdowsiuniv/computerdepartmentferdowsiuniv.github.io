@@ -17,6 +17,10 @@ main:
 teaching:
   - title: "Circuit Effort"
     url: /teaching/studenteffort/circuiteffort/
+    children: 
+      - title: "Pyspice Installation Manual"
+        url: /teaching/studenteffort/PyspiceInstall/
+
   
 
 
