@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Student Effort"
-permalink: /studenteffort/
+permalink: /teaching/studenteffort/
 author_profile: true
 classes: wide
 header:
