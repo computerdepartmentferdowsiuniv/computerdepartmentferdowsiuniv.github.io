@@ -2,9 +2,7 @@
 layout: single
 title: "Teaching"
 permalink: /teaching/
-author_profile: false
-sidebar:
-  nav: "teaching"
+author_profile: true
 classes: wide
 header:
   overlay_image: "/assets/images/background.jpg"
@@ -16,7 +14,7 @@ header:
 <div class="container">
   <div class="header">
     <h1>Course Topics</h1>
-    <p>Select</p>
+    <p> </p>
   </div>
 
   <div class="projects-grid">
@@ -41,7 +39,7 @@ header:
       </a>
     </div>
     <div class="project-card">
-      <a href="/teaching/circuit-analysis/">
+      <a href="/teaching/circuit1/">
         <img src="{{ '/assets/images/startPic.jpg' | relative_url }}" 
              alt="Circuit Analysis" 
              class="project-image">
