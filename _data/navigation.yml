@@ -16,12 +16,8 @@ main:
   - title: "Student Effort"
     url: /studenteffort/
 
-studenteffort:
-- title: "Circuit"
-  url: /teaching/studenteffort/
-  children:
-        - title: "PySpice Installation Manual"
-          url: /teaching/studenteffort/PySpiceInstallationManual/
+
+
 
 
 
