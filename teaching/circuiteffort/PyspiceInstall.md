@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Circuit Analysis Effort"
-permalink: /teaching/studenteffort/PyspiceInstall/
+permalink: /teaching/studenteffort/circuiteffort/PyspiceInstall/
 author_profile: false
 classes: wide
 sidebar:
@@ -12,6 +12,7 @@ header:
   overlay_color: "#5e616c"
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 ---
+
 
 # PySpice Installation Manual
 

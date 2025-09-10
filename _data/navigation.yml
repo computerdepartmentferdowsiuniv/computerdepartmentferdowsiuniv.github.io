@@ -19,7 +19,7 @@ teaching:
     url: /teaching/studenteffort/circuiteffort/
     children: 
       - title: "Pyspice Installation Manual"
-        url: /teaching/studenteffort/PyspiceInstall/
+        url: /teaching/studenteffort/circuiteffort/PyspiceInstall/
 
   
 
