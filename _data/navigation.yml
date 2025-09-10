@@ -9,21 +9,8 @@ main:
     url: /blog/
   - title: "People"
     url: /people/
-  - teaching:
-    - title: "Course 1"
-      url: /teaching/course1/
-      children:
-        - title: "Lecture 1"
-          url: /teaching/course1/lecture1/
-        - title: "Lecture 2"
-          url: /teaching/course1/lecture2/
-    - title: "Course 2"
-      url: /teaching/course2/
-      children:
-        - title: "Topic A"
-          url: /teaching/course2/topic-a/
-        - title: "Topic B"
-          url: /teaching/course2/topic-b/
+  - title : "Teaching"
+    url: /teaching/
 
 
 
