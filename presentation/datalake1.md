@@ -2,7 +2,7 @@
 layout: single
 title: "Implementing a Data Lake in the Power Distribution Company(Power Sector)"
 permalink: /presentation/datalake1/
-author_profile: false
+author_profile: true
 classes: wide
 sidebar:
   nav: "presentaton"
