@@ -211,7 +211,7 @@ Data lakes must adhere to strict security standards and regulations like GDPR (f
 -   <strong>Supports Advanced Analytics</strong>: Data lakes facilitate machine learning for predictive maintenance and load forecasting, improving operational reliability.
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
-    <a href="run:/assets/Presentationimages/DataLake/AI_Maintenance_video.mp4"><img src="/assets/Presentationimages/DataLake/diverse1.jpg" alt="Diverse Data Integration" style="width: 50%; height: auto; object-fit: contain;"></a>
+    <a href="run:/assets/Presentationimages/DataLake/AI_Maintenance_video.mp4"><img src="/assets/Presentationimages/DataLake/diverse1.jpg" alt="Diverse Data Integration" style="width: 50%; height: 50%; object-fit: contain;"></a>
 </div>
 
 
@@ -279,7 +279,7 @@ Data lakes must adhere to strict security standards and regulations like GDPR (f
 <p style="text-align: center;">Reports from Enel and CPFL companies.</p>
 
 <div style="overflow-x: auto; margin: 0 -2cm;">
-<table style="width: 100%; font-size: small; border-collapse: collapse;">
+<table style="width: 100%; font-size: medium; border-collapse: collapse;">
     <tr>
         <th style="border: 1px solid black; padding: 8px; text-align: left; width: 3.0cm;">Performance Indicator</th>
         <th style="border: 1px solid black; padding: 8px; text-align: left; width: 2.5cm;">Improvement Range</th>
@@ -328,7 +328,7 @@ Data lakes must adhere to strict security standards and regulations like GDPR (f
 </table>
 </div>
 
----
+
 
 ### 18-Month Implementation Roadmap
 
