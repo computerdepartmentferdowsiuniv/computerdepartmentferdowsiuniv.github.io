@@ -1,3 +1,13 @@
+---
+title: "DFT and its Applications: Computational Methods"
+date: 2025-09-11
+categories: [Physics, Computational]
+tags: [DFT, Quantum Mechanics, Simulation]
+slug: "DFT-and-its-Applications"
+math: true
+---
+
+
 ## Mohammad Bagher Mahdizadeh
 ## mhdz.m@outlook.com
 
