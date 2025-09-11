@@ -775,7 +775,7 @@ plt.show()
 
 
     
-![png](./DFTanditsApplications/output_25_0.png)
+![png](/assets/images/DFTanditsApplications/output_25_0.png)
     
 
 
