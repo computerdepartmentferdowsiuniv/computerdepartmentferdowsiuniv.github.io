@@ -6,7 +6,7 @@ main:
   - title: "Projects"
     url: /projects/
   - title: "Presentation"
-    url: /contact/
+    url: /presentation/
   - title: "Publications"
     url: /blog/
   - title: "People"
@@ -24,6 +24,15 @@ teaching:
         url: /teaching/studenteffort/circuiteffort/Introduction_Thyristors/
 
   
+presenation:
+  - title: "Projects"
+    url: /presentation/projects/topic/
+    children: 
+      - title: "Data Lake"
+        url: /presentation/projects/topic/datalake/
+      - title: "Defense Simulator"
+        url: /presentation/projects/topic/defencesimulator/
+
 
 
 
