@@ -278,8 +278,9 @@ Data lakes must adhere to strict security standards and regulations like GDPR (f
 
 <p style="text-align: center;">Reports from Enel and CPFL companies.</p>
 
-<div style="overflow-x: auto; margin: 0 -2cm;">
-<table style="width: 100%; font-size: medium; border-collapse: collapse;">
+<div style="text-align: center;">
+<div style="overflow-x: auto; margin: 0 auto; width: fit-content;">
+<table style="font-size: medium; border-collapse: collapse; margin: 0 auto;">
     <tr>
         <th style="border: 1px solid black; padding: 8px; text-align: left; width: 3.0cm;">Performance Indicator</th>
         <th style="border: 1px solid black; padding: 8px; text-align: left; width: 2.5cm;">Improvement Range</th>
@@ -326,6 +327,7 @@ Data lakes must adhere to strict security standards and regulations like GDPR (f
         <td style="border: 1px solid black; padding: 8px;">Real-time analysis for quick fault detection.</td>
     </tr>
 </table>
+</div>
 </div>
 
 
