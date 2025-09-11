@@ -2,15 +2,6 @@
 layout: presentation
 title: "Implementing a Data Lake in the Power Distribution Company(Power Sector)"
 permalink: /presentation/datalake/
-author_profile: false
-classes: wide
-sidebar:
-  nav: "presentation"
-header:
-  overlay_image: "/assets/images/background.jpg"
-  overlay_filter: 0.3
-  overlay_color: "#5e616c"
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 ---
 
   <!-- Slide 1 -->
