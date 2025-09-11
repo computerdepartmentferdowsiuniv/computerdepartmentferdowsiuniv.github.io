@@ -15,7 +15,7 @@ header:
   <!-- پpresent 1۱ -->
   <div class="project-card" style="width: calc(33.33% - 20px); border: 1px solid #ddd; border-radius: 10px; overflow: hidden; margin-bottom: 20px;">
     <a href="/presentation/datalake/" style="text-decoration: none; color: inherit;">
-      <img src="/assets/Projectsimages/FireMain.png" 
+      <img src="/assets/Presentationimages/DataLake/PowerSectorDataLake.jpg" 
            alt="Presentation1" 
            class="project-image"
            style="width: 100%; height: 200px; object-fit: cover; display: block;">
