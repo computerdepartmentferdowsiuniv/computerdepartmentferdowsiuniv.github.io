@@ -5,6 +5,7 @@ permalink: /presentation/datalake/
 ---
 
   <!-- Slide 1 -->
+<section>
 
 <div style="text-align:center; margin-top:50px;">
 
@@ -29,15 +30,17 @@ Member of SCIIP – Center of Excellence on Soft Computing and Intelligent Infor
 
 </div>
 
-
-<div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
-  <div style="flex: 1;">
-    <img src="/assets/Presentationimages/DataLake/integrate_Data1.png" alt="Thyristor" style="width: 50%; height: 50%; object-fit: contain;">
-  </div>
+<div style="display: flex; justify-content: center; align-items: center; margin-top: 30px;">
+  <img src="/assets/Presentationimages/DataLake/integrate_Data1.png"
+       alt="DataLake"
+       style="max-width: 60%; height: auto; object-fit: contain;">
 </div>
 <div class="caption" style="text-align: center; margin-top: 8px;">
-  Powe Sector
+  Power Sector
 </div>
+
+</section>
+
 
 
 
