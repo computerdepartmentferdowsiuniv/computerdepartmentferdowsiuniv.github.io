@@ -491,3 +491,63 @@ Impact: Autonomous<br>Grids, Sustainability
 
 </div>
 </div>
+
+
+## Role of AI in Data Lake
+
+-   **Power Consumption Forecasting**: Regression and time-series models.
+-   **Fault Detection**: Clustering and classification for anomaly detection.
+-   **Grid Optimization**: Machine learning for load balancing and loss reduction.
+-   **Predictive Maintenance**: Forecasting equipment failures using sensor data.
+-   **Recommended Tools**: TensorFlow, PyTorch, Scikit-learn.
+
+---
+
+## Challenges and Solutions
+
+<div style="overflow-x: auto;">
+<table style="width: 100%; border-collapse: collapse;">
+    <tr>
+        <th style="border: 1px solid black; padding: 12px; text-align: left; background-color: #f0f0f0;">Challenge</th>
+        <th style="border: 1px solid black; padding: 12px; text-align: left; background-color: #f0f0f0;">Solution</th>
+    </tr>
+    <tr>
+        <td style="border: 1px solid black; padding: 12px;">High-volume streaming data</td>
+        <td style="border: 1px solid black; padding: 12px;">Use Apache Kafka for streaming data management.</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid black; padding: 12px;">Poor data quality</td>
+        <td style="border: 1px solid black; padding: 12px;">Automated cleansing tools (e.g., Trifacta).</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid black; padding: 12px;">Security and privacy</td>
+        <td style="border: 1px solid black; padding: 12px;">Data encryption and GDPR-compliant standards.</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid black; padding: 12px;">Lack of skilled personnel</td>
+        <td style="border: 1px solid black; padding: 12px;">Internal training and external consultancy.</td>
+    </tr>
+</table>
+</div>
+
+
+
+## Conclusion
+
+-   **Data Lake**: A key enabler for digital transformation in power distribution.
+-   **AI-driven insights** for forecasting, optimization, and maintenance.
+-   **Proposed plan**: 18-month implementation with cloud and open-source technologies.
+-   **Our commitment**: Expert consulting and support throughout the project.
+
+
+
+## Contact Us
+
+<div style="text-align: center;">
+    <p><strong>Hadi Sadoghi Yazdi</strong></p>
+    <p>AI and Data Specialist</p>
+    <p>Email: <a href="mailto:h-sadoghi@um.ac.ir" style="text-decoration:underline; color:green;">h-sadoghi@um.ac.ir</a></p>
+    <p>Phone: <a href="tel:+985138805117" style="text-decoration:underline; color:green;">+98-51-38805117</a></p>
+    <p>Website: <a href="https://h-sadoghi.github.io/" style="text-decoration:underline; color:green;" target="_blank">https://h-sadoghi.github.io/</a></p>
+</div>
+
