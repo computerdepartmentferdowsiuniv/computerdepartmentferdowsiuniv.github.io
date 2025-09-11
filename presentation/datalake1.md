@@ -28,11 +28,12 @@ header:
 </div>
 
 ## Introduction
-**Data Lakes in Brief: Definition**
 
-- **Centralized Repository**: Stores raw data (structured, semi-structured, unstructured) from smart meters, SCADA, sensors.
-- **Schema-on-Read**: Enables rapid analytics without predefined schemas, unlike data warehouses.
-- **Power Sector Value**: Drives grid optimization, consumption analytics, predictive maintenance.
+## Data Lakes in Brief: Definition
+
+-   **Centralized Repository**: Stores raw data (structured, semi-structured, unstructured) from smart meters, SCADA, sensors.
+-   **Schema-on-Read**: Enables rapid analytics without predefined schemas, unlike data warehouses.
+-   **Power Sector Value**: Drives grid optimization, consumption analytics, predictive maintenance.
 -   **Standardized Foundation**: Built on global standards (IEC 61968 (CIM), IEC 20547, ISO 8000) for seamless interoperability, security, and data quality.
 
 
@@ -208,9 +209,10 @@ Data lakes must adhere to strict security standards and regulations like GDPR (f
 
 ### 3. Key Advantages
 
--   <strong>Reduces data preprocessing time → Faster analytics</strong>: Data lakes store raw, heterogeneous data in its native format, eliminating the need for extensive preprocessing before analysis. This enables faster access to data for analytics, machine learning, and decision-making, accelerating grid optimization and operational efficiency.
--   <strong>Enables Scalable Data Integration</strong>: Data lakes integrate diverse data sources (e.g., smart grids, sensors, SCADA), supporting large-scale analytics for grid management.
--   <strong>Supports Advanced Analytics</strong>: Data lakes facilitate machine learning for predictive maintenance and load forecasting, improving operational reliability.
+-   **Reduces data preprocessing time → Faster analytics**: Data lakes store raw, heterogeneous data in its native format, eliminating the need for extensive preprocessing before analysis. This enables faster access to data for analytics, machine learning, and decision-making, accelerating grid optimization and operational efficiency.
+-   **Enables Scalable & Standardized Data Integration**: Data lakes integrate diverse data sources (e.g., smart grids, sensors, SCADA) using a unified Common Information Model (CIM - IEC 61968), supporting large-scale, interoperable analytics for grid management.
+-   **Supports Advanced Analytics**: Data lakes facilitate machine learning for predictive maintenance and load forecasting, improving operational reliability.
+
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
     <img src="/assets/Presentationimages/DataLake/diverse1.JPG" alt="Diverse Data Integration" style="width: 50%; height: 50%; object-fit: contain;">
@@ -552,7 +554,7 @@ Impact: Autonomous<br>Grids, Sustainability
     </tr>
     <tr>
         <td style="border: 1px solid black; padding: 12px;">Proprietary data models creating silos</td>
-        <td style="border: 1px solid black; padding: 12px;">Implement a unified Common Information Model (CIM - IEC 61968) as the core semantic layer.</td>
+        <td style="border: 1px solid black; padding: 12px;">Implement a unified Common Information Model (CIM - IEC 61968) as the core semantic layer to ensure interoperability.</td>
     </tr>
     <tr>
         <td style="border: 1px solid black; padding: 12px;">High-volume streaming data</td>
@@ -607,12 +609,11 @@ Impact: Autonomous<br>Grids, Sustainability
     <tr style="background-color: #e8f5e8;">
         <td style="border: 2px solid #28a745; padding: 10px; font-weight: bold; color: #28a745;">Our Proposed Project</td>
         <td style="border: 2px solid #28a745; padding: 10px; color: #28a745;">Iran</td>
-        <td style="border: 2px solid #28a745; padding: 10px; color: #28a745;">CIM, IEC 61968, 20547, ISO 8000</td>
+        <td style="border: 2px solid #28a745; padding: 10px; color: #28a745;"><strong>IEC 61968 (CIM), IEC 61970, IEC 20547, ISO 8000</strong></td>
         <td style="border: 2px solid #28a745; padding: 10px; color: #28a745;">Domestic Development, National Scalability</td>
     </tr>
 </table>
 </div>
-
 
 ## Conclusion
 
