@@ -4,7 +4,7 @@ title: "Implementing a Data Lake in the Power Distribution Company (Power Sector
 permalink: /presentation/datalake/
 ---
 
-<section>
+<section class="english-ltr">
   <h1 style="font-size:2.2em; color:#1a237e; font-weight:500; line-height:1.3;">
     Consulting Proposal for Implementing a Data Lake in the Power Distribution Company (Power Sector)
   </h1>

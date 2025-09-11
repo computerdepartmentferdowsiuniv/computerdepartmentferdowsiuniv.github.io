@@ -10,7 +10,7 @@
   <style>
     .site-header, .page-header, .site-footer { display: none !important; }
     .reveal { height: 100vh; font-family: 'Vazirmatn', sans-serif; }
-    .slides { direction: rtl; text-align: center; min-height: 100vh; }
+    .slides { direction: ltr; text-align: center; min-height: 100vh; }
     .slides section { 
       display: flex; 
       flex-direction: column; 
@@ -65,40 +65,32 @@
       display: inline-block;
       direction: ltr;
     }
+
+    /* سبک برای محتوای فارسی */
+    .persian-rtl {
+      direction: rtl !important;
+      text-align: right !important;
+    }
     
-    /* بزرگ‌تر کردن و تغییر موقعیت فلش‌های ناوبری */
-    .reveal .controls {
-      bottom: 40px;
-      right: 50px;
-      z-index: 1000;
-    }
+  /* فقط بزرگ‌کردن فلش‌ها، بدون تغییر موقعیت و جهت */
+.reveal .controls .navigate-left, 
+.reveal .controls .navigate-right, 
+.reveal .controls .navigate-up, 
+.reveal .controls .navigate-down {
+  transform: scale(2.5);
+  opacity: 0.9;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
 
-    .reveal .controls .navigate-left, 
-    .reveal .controls .navigate-right, 
-    .reveal .controls .navigate-up, 
-    .reveal .controls .navigate-down {
-      transform: scale(2.5);
-      opacity: 0.8;
-      transition: opacity 0.3s ease;
-    }
+.reveal .controls .navigate-left:hover, 
+.reveal .controls .navigate-right:hover, 
+.reveal .controls .navigate-up:hover, 
+.reveal .controls .navigate-down:hover {
+  opacity: 1;
+  transform: scale(2.7);
+}
 
-    .reveal .controls .navigate-left:hover, 
-    .reveal .controls .navigate-right:hover, 
-    .reveal .controls .navigate-up:hover, 
-    .reveal .controls .navigate-down:hover {
-      opacity: 1;
-      transform: scale(2.7);
-    }
 
-    /* اطمینان از نمایش فلش‌ها قبل از اولین کلیک */
-    .reveal .controls div.navigate-left,
-    .reveal .controls div.navigate-right,
-    .reveal .controls div.navigate-up,
-    .reveal .controls div.navigate-down {
-      display: block !important;
-      opacity: 0.8 !important;
-      transform: scale(2.5) !important;
-    }
   </style>
   <link href="https://cdn.jsdelivr.net/npm/vazirmatn@33.0.5/Vazirmatn-font-face.css" rel="stylesheet">
 </head>
@@ -110,6 +102,7 @@
   </div>
   <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.js"></script>
   <script>
+    // تنظیمات اولیه Reveal
     Reveal.initialize({
       hash: true,
       controls: true,
@@ -121,16 +114,36 @@
       margin: 0,
       minScale: 1,
       maxScale: 1,
-      rtl: true
+      rtl: false // حالت انگلیسی به صورت پیش‌فرض
     });
 
-    // اطمینان از نمایش فلش‌ها بعد از بارگذاری صفحه
+    // تنظیم موقعیت فلش‌ها بر اساس زبان
+    function adjustControlsPosition() {
+      const currentSlide = Reveal.getCurrentSlide();
+      const revealElement = document.querySelector('.reveal');
+      
+      if (currentSlide.classList.contains('english-ltr')) {
+        revealElement.classList.add('english-mode');
+      } else {
+        revealElement.classList.remove('english-mode');
+      }
+    }
+
+    // هنگام تغییر اسلاید، موقعیت فلش‌ها را تنظیم کن
+    Reveal.on('slidechanged', function() {
+      adjustControlsPosition();
+    });
+
+    // پس از بارگذاری کامل، موقعیت فلش‌ها را تنظیم کن
     document.addEventListener('DOMContentLoaded', function() {
       setTimeout(function() {
-        const controls = document.querySelectorAll('.reveal .controls button');
+        adjustControlsPosition();
+        
+        // اطمینان از بزرگ بودن و نمایش فلش‌ها
+        const controls = document.querySelectorAll('.reveal .controls div');
         controls.forEach(control => {
           control.style.display = 'block';
-          control.style.opacity = '0.8';
+          control.style.opacity = '0.9';
           control.style.transform = 'scale(2.5)';
         });
       }, 1000);
