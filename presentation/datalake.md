@@ -43,18 +43,6 @@ header:
   </div>
 </section>
 
-<!-- Slide 2 (نمونه دیگر) -->
-<section>
-  <h2>Agenda</h2>
-  <ul>
-    <li>Introduction</li>
-    <li>Architecture</li>
-    <li>AI Use-cases</li>
-    <li>Implementation Plan</li>
-  </ul>
-  <aside class="notes">
-    اینجا یادداشت سخنران قرار می‌گیرد — برای دید Speaker View.
-  </aside>
-</section>
+
 
 
