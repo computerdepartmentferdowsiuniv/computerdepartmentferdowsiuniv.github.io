@@ -170,7 +170,7 @@ A data lake is merely a raw repository of diverse data from smart grids, sensors
 Data lakes store and analyze historical and real-time data from sensors, SCADA systems, and equipment to identify patterns indicating potential failures before they occur. By applying machine learning, utilities can detect faults early, reducing downtime and maintenance costs. For example, Enedis uses data lakes to analyze 200TB/year of drone inspection images and SCADA data from 90,000+ substations to predict transformer failures in France’s grid.
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
-    <a href="run:/assets/Presentationimages/DataLake/AI_Maintenance_video.mp4"><img src="/assets/Presentationimages/DataLake/c3_ai.png" alt="C3.AI" style="width: 50%; height: auto; object-fit: contain;"></a>
+    <img src="/assets/Presentationimages/DataLake/c3_ai.png" alt="C3.AI" style="width: 50%; height: auto; object-fit: contain;">
 </div>
 <div class="caption" style="text-align: center; margin-top: 8px;">
 Data related to predictive maintenance projects conducted by major electricity companies in the United States, including the C3 AI Reliability <a href="https://c3.ai/" style="text-decoration:underline; color:green;" target="_blank"><strong>C3.AI</strong></a> case study.
@@ -198,7 +198,7 @@ Data lakes must adhere to strict security standards and regulations like GDPR (f
 -   <strong>Example (Tata Power)</strong>: Tata Power’s data lake aligns with India’s data protection laws and ISO 27001, securing financial and operational data across 166 offices.
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
-    <a href="run:/assets/Presentationimages/DataLake/AI_Maintenance_video.mp4"><img src="/assets/Presentationimages/DataLake/gdpr2.png" alt="GDPR Compliance" style="width: 50%; height: auto; object-fit: contain;"></a>
+    <img src="/assets/Presentationimages/DataLake/gdpr2.png" alt="GDPR Compliance" style="width: 50%; height: auto; object-fit: contain;">
 </div>
 
 
@@ -211,7 +211,7 @@ Data lakes must adhere to strict security standards and regulations like GDPR (f
 -   <strong>Supports Advanced Analytics</strong>: Data lakes facilitate machine learning for predictive maintenance and load forecasting, improving operational reliability.
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
-    <a href="run:/assets/Presentationimages/DataLake/AI_Maintenance_video.mp4"><img src="/assets/Presentationimages/DataLake/diverse1.jpg" alt="Diverse Data Integration" style="width: 50%; height: 50%; object-fit: contain;"></a>
+    <img src="/assets/Presentationimages/DataLake/diverse1.jpg" alt="Diverse Data Integration" style="width: 50%; height: 50%; object-fit: contain;">
 </div>
 
 
@@ -269,7 +269,7 @@ Data lakes must adhere to strict security standards and regulations like GDPR (f
 <p style="font-size: large; color: mediumblue; text-align: center;">AI and machine learning models are the engines that turn raw data into actionable intelligence. This chart highlights the key applications that drive grid optimization and reliability.</p>
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
-    <a href="run:/assets/Presentationimages/DataLake/AI_Maintenance_video.mp4"><img src="/assets/Presentationimages/DataLake/PowerAI_DataLake.jpg" alt="The Power of AI in the Data Lake" style="width: 100%; height: auto; object-fit: contain;"></a>
+    <img src="/assets/Presentationimages/DataLake/PowerAI_DataLake.jpg" alt="The Power of AI in the Data Lake" style="width: 100%; height: auto; object-fit: contain;">
 </div>
 
 ---
