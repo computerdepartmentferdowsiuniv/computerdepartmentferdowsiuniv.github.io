@@ -548,6 +548,11 @@ Impact: Autonomous<br>Grids, Sustainability
     <p>AI and Data Specialist</p>
     <p>Email: <a href="mailto:h-sadoghi@um.ac.ir" style="text-decoration:underline; color:green;">h-sadoghi@um.ac.ir</a></p>
     <p>Phone: <a href="tel:+985138805117" style="text-decoration:underline; color:green;">+98-51-38805117</a></p>
-    <p>Website: <a href="https://h-sadoghi.github.io/" style="text-decoration:underline; color:green;" target="_blank">https://h-sadoghi.github.io/</a></p>
+    <p>
+    Website: 
+        <a href="https://h-sadoghi.github.io/" style="text-decoration: underline; color: green;" target="_blank">https://h-sadoghi.github.io/</a> | 
+        <a href="https://hadisadoghiyazdi1971.github.io/" style="text-decoration: underline; color: green;" target="_blank">https://hadisadoghiyazdi1971.github.io/</a>
+        </p>
+    
 </div>
 
