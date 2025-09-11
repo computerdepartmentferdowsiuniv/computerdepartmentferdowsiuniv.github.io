@@ -387,13 +387,13 @@ Achieved through implementation of standardized data governance (ISO 8000) and s
     </div>
 </div>
 
----
+
 
 ## Proposed Architecture: Standards-Based Layers
 
 <div style="display: flex; align-items: flex-start; gap: 20px;">
     <div style="flex: 5;">
-        <h3>Architecture Layers</h3>
+        <h3>Layered Architecture</h3>
         <ul>
             <li><strong>Ingestion Layer</strong>: Data collection from diverse sources</li>
             <li><strong>Storage Layer (Data Lake Core)</strong>:
@@ -401,7 +401,7 @@ Achieved through implementation of standardized data governance (ISO 8000) and s
                     <li>Raw Zone: Data in native format</li>
                     <li>Cleansed Zone: ISO 8000-quality data</li>
                     <li>Curated Zone: Analysis-ready data</li>
-                    <li>Analytics Zone: For BI/AI</li>
+                    <li>Analytics Zone: For BI/AI processing</li>
                 </ul>
             </li>
             <li><strong>Integration Layer</strong>: Enterprise Service Bus (ESB) for routing & transforming data based on IEC 61968 messages</li>
@@ -415,7 +415,7 @@ Achieved through implementation of standardized data governance (ISO 8000) and s
     </div>
 </div>
 
-<p style="text-align: center; font-style: italic; margin-top: 20px; font-size: 14px;">
+<p style="text-align: center; font-size: small; margin-top: 15px;">
 Architecture ensures national scalability and compliance with international best practices.
 </p>
 
