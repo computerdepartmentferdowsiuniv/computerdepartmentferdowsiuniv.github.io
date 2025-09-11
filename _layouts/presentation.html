@@ -14,38 +14,38 @@ layout: nil
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/theme/black.css" id="theme">
 
-  <!-- CSS سفارشی -->
+  <!-- Custom CSS -->
   <style>
     .site-header, .page-header, .site-footer { display: none !important; }
     .reveal { height: 100vh; }
-    .slides { direction: rtl; text-align: center; }
+    .slides { direction: rtl; text-align: right; }
     .slides img { max-width: 60%; height: auto; display: block; margin: 0.5em auto; }
   </style>
 </head>
 <body>
-
-<div class="reveal">
-  <div class="slides">
-    {{ content }}
+  <div class="reveal">
+    <div class="slides">
+      {{ content }}
+    </div>
   </div>
-</div>
 
-<script src="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/markdown/markdown.esm.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/highlight/highlight.esm.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/notes/notes.esm.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/markdown/markdown.esm.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/highlight/highlight.esm.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/notes/notes.esm.js"></script>
 
-<script>
-  Reveal.initialize({
-    hash: true,
-    controls: true,
-    progress: true,
-    center: true,
-    slideNumber: true,
-    width: "100%",
-    height: "100vh",
-    plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-  });
-</script>
+  <script>
+    Reveal.initialize({
+      hash: true,
+      controls: true,
+      progress: true,
+      center: true,
+      slideNumber: true,
+      width: "100%",
+      height: "100vh",
+      plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ],
+      rtl: true // Enable RTL support for Persian
+    });
+  </script>
 </body>
 </html>
