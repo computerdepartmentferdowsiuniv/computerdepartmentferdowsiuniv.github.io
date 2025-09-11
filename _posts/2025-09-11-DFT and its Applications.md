@@ -337,7 +337,7 @@ $$
 
 Now we have obtained an approach with time complexity of \( O(nlogn) \).
 
-![Time Decimation 8-point FFT, picture from Allen's book](./DFTanditsApplications/resources/FFT.png)
+![Time Decimation 8-point FFT, picture from Allen's book](/assets/Post/DFTanditsApplications/resources/FFT.png)
 
 
 There are two very useful points which are worth noting:
@@ -345,7 +345,7 @@ There are two very useful points which are worth noting:
 **The multiplying factor**, each term which is multiplied by $ W_N^m $ is multiplied by $ W_N^{(m + \frac{N}{2})} $  too. If we get this ratio we find $W_N^{\frac{N}{2}} = -1$
 
 
-![Multiplier factor, picture from Allen's book](./DFTanditsApplications/resources/FFT2.png)
+![Multiplier factor, picture from Allen's book](/assets/Post/DFTanditsApplications/resources/FFT2.png)
 
 
 **Butterflies**: Now let us consider the rearrangement of the original signal values \( x(0), x(1),
@@ -462,7 +462,7 @@ plt.show()
 
 
     
-![png](./DFTanditsApplications/output_13_0.png)
+![png](/assets/Post/DFTanditsApplications/output_13_0.png)
     
 
 
@@ -496,7 +496,7 @@ plt.show()
 
 
     
-![png](./DFTanditsApplications/output_14_0.png)
+![png](/assets/Post/DFTanditsApplications/output_14_0.png)
     
 
 
@@ -658,7 +658,7 @@ show_blur_sharp_results(images, thresholds)
 
 
     
-![png](./DFTanditsApplications/output_20_0.png)
+![png](/assets/Post/DFTanditsApplications/output_20_0.png)
     
 
 
