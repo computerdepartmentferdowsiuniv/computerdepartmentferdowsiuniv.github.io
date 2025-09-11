@@ -157,7 +157,7 @@ Data lakes serve as centralized, scalable repositories that unify heterogeneous 
 A data lake is merely a raw repository of diverse data from smart grids, sensors, and SCADA systems. However, when armed with AI, it transforms into a sentient mind that not only predicts energy demand with high accuracy but also enables real-time analysis for rapid crisis response, such as detecting outages. This powerful synergy turns inert data into dynamic, strategic knowledge for intelligent decision-making, as exemplified by Tata Power's load forecasting and DEWA's Rammas AI platform.
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
-    <img src="/assets/Presentationimages/DataLake/crisis_1.jpg" alt="Pacific Northwest National Laboratory" style="width: 50%; height: 50%; object-fit: contain;">
+    <img src="/assets/Presentationimages/DataLake/Crisis_1.jpg" alt="Pacific Northwest National Laboratory" style="width: 50%; height: 50%; object-fit: contain;">
 </div>
 <div class="caption" style="text-align: center; margin-top: 8px;">
   Pacific Northwest National Laboratory
