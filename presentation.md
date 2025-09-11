@@ -12,11 +12,27 @@ header:
 ---
 
 <div class="projects-grid" style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 20px;">
+
   <!-- پpresent 1۱ -->
   <div class="project-card" style="width: calc(33.33% - 20px); border: 1px solid #ddd; border-radius: 10px; overflow: hidden; margin-bottom: 20px;">
     <a href="/presentation/datalake/" style="text-decoration: none; color: inherit;">
       <img src="/assets/Presentationimages/DataLake/PowerSectorDataLake.jpg" 
            alt="Presentation1" 
+           class="project-image"
+           style="width: 100%; height: 200px; object-fit: cover; display: block;">
+      <div class="project-content" style="padding: 10px;">
+        <h3 class="project-title" style="font-size: 16px; font-weight: bold; margin: 0 0 10px;">
+          Test Slide---- Data Lake for Power Sector
+        </h3>
+      </div>
+    </a>
+  </div>
+
+    <!-- پpresent 1۱ -->
+  <div class="project-card" style="width: calc(33.33% - 20px); border: 1px solid #ddd; border-radius: 10px; overflow: hidden; margin-bottom: 20px;">
+    <a href="/presentation/datalake1/" style="text-decoration: none; color: inherit;">
+      <img src="/assets/Presentationimages/DataLake/PowerSectorDataLake.jpg" 
+           alt="Presentation1_1" 
            class="project-image"
            style="width: 100%; height: 200px; object-fit: cover; display: block;">
       <div class="project-content" style="padding: 10px;">

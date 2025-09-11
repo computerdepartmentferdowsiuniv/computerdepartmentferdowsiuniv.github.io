@@ -25,7 +25,7 @@ teaching:
 
   
 presenation:
-  - title: "Projects"
+  - title: "Presentation"
     url: /presentation/projects/topic/
     children: 
       - title: "Data Lake"
