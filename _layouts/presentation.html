@@ -8,13 +8,9 @@ layout: nil
   <meta charset="UTF-8">
   <title>{{ page.title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- CSS reveal.js -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reset.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/theme/black.css" id="theme">
-
-  <!-- Custom CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/theme/black.css">
   <style>
     .site-header, .page-header, .site-footer { display: none !important; }
     .reveal { height: 100vh; }
@@ -28,12 +24,7 @@ layout: nil
       {{ content }}
     </div>
   </div>
-
   <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/markdown/markdown.esm.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/highlight/highlight.esm.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/notes/notes.esm.js"></script>
-
   <script>
     Reveal.initialize({
       hash: true,
@@ -43,8 +34,7 @@ layout: nil
       slideNumber: true,
       width: "100%",
       height: "100vh",
-      plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ],
-      rtl: true // Enable RTL support for Persian
+      rtl: true
     });
   </script>
 </body>
