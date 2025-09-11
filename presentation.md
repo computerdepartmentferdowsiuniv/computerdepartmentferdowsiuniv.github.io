@@ -14,7 +14,7 @@ header:
 <div class="projects-grid" style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 20px;">
   <!-- پpresent 1۱ -->
   <div class="project-card" style="width: calc(33.33% - 20px); border: 1px solid #ddd; border-radius: 10px; overflow: hidden; margin-bottom: 20px;">
-    <a href="/presentation/datalake/" style="text-decoration: none; color: inherit;">
+    <a href="/presentation/DataLake/datalake/" style="text-decoration: none; color: inherit;">
       <img src="/assets/Presentationimages/DataLake/PowerSectorDataLake.jpg" 
            alt="Presentation1" 
            class="project-image"
