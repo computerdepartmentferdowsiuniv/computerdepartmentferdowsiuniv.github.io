@@ -198,7 +198,7 @@ Data lakes must adhere to strict security standards and regulations like GDPR (f
 -   <strong>Example (Tata Power)</strong>: Tata Power’s data lake aligns with India’s data protection laws and ISO 27001, securing financial and operational data across 166 offices.
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
-    <img src="/assets/Presentationimages/DataLake/gdpr2.png" alt="GDPR Compliance" style="width: 50%; height: auto; object-fit: contain;">
+    <img src="/assets/Presentationimages/DataLake/GDPR2.png" alt="GDPR Compliance" style="width: 50%; height: auto; object-fit: contain;">
 </div>
 
 
@@ -211,7 +211,7 @@ Data lakes must adhere to strict security standards and regulations like GDPR (f
 -   <strong>Supports Advanced Analytics</strong>: Data lakes facilitate machine learning for predictive maintenance and load forecasting, improving operational reliability.
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
-    <img src="/assets/Presentationimages/DataLake/diverse1.jpg" alt="Diverse Data Integration" style="width: 50%; height: 50%; object-fit: contain;">
+    <img src="/assets/Presentationimages/DataLake/diverse1.JPG" alt="Diverse Data Integration" style="width: 50%; height: 50%; object-fit: contain;">
 </div>
 
 
@@ -269,7 +269,7 @@ Data lakes must adhere to strict security standards and regulations like GDPR (f
 <p style="font-size: large; color: mediumblue; text-align: center;">AI and machine learning models are the engines that turn raw data into actionable intelligence. This chart highlights the key applications that drive grid optimization and reliability.</p>
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
-    <img src="/assets/Presentationimages/DataLake/PowerAI_DataLake.jpg" alt="The Power of AI in the Data Lake" style="width: 100%; height: auto; object-fit: contain;">
+    <img src="/assets/Presentationimages/DataLake/PowerAI_DataLake.JPG" alt="The Power of AI in the Data Lake" style="width: 100%; height: auto; object-fit: contain;">
 </div>
 
 ---
