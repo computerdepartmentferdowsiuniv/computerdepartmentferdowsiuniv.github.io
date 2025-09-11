@@ -6,7 +6,7 @@ permalink: /presentation/datalake/
 
 <section class="english-ltr">
   <h1 style="font-size:2.2em; color:#1a237e; font-weight:500; line-height:1.3;">
-    Consulting Proposal for Implementing a Data Lake in the Power Distribution Company (Power Sector)
+    Implementing a Data Lake in the Power Distribution Company (Power Sector)
   </h1>
   <h2 style="font-size:1.4em; color:#3949ab; font-weight:400; margin-top:10px;">
     With Emphasis on Artificial Intelligence Applications
@@ -20,16 +20,17 @@ permalink: /presentation/datalake/
     Director of Pattern Recognition Laboratory <br>
     Member of SCIIP – Center of Excellence on Soft Computing and Intelligent Information Processing
   </p>
-  <img src="/assets/Presentationimages/DataLake/integrate_Data1.png" alt="DataLake">
-  <p class="caption">Power Sector</p>
+  
 </section>
 
 <section class="english-ltr">
   <h2>Introduction to Data Lakes</h2>
-  <p>A data lake is a centralized repository that allows you to store all your structured and unstructured data at any scale.</p>
-  <ul>
-    <li>Scalability</li>
-    <li>Flexibility</li>
-    <li>Cost-effectiveness</li>
+  <p>A data lake is a centralized repository designed to store structured and unstructured data at any scale, enabling advanced analytics and insights.</p>
+  <ul class="slide-list">
+    <li>Scalability: Accommodates massive data volumes with seamless expansion.</li>
+    <li>Data Variety: Supports diverse data types, from structured to unstructured.</li>
+    <li>Cost-Effectiveness: Reduces storage and processing costs with efficient architecture.</li>
   </ul>
+  <img src="/assets/Presentationimages/DataLake/integrate_Data1.png" alt="Data Lake Architecture">
+  <p class="caption">Empowering Data-Driven Decisions in the Power Sector</p>
 </section>

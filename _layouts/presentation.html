@@ -51,7 +51,6 @@
     .english-ltr {
       direction: ltr !important;
     }
-
     .english-ltr h2, 
     .english-ltr p, 
     .english-ltr ul {
@@ -59,7 +58,6 @@
       margin-right: auto;
       margin-left: auto;
     }
-
     .english-ltr ul {
       text-align: left !important;
       display: inline-block;
@@ -72,23 +70,50 @@
       text-align: right !important;
     }
     
-  /* فقط بزرگ‌کردن فلش‌ها، بدون تغییر موقعیت و جهت */
-.reveal .controls .navigate-left, 
-.reveal .controls .navigate-right, 
-.reveal .controls .navigate-up, 
-.reveal .controls .navigate-down {
-  transform: scale(2.5);
-  opacity: 0.9;
-  transition: opacity 0.3s ease, transform 0.3s ease;
-}
+    /* فلش‌های ناوبری */
+    .reveal .controls {
+      bottom: 40px;  /* کمی بالاتر از پایین */
+      z-index: 1000;
+    }
+    .reveal .controls .navigate-left, 
+    .reveal .controls .navigate-right, 
+    .reveal .controls .navigate-up, 
+    .reveal .controls .navigate-down {
+      transform: scale(2.5);
+      opacity: 0.9;
+      transition: opacity 0.3s ease, transform 0.3s ease;
+    }
+    .reveal .controls .navigate-left:hover, 
+    .reveal .controls .navigate-right:hover, 
+    .reveal .controls .navigate-up:hover, 
+    .reveal .controls .navigate-down:hover {
+      opacity: 1;
+      transform: scale(2.7);
+    }
 
-.reveal .controls .navigate-left:hover, 
-.reveal .controls .navigate-right:hover, 
-.reveal .controls .navigate-up:hover, 
-.reveal .controls .navigate-down:hover {
-  opacity: 1;
-  transform: scale(2.7);
-}
+   /* استایل عمومی برای لیست‌ها */
+    .slide-list {
+      font-size: 1.3em;
+      line-height: 1.8;
+      margin-bottom: 30px;
+      text-align: left;
+      display: inline-block;
+    }
+
+    /* مخصوص اسلاید انگلیسی */
+    .english-ltr img {
+      max-width: 60%;
+      height: auto;
+      margin: 20px auto;
+      display: block;   /* مرکزچین کردن تصویر */
+    }
+
+    .english-ltr .caption {
+      font-size: 1.1em;
+      color: #666;
+      margin-top: 10px;
+      text-align: center;
+    }
 
 
   </style>
@@ -114,10 +139,10 @@
       margin: 0,
       minScale: 1,
       maxScale: 1,
-      rtl: false // حالت انگلیسی به صورت پیش‌فرض
+      rtl: false // پیش‌فرض انگلیسی
     });
 
-    // تنظیم موقعیت فلش‌ها بر اساس زبان
+    // تغییر کلاس برای تشخیص زبان
     function adjustControlsPosition() {
       const currentSlide = Reveal.getCurrentSlide();
       const revealElement = document.querySelector('.reveal');
@@ -129,24 +154,10 @@
       }
     }
 
-    // هنگام تغییر اسلاید، موقعیت فلش‌ها را تنظیم کن
-    Reveal.on('slidechanged', function() {
-      adjustControlsPosition();
-    });
+    Reveal.on('slidechanged', adjustControlsPosition);
 
-    // پس از بارگذاری کامل، موقعیت فلش‌ها را تنظیم کن
-    document.addEventListener('DOMContentLoaded', function() {
-      setTimeout(function() {
-        adjustControlsPosition();
-        
-        // اطمینان از بزرگ بودن و نمایش فلش‌ها
-        const controls = document.querySelectorAll('.reveal .controls div');
-        controls.forEach(control => {
-          control.style.display = 'block';
-          control.style.opacity = '0.9';
-          control.style.transform = 'scale(2.5)';
-        });
-      }, 1000);
+    document.addEventListener('DOMContentLoaded', () => {
+      setTimeout(adjustControlsPosition, 500);
     });
   </script>
 </body>
