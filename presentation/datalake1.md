@@ -33,6 +33,8 @@ header:
 - **Centralized Repository**: Stores raw data (structured, semi-structured, unstructured) from smart meters, SCADA, sensors.
 - **Schema-on-Read**: Enables rapid analytics without predefined schemas, unlike data warehouses.
 - **Power Sector Value**: Drives grid optimization, consumption analytics, predictive maintenance.
+-   **Standardized Foundation**: Built on global standards (IEC 61968 (CIM), IEC 20547, ISO 8000) for seamless interoperability, security, and data quality.
+
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
     <img src="/assets/Presentationimages/DataLake/SCADA.JPG" alt="SCADA" style="width: 50%; height: 50%; object-fit: contain;">
