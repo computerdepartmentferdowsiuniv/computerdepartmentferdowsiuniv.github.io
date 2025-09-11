@@ -330,6 +330,9 @@ Data lakes must adhere to strict security standards and regulations like GDPR (f
 </div>
 </div>
 
+<p style="text-align: center; font-size: small; margin-top: 15px;">
+Achieved through implementation of standardized data governance (ISO 8000) and secure integration frameworks (IEC 20547).
+</p>
 
 
 ### 18-Month Implementation Roadmap
@@ -394,6 +397,7 @@ Data lakes must adhere to strict security standards and regulations like GDPR (f
         <ul>
             <li><strong>Scalable Infrastructure</strong>: Deploy cloud-based storage (e.g., AWS, Azure) to handle high-velocity data streams from smart grids and sensors.</li>
             <li><strong>Robust Security</strong>: Ensure GDPR/NIS2 compliance with encryption and zero-trust architecture to protect sensitive grid and customer data.</li>
+            <li><strong>Common Data Model</strong>: Adoption of IEC 61968 Common Information Model (CIM) to break down data silos and ensure semantic unity across all systems (GIS, CIS, SCADA, etc.).</li>
         </ul>
     </div>
     <div style="flex: 3; text-align: center;">
