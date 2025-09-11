@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: layout: presentation
 title: "Implementing a Data Lake in the Power Distribution Company(Power Sector)"
 permalink: /presentation/datalake/
 author_profile: false

@@ -1,0 +1,62 @@
+---
+# layout used for reveal.js presentations
+---
+<!doctype html>
+<html lang="{{ page.lang | default: site.lang | default: 'fa' }}">
+  {% include head.html %}   {# Minimal Mistakes head (متادیتا، فونت‌ها، CSSهای کلی) #}
+
+  <!-- اضافه کردن CSS های reveal.js از CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reset.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/theme/black.css" id="theme">
+
+  <!-- استایل‌های سفارشی برای نمایش مناسب فارسی / تمام صفحه -->
+  <style>
+    /* مخفی کردن هدر/فوتر معمول سایت تا صفحه کامل شود */
+    .site-header, .page-header, .site-footer { display: none !important; }
+
+    /* هر اسلاید تمام ارتفاع صفحه را بگیرد */
+    .reveal { height: 100vh; }
+
+    /* جهت متن برای فارسی */
+    .reveal .slides { direction: rtl; }
+
+    /* تنظیم فونت/تراز متن داخل اسلایدها (اختیاری — به دلخواه خود تغییر دهید) */
+    .reveal h1 { font-size: 2.2em; line-height: 1.1; }
+    .reveal h2 { font-size: 1.4em; margin-top: .5em; }
+    .reveal p { font-size: 1.0em; line-height: 1.6; }
+
+    /* تنظیم تصویر داخل اسلاید تا کوچک/بزرگ نشود */
+    .reveal .slides img { max-width: 80%; height: auto; display: block; margin: 0.5em auto; }
+  </style>
+</head>
+<body>
+
+  <!-- ساختار مورد نیاز reveal.js -->
+  <div class="reveal">
+    <div class="slides">
+      {{ content }}   <!-- محتوای صفحه‌ای که layout را استفاده می‌کند اینجا قرار می‌گیرد -->
+    </div>
+  </div>
+
+  <!-- اسکریپت‌های reveal.js و پلاگین‌ها (CDN) -->
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/markdown/markdown.esm.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/highlight/highlight.esm.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/notes/notes.esm.js"></script>
+
+  <script>
+    // مقداردهی اولیه‌ی reveal.js
+    Reveal.initialize({
+      hash: true,            // هر اسلاید آدرس اختصاصی می‌گیرد (برای لینک‌دهی مفید)
+      controls: true,        // نمایش کنترل‌های جلو/عقب
+      progress: true,        // نوار پیشرفت پایین
+      center: true,          // وسط چین کردن محتوا
+      slideNumber: true,     // نمایش شماره اسلاید
+      width: "100%",         // اندازه دلخواه
+      height: "100vh",
+      plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+    });
+  </script>
+</body>
+</html>
