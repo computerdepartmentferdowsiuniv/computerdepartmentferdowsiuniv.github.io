@@ -1,4 +1,3 @@
-# DFT and few Applications
 ## Mohammad Bagher Mahdizadeh
 ## mhdz.m@outlook.com
 
@@ -87,53 +86,60 @@ $$
     Y(k) = e^{\frac{-2\pi i l n}{N}}\Sigma_{m = 0}^{N - 1}x(m)e^{\frac{-2\pi m i k}{N}}
 $$
 - **Shift in frequency domain**:
-<center>Let \(x[n]\) be a discrete signal of length \(N\) and \(X[k]\) its DFT:
+Let \(x[n]\) be a discrete signal of length \(N\) and \(X[k]\) its DFT:
 
 $$
 X[k] = \sum_{n=0}^{N-1} x[n] e^{-j \frac{2\pi}{N} k n}, \quad k = 0,1,\dots,N-1
 $$
 
-<center>Consider multiplying \(x[n]\) by a complex exponential  \ $(e^{j \frac{2\pi}{N} m_0 n} $\):
+Consider multiplying \(x[n]\) by a complex exponential  \ $(e^{j \frac{2\pi}{N} m_0 n} $\):
 
 $$
 y[n] = x[n] \cdot e^{j \frac{2\pi}{N} m_0 n}
 $$
 
-<center>The DFT of \(y[n]\) is:
+The DFT of \(y[n]\) is:
 
 $$
 Y[k] = \sum_{n=0}^{N-1} y[n] e^{-j \frac{2\pi}{N} k n}
 $$
 
-<center>Substitute \(y[n]\):
+
+
+Substitute \(y[n]\):
 
 $$
 Y[k] = \sum_{n=0}^{N-1} x[n] e^{j \frac{2\pi}{N} m_0 n} e^{-j \frac{2\pi}{N} k n}
 $$
 
-<center>Combine exponents:
+
+Combine exponents:
 
 $$
 Y[k] = \sum_{n=0}^{N-1} x[n] e^{-j \frac{2\pi}{N} (k - m_0) n}
 $$
 
-<center>Therefore:
+
+
+Therefore:
 
 $$
 Y[k] = X\big[(k - m_0) \bmod N\big]
 $$
-<center>
+
 
 Multiplying a signal by \(e^{j 2 \pi m_0 n / N} \) in the time domain corresponds to a circular shift of \(m_0\) in the frequency domain.
 
+
 ### Convolution
+
 before we start analysing this function and its relation with DFT, we should note that original definition of convolution will not converge for general periodic signal, so we present a modified version of the function:
 
-<center> 
+ 
 
 **Periodic Convolution**:
 
-<center>
+
 
 Suppose x(n) and y(n) are periodic siganls with main period of \( T_0 = N \)
 
@@ -143,7 +149,7 @@ $$
 
 **Convolution in time**:
 
-<center>
+
 
 Let \(x[n]\) and \(h[n]\) be sequences of length \(N\). Define their circular convolution:
 
@@ -151,7 +157,7 @@ $$
 y[n] = (x * h)[n] = \sum_{m=0}^{N-1} x[m] h[(n-m) \bmod N]
 $$
 
-<center>
+
 
 The DFT of \(y[n]\) is:
 
@@ -159,7 +165,7 @@ $$
 Y[k] = \sum_{n=0}^{N-1} y[n] e^{-j \frac{2 \pi}{N} k n}
 $$
 
-<center>
+
 
 Substitute \(y[n]\) into the sum:
 
@@ -167,7 +173,7 @@ $$
 Y[k] = \sum_{n=0}^{N-1} \left( \sum_{m=0}^{N-1} x[m] h[(n-m) \bmod N] \right) e^{-j \frac{2 \pi}{N} k n}
 $$
 
-<center>
+
 
 Swap the order of summation:
 
@@ -175,7 +181,7 @@ $$
 Y[k] = \sum_{m=0}^{N-1} x[m] \sum_{n=0}^{N-1} h[(n-m) \bmod N] \, e^{-j \frac{2 \pi}{N} k n}
 $$
 
-<center>
+
 
 Change the summation variable: let \(r = (n-m) \bmod N \implies n = r+m\). Then
 
@@ -183,7 +189,7 @@ $$
 Y[k] = \sum_{m=0}^{N-1} x[m] \sum_{r=0}^{N-1} h[r] \, e^{-j \frac{2 \pi}{N} k (r+m)}
 $$
 
-<center>
+
 
 Split the exponential:
 
@@ -191,7 +197,7 @@ $$
 Y[k] = \sum_{m=0}^{N-1} x[m] e^{-j \frac{2 \pi}{N} k m} \sum_{r=0}^{N-1} h[r] e^{-j \frac{2 \pi}{N} k r}
 $$
 
-<center>
+
 
 Recognize the DFTs:
 
@@ -199,7 +205,7 @@ $$
 Y[k] = \underbrace{\sum_{m=0}^{N-1} x[m] e^{-j \frac{2 \pi}{N} k m}}_{X[k]} \cdot \underbrace{\sum_{r=0}^{N-1} h[r] e^{-j \frac{2 \pi}{N} k r}}_{H[k]}
 $$
 
-<center>
+
 
 Finally, we have:
 
@@ -207,7 +213,7 @@ $$
 \boxed{Y[k] = X[k] \cdot H[k]}
 $$
 
-<center>
+
 
 **Conclusion:** Circular(periodic) convolution in time corresponds to multiplication in frequency.
 
@@ -298,7 +304,7 @@ into two (N/2)-point, each of which resolves into two (N/4)-point DFTs, and so o
 $$
     X(w) = \Sigma_{n = 0}^{N -1}x(n)e^{\frac{-2\pi i k n}{N}}
 $$
-<center>By deviding these equation into two parts, one consisting only of $ n \in O$ and other one $n \in E$.
+By deviding these equation into two parts, one consisting only of $ n \in O$ and other one $n \in E$.
 
 $$
 X(k) = \sum_{m=0}^{\frac{N}{2}-1} x(2m) W_N^{2km}
@@ -309,7 +315,7 @@ $$
 = \sum_{m=0}^{\frac{N}{2}-1} x(2m) W_N^{2km} +
 W_N^k \sum_{m=0}^{\frac{N}{2}-1} x(2m+1) W_N^{2km}
 $$
-<center>Note that \W\ is defined as $ W_N = e^{\frac{-2\pi i }{N}}$
+Note that \W\ is defined as $ W_N = e^{\frac{-2\pi i }{N}}$
 
 $$
 W_N^{2}
@@ -317,13 +323,13 @@ W_N^{2}
 = e^{\frac{-2\pi i}{\tfrac{N}{2}}}
 = W_{\tfrac{N}{2}}
 $$
-<center>and then we have:
+and then we have:
 
 $$
 X(k) = \sum_{m=0}^{\frac{N}{2}-1} x(2m) W_{\frac{N}{2}}^{km}
      + W_N^k\sum_{m=0}^{\frac{N}{2}-1} x(2m+1) W_{\frac{N}{2}}{(mk)}
 $$
-<center> By assuming \( y(m) = x(2m) \)  and \( z(m) = x(2m + 1) \) we get
+ By assuming \( y(m) = x(2m) \)  and \( z(m) = x(2m + 1) \) we get
 
 $$
     X(w) = Y(w) + W_N^kZ(w)
