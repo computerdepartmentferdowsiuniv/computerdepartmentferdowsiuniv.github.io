@@ -122,69 +122,97 @@ $$
 $$
 Y[k] = X\big[(k - m_0) \bmod N\big]
 $$
-<center>Multiplying a signal by \(e^{j 2 \pi m_0 n / N} \) in the time domain corresponds to a circular shift of \(m_0\) in the frequency domain.
+<center>
+
+Multiplying a signal by \(e^{j 2 \pi m_0 n / N} \) in the time domain corresponds to a circular shift of \(m_0\) in the frequency domain.
 
 ### Convolution
 before we start analysing this function and its relation with DFT, we should note that original definition of convolution will not converge for general periodic signal, so we present a modified version of the function:
 
-<center> **Periodic Convolution**:
-<center>Suppose x(n) and y(n) are periodic siganls with main period of \( T_0 = N \)
+<center> 
+
+**Periodic Convolution**:
+
+<center>
+
+Suppose x(n) and y(n) are periodic siganls with main period of \( T_0 = N \)
+
 $$
 x(n) * y(n) = \Sigma_{k = 0}^{N - 1}x(k)y(n - k)
 $$
 
 **Convolution in time**:
-<center>Let \(x[n]\) and \(h[n]\) be sequences of length \(N\). Define their circular convolution:
+
+<center>
+
+Let \(x[n]\) and \(h[n]\) be sequences of length \(N\). Define their circular convolution:
 
 $$
 y[n] = (x * h)[n] = \sum_{m=0}^{N-1} x[m] h[(n-m) \bmod N]
 $$
 
-<center>The DFT of \(y[n]\) is:
+<center>
+
+The DFT of \(y[n]\) is:
 
 $$
 Y[k] = \sum_{n=0}^{N-1} y[n] e^{-j \frac{2 \pi}{N} k n}
 $$
 
-<center>Substitute \(y[n]\) into the sum:
+<center>
+
+Substitute \(y[n]\) into the sum:
 
 $$
 Y[k] = \sum_{n=0}^{N-1} \left( \sum_{m=0}^{N-1} x[m] h[(n-m) \bmod N] \right) e^{-j \frac{2 \pi}{N} k n}
 $$
 
-<center>Swap the order of summation:
+<center>
+
+Swap the order of summation:
 
 $$
 Y[k] = \sum_{m=0}^{N-1} x[m] \sum_{n=0}^{N-1} h[(n-m) \bmod N] \, e^{-j \frac{2 \pi}{N} k n}
 $$
 
-<center>Change the summation variable: let \(r = (n-m) \bmod N \implies n = r+m\). Then
+<center>
+
+Change the summation variable: let \(r = (n-m) \bmod N \implies n = r+m\). Then
 
 $$
 Y[k] = \sum_{m=0}^{N-1} x[m] \sum_{r=0}^{N-1} h[r] \, e^{-j \frac{2 \pi}{N} k (r+m)}
 $$
 
-<center>Split the exponential:
+<center>
+
+Split the exponential:
 
 $$
 Y[k] = \sum_{m=0}^{N-1} x[m] e^{-j \frac{2 \pi}{N} k m} \sum_{r=0}^{N-1} h[r] e^{-j \frac{2 \pi}{N} k r}
 $$
 
-<center>Recognize the DFTs:
+<center>
+
+Recognize the DFTs:
 
 $$
 Y[k] = \underbrace{\sum_{m=0}^{N-1} x[m] e^{-j \frac{2 \pi}{N} k m}}_{X[k]} \cdot \underbrace{\sum_{r=0}^{N-1} h[r] e^{-j \frac{2 \pi}{N} k r}}_{H[k]}
 $$
 
-<center>Finally, we have:
+<center>
+
+Finally, we have:
 
 $$
 \boxed{Y[k] = X[k] \cdot H[k]}
 $$
 
-<center>**Conclusion:** Circular(periodic) convolution in time corresponds to multiplication in frequency.
+<center>
+
+**Conclusion:** Circular(periodic) convolution in time corresponds to multiplication in frequency.
 
 **Periodic Convolution in Frequency domain**:
+
 $$
 \text{Let } x(t) \text{ and } y(t) \text{ be two } T\text{-periodic signals with Fourier series:}
 $$
@@ -192,33 +220,43 @@ $$
 x(t) = \sum_{k=-\infty}^{\infty} X[k] e^{j k \omega_0 t}, \quad
 y(t) = \sum_{k=-\infty}^{\infty} Y[k] e^{j k \omega_0 t}, \quad \omega_0 = \frac{2\pi}{T}
 $$
+
 $$
 \text{The convolution in frequency domain is defined as:}
 $$
+
 $$
 Z[k] = (X * Y)[k] = \sum_{m=-\infty}^{\infty} X[m] Y[k-m]
 $$
+
 $$
 \text{Construct the time-domain signal corresponding to } Z[k]:
 $$
+
 $$
 z(t) = \frac{1}{N} \sum_{k=-\infty}^{\infty} Z[k] e^{j k \omega_0 t}
 $$
+
 $$
 \text{Substitute } Z[k] \text{ by the convolution:}
 $$
+
 $$
 z(t) =\frac{1}{N} \sum_{k=-\infty}^{\infty} \left( \sum_{m=-\infty}^{\infty} X[m] Y[k-m] \right) e^{j k \omega_0 t}
 $$
+
 $$
 \text{Change the order of summation:}
 $$
+
 $$
 z(t) =\frac{1}{N} \sum_{m=-\infty}^{\infty} X[m] \sum_{k=-\infty}^{\infty} Y[k-m] e^{j k \omega_0 t}
 $$
+
 $$
 \text{Let } n = k - m \implies k = n + m
 $$
+
 $$
 z(t) =\frac{1}{N} \sum_{m=-\infty}^{\infty} X[m] \sum_{n=-\infty}^{\infty} Y[n] e^{j (n+m) \omega_0 t}
 $$
@@ -292,6 +330,7 @@ $$
 $$
 
 Now we have obtained an approach with time complexity of \( O(nlogn) \).
+
 ![Time Decimation 8-point FFT, picture from Allen's book](./DFTanditsApplications/resources/FFT.png)
 
 
@@ -300,7 +339,7 @@ There are two very useful points which are worth noting:
 **The multiplying factor**, each term which is multiplied by $ W_N^m $ is multiplied by $ W_N^{(m + \frac{N}{2})} $  too. If we get this ratio we find $W_N^{\frac{N}{2}} = -1$
 
 
-![Multiplier factor, picture from Allen's book](resources/FFT2.png)
+![Multiplier factor, picture from Allen's book](./DFTanditsApplications/resources/FFT2.png)
 
 
 **Butterflies**: Now let us consider the rearrangement of the original signal values \( x(0), x(1),
