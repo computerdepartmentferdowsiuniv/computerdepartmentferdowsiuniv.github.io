@@ -462,7 +462,7 @@ plt.show()
 
 
     
-![png](/assets/Post/DFTanditsApplications/output_13_0.png)
+![png3](/assets/Post/DFTanditsApplications/output_13_0.png)
     
 
 
@@ -496,7 +496,7 @@ plt.show()
 
 
     
-![png](/assets/Post/DFTanditsApplications/output_14_0.png)
+![png2](/assets/Post/DFTanditsApplications/output_14_0.png)
     
 
 
@@ -658,8 +658,9 @@ show_blur_sharp_results(images, thresholds)
 
 
     
-![png](/assets/Post/DFTanditsApplications/output_20_0.png)
+![png1](/assets/Post/DFTanditsApplications/output_20_0.png)
     
+
 
 
 Here we used rough filters, the blur function is actually a ideal lowpass filter. But in reality such filters are not exist and applying this function to an image results in Gibbs phenomenon.
