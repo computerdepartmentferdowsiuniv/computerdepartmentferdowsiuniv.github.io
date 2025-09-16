@@ -22,6 +22,13 @@ teaching:
         url: /teaching/studenteffort/circuiteffort/PyspiceInstall/
       - title: "Introduction Thyristors"
         url: /teaching/studenteffort/circuiteffort/Introduction_Thyristors/
+  - title: "Toolkits"
+    url: /teaching/studenteffort/researchertoolkit/
+    children: 
+      - title: "RAG"
+        url: /teaching/studenteffort/toolkit/rag/
+      - title: "KF"
+        url: /teaching/studenteffort/toolkit/KF/
 
   
 presenation:

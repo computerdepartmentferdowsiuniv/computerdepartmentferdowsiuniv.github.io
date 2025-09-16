@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Circuit Analysis Effort"
-permalink: /teaching/studenteffort/circuiteffort/
+permalink: /teaching/studenteffort/circuiteffort
 author_profile: false
 classes: wide
 sidebar:

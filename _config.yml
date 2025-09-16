@@ -167,6 +167,30 @@ markdown: kramdown
 mathjax: true
 
 
+# در بخش head_scripts اضافه کنید
+#head_scripts:
+ # - /assets/js/persian.js
+
+# در بخش defaults اضافه کنید
+#defaults:
+#  - scope:
+ #     path: ""
+  #    type: "posts"
+   # values:
+    #  layout: "single"
+     # classes: "wide rtl-layout"
+      #dir: "rtl"
+
+# defaults را به حالت قبل برگردانید
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "single"
+      classes: "wide"
+      
+      
 # Reading Files
 include:
   - .htaccess

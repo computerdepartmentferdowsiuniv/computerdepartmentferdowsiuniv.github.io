@@ -1,0 +1,89 @@
+---
+layout: single
+---
+
+<style>
+/* استایل‌های مخصوص صفحات فارسی */
+.persian-page {
+    direction: rtl;
+    text-align: right;
+    font-family: 'B Nazanin', 'Vazir', 'Tanha', 'Shabnam', 'Segoe UI', Tahoma, sans-serif;
+    font-size: 18px;
+    line-height: 1.9;
+}
+
+.persian-page h1, 
+.persian-page h2, 
+.persian-page h3, 
+.persian-page h4, 
+.persian-page h5, 
+.persian-page h6 {
+    font-family: 'B Nazanin', 'Vazir', 'Tanha', 'Shabnam', 'Segoe UI', Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: right;
+    border-bottom: 2px solid #eaecef;
+    padding-bottom: 0.3em;
+    margin: 1.5em 0 0.8em 0;
+}
+
+.persian-page h1 {
+    font-size: 2.2em;
+    border-bottom: 3px solid #dc3545;
+}
+
+.persian-page ul, 
+.persian-page ol {
+    padding-right: 1.5em;
+    padding-left: 0;
+}
+
+/* کلاس برای بخش‌های انگلیسی */
+.english-text {
+    direction: ltr !important;
+    text-align: left !important;
+    font-family: 'Arial', 'Helvetica', sans-serif !important;
+    display: block;
+    unicode-bidi: isolate;
+}
+
+/* کلاس برای بخش‌های فارسی */
+.persian-text {
+    direction: rtl !important;
+    text-align: right !important;
+    font-family: 'B Nazanin', 'Vazir', sans-serif !important;
+    display: block;
+    unicode-bidi: isolate;
+}
+
+/* برای کدهای برنامه‌نویسی */
+.code-block {
+    direction: ltr !important;
+    text-align: left !important;
+    font-family: 'Monaco', 'Consolas', monospace !important;
+    background: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+</style>
+
+<div class="persian-page">
+    {{ content }}
+</div>
+
+<script>
+// فقط برای صفحات فارسی اجرا شود
+document.addEventListener('DOMContentLoaded', function() {
+    if (document.querySelector('.persian-page')) {
+        document.documentElement.setAttribute('dir', 'rtl');
+        document.documentElement.setAttribute('lang', 'fa');
+        
+        // بارگذاری فونت فقط برای صفحات فارسی
+        const fontLink = document.createElement('link');
+        fontLink.rel = 'stylesheet';
+        fontLink.href = 'https://fonts.googleapis.com/earlyaccess/bnazanin.css';
+        document.head.appendChild(fontLink);
+    }
+});
+</script>

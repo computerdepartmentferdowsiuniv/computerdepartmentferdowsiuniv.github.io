@@ -1,0 +1,99 @@
+// _sass/persian.scss
+@import url('https://fonts.googleapis.com/earlyaccess/bnazanin.css');
+
+body.rtl-layout {
+    direction: rtl;
+    text-align: right;
+    font-family: 'B Nazanin', 'Vazir', 'Tanha', 'Shabnam', 'Segoe UI', Tahoma, sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    
+    // سایر استایل‌ها...
+}
+
+@import url('https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v30.1.0/dist/font-face.css');
+
+
+/* استایل خاص برای عناوین فارسی */
+.rtl-layout {
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'B Nazanin', 'Vazir', 'Tanha', 'Shabnam', 'Segoe UI', Tahoma, sans-serif;
+        font-weight: bold;
+        direction: rtl;
+        text-align: right;
+        margin: 1.5em 0 0.8em 0;
+        line-height: 1.4;
+        color: #2e4057; /* رنگ متناسب با تم */
+        border-bottom: 2px solid #eaecef;
+        padding-bottom: 0.3em;
+    }
+    
+    h1 {
+        font-size: 2.2em;
+        font-weight: 900;
+    }
+    
+    h2 {
+        font-size: 1.8em;
+        font-weight: 800;
+    }
+    
+    h3 {
+        font-size: 1.5em;
+        font-weight: 700;
+    }
+    
+    h4 {
+        font-size: 1.3em;
+        font-weight: 600;
+    }
+    
+    h5 {
+        font-size: 1.1em;
+        font-weight: 600;
+    }
+    
+    h6 {
+        font-size: 1em;
+        font-weight: 600;
+        color: #6a737d;
+    }
+}
+
+/* برای صفحات single */
+.single .rtl-layout {
+    h1 {
+        text-align: center;
+        border-bottom: 3px solid #dc3545;
+        padding-bottom: 0.5em;
+        margin-bottom: 1em;
+    }
+}
+
+body.rtl-layout {
+    direction: rtl;
+    text-align: right;
+    font-family: 'Vazir', 'Tanha', 'Shabnam', 'Segoe UI', Tahoma, sans-serif;
+    
+    .sidebar {
+        right: 0;
+        left: auto;
+    }
+    
+    .main {
+        float: right;
+    }
+    
+    ul, ol {
+        padding-right: 1.5em;
+        padding-left: 0;
+    }
+    
+    .breadcrumbs,
+    .pagination,
+    .footer,
+    nav {
+        direction: rtl;
+        text-align: right;
+    }
+}

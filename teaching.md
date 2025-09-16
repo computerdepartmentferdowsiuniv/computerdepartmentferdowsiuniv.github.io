@@ -69,6 +69,16 @@ header:
       </a>
     </div>
     <div class="project-card">
+      <a href="/teaching/researchertoolkit/">
+        <img src="{{ '/assets/images/toolkit.jpg' | relative_url }}" 
+             alt="StudentEffort" 
+             class="project-image">
+        <div class="project-content">
+          <h3 class="project-title">The Researcher's Toolkit</h3>
+        </div>
+      </a>
+    </div>
+    <div class="project-card">
       <a href="https://laboratorypatternrecognition.github.io/AI-Essentials/Home_Page.html">
         <img src="{{ '/assets/images/DeepDream2.JPG' | relative_url }}" 
              alt="AI Essentials" 
@@ -81,7 +91,7 @@ header:
   </div>
 
   <div class="footer">
-    Click on each card to view lesson details
+    
   </div>
 </div>
 
