@@ -12,7 +12,10 @@ header:
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 ---
 
-# list of AI tools
+<div class="english-text">
+    <strong style="font-weight: 900;">list of AI tools</strong>
+</div>
+
 
 <div class="english-text">
 
