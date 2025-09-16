@@ -70,7 +70,7 @@ header:
     </div>
     <div class="project-card">
       <a href="/teaching/researchertoolkit/">
-        <img src="{{ '/assets/images/toolkit.jpg' | relative_url }}" 
+        <img src="{{ '/assets/images/toolkit.JPG' | relative_url }}" 
              alt="StudentEffort" 
              class="project-image">
         <div class="project-content">
