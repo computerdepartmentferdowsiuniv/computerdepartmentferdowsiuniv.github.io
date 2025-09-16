@@ -19,7 +19,7 @@ header:
   <div class="projects-grid">
     <div class="project-card">
       <a href="/teaching/researchertoolkit/patterneffort">
-        <img src="{{ '/assets/images/MachineLearningSignalProcessingToolkits.JPG' | relative_url }}" 
+        <img src="{{ '/assets/images/MLSignalToolkits.jpg' | relative_url }}" 
              alt="Pattern Recognition" 
              class="project-image">
         <div class="project-content">
@@ -29,7 +29,7 @@ header:
     </div>
     <div class="project-card">
       <a href="/teaching/studenteffort/toolkit/ML_tools">
-        <img src="{{ '/assets/images/ML_toolkit.jpg' | relative_url }}" 
+        <img src="{{ '/assets/images/ML_toolkit.JPG' | relative_url }}" 
              alt="Rag1" 
              class="project-image">
         <div class="project-content">
