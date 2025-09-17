@@ -1,17 +1,17 @@
 # main links
 
 main:
-  - title: "About"
+  - title: "درباره ما"
     url: /about/
-  - title: "Projects"
-    url: /projects/
-  - title: "Presentation"
+  - title: "کارگروهها"
+    url: /groups/
+  - title: "ارایه ها"
     url: /presentation/
-  - title: "Publications"
-    url: /blog/
-  - title: "People"
+  - title: "پروژه ها"
+    url: /projects/
+  - title: "افراد"
     url: /people/
-  - title: "Toolkit"
+  - title: "ابزار"
     url: /toolkit/
 
 
