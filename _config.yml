@@ -107,13 +107,13 @@ og_image                 : # Open Graph/Twitter default site image
 social:
   - label: "Email"
     icon: "fas fa-envelope"
-    url: "mailto:h.sadoghi@um.ac.ir"
+    url: "mailto:h-sadoghi@um.ac.ir"
   - label: "Website" 
     icon: "fas fa-globe"
-    url: "http://prof.um.ac.ir/h-sadoghi/"
+    url: "http://um.ac.ir/"
   - label: "Google Scholar"
     icon: "ai ai-google-scholar"
-    url: "https://scholar.google.com/citations?user=wEBTP4oAAAAJ"
+    url: "http://um.ac.ir/"
 
 
 
@@ -129,14 +129,14 @@ analytics:
 
 # Author information
 author:
-  name: "Hadi Sadoghi Yazdi"
-  avatar: "/assets/images/Sadoghi.jpg"
-  bio: "Professor of Electrical and  <br> Computer Engineering"
-  location         : "<br> Ferdowsi University of Mashhad <br> Contact Information: <br> Phone:+98-51-38805117 <br> Areas of Expertise:<br> Pattern Recognition, Machine Learning, <br> Machine Vision, Signal processing" 
+  name: "کارگروه هوش مصنوعی <br>دانشگاه فردوسی مشهد"
+  avatar: "/assets/images/AI_WorkGroup_FUM.jpg"
+  bio: "دانشگاه فردوسی مشهد"
+  location         : "<br> مشهد مقدس <br> Contact Information: <br> Phone:+98-51-38806059 <br> تخصص ها:<br> هوش مصنوعی, <br> علوم انسانی, علوم پایه <br> علوم مهندسی" 
   links:
     - label: "University Profile"
       icon: "fas fa-university"
-      url: "http://prof.um.ac.ir/h-sadoghi/"
+      url: "http://um.ac.ir"
 
 
 
