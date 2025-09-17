@@ -42,7 +42,7 @@ header:
 <div style="display:flex; direction:ltr; flex-direction:row-reverse; align-items:center; gap:20px; margin-bottom:40px; flex-wrap:wrap;">
 
   <div style="flex:1; min-width:260px; text-align:justify;" dir="auto">
-  <a href="https://https://hadisadoghiyazdi1971.github.io/" style="text-decoration:none; color:inherit;" target="_blank">
+  <a href="https://hadisadoghiyazdi1971.github.io" style="text-decoration:none; color:inherit;" target="_blank">
       <strong>دکتر هادی صدوقی یزدی</strong>
     </a> 
  استاد مهندسی گروه کامپیوتر در دانشگاه فردوسی مشهد است. کار او بر یادگیری ماشین، پردازش سیگنال متمرکز است.
