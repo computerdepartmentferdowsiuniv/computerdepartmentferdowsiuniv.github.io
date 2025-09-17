@@ -24,8 +24,8 @@ favicon                  : "/assets/images/Professor_Sadoghi_Academic_Icon.png"
 name                     : "Hadi Sadoghi Yazdi"
 description              : "A hub for my ideas, projects, and achievements. Explore my work, research, and insights in the field of data science, and engineering."
 #url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-url                      : "https://hadisadoghiyazdi1971.github.io"
-github_username          : hadisadoghiyazdi1971
+url                      : "https://computerdepartmentferdowsiuniv.github.io"
+github_username          : computerdepartmentferdowsiuniv
 
 baseurl                  : #"/hadisadoghiyazdi1971.github.io" # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
