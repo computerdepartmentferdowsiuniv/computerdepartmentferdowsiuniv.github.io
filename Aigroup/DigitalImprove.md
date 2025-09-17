@@ -5,6 +5,7 @@ dir: rtl
 title: "کارگروه تحول دیجیتال"
 permalink: /Aigroup/DigitalImprove/
 author_profile: true
+#classes: wide
 header:
   overlay_image: "/assets/images/background.jpg"
   overlay_filter: 0.3

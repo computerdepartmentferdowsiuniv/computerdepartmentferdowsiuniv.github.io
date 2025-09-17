@@ -5,6 +5,7 @@ dir: rtl
 title: "اعضای کارگروه هوش مصنوعی دانشگاه فردوسی مشهد"
 permalink: /people/
 author_profile: true
+#classes: wide
 header:
   overlay_image: "/assets/images/background.jpg"
   overlay_filter: 0.3

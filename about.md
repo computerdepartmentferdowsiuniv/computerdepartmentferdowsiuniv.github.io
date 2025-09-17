@@ -5,6 +5,7 @@ dir: rtl
 title: "درباره ما"
 permalink: /about/
 author_profile: true
+
 header:
   overlay_image: "/assets/images/background.jpg"
   overlay_filter: 0.3
