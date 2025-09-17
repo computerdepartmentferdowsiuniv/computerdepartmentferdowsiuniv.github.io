@@ -1,3 +1,12 @@
+.page__content,
+.archive__item-title,
+.archive__item-excerpt {
+  direction: rtl;
+  text-align: right;
+  font-family: "B Nazanin", "Vazirmatn", sans-serif !important;
+}
+
+
 // Highlight active sidebar item
 .sidebar nav ul li.active > a {
     color: #ff6b6b; // رنگ مورد نظر شما

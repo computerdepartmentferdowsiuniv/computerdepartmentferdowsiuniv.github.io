@@ -1,5 +1,8 @@
 ---
-title: "DFT and its Applications: Computational Methods"
+layout: persian  
+classes: wide rtl-layout
+dir: rtl
+title: "تبدیل فوریه و کاربردها"
 date: 2025-09-11
 categories: [Physics, Computational]
 tags: [DFT, Quantum Mechanics, Simulation]
