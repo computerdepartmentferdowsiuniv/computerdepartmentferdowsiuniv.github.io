@@ -5,7 +5,6 @@ dir: rtl
 title: "پروژه ها"
 permalink: /projects/
 author_profile: true
-classes: wide
 header:
   overlay_image: "/assets/images/background.jpg"
   overlay_filter: 0.3
