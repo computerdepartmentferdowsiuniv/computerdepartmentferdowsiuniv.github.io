@@ -4,9 +4,7 @@ classes: wide rtl-layout
 dir: rtl
 title: "اعضای کارگروه هوش مصنوعی دانشگاه فردوسی مشهد"
 permalink: /people/
-
 author_profile: true
-
 header:
   overlay_image: "/assets/images/background.jpg"
   overlay_filter: 0.3
@@ -33,7 +31,7 @@ header:
   </div>
 
   <figure style="flex:0 0 200px; margin:0; text-align:center;">
-    <img src="/assets/Peopleimages/kahani.jpg" alt="kahani" width="200" style="max-width:100%; height:auto; display:block;" />
+    <img src="/assets/Peopleimages/kahani.JPG" alt="kahani" width="200" style="max-width:100%; height:auto; display:block;" />
     <figcaption><em>استاد دانشگاه فردوسی مشهد</em></figcaption>
   </figure>
 
