@@ -11,49 +11,9 @@ main:
     url: /blog/
   - title: "People"
     url: /people/
-  - title: "Teaching"
-    url: /teaching/
-
-teaching:
-  - title: "Circuit Effort"
-    url: /teaching/studenteffort/circuiteffort/
-    children: 
-      - title: "Pyspice Installation Manual"
-        url: /teaching/studenteffort/circuiteffort/PyspiceInstall/
-      - title: "Introduction Thyristors"
-        url: /teaching/studenteffort/circuiteffort/Introduction_Thyristors/
-  - title: "Toolkits"
-    url: /teaching/studenteffort/researchertoolkit/
-    children: 
-      - title: "RAG"
-        url: /teaching/studenteffort/toolkit/rag/
-      - title: "KF"
-        url: /teaching/studenteffort/toolkit/KF/
-
-  
-presenation:
-  - title: "Presentation"
-    url: /presentation/projects/topic/
-    children: 
-      - title: "Data Lake"
-        url: /presentation/projects/topic/datalake/
-      - title: "Defense Simulator"
-        url: /presentation/projects/topic/defencesimulator/
+  - title: "Toolkit"
+    url: /toolkit/
 
 
+ 
 
-
-
-
-
-#main:
- # - title: "Quick-Start Guide"
-  #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
