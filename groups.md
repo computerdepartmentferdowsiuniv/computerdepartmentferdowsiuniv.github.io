@@ -91,6 +91,7 @@ header:
 </style>
 
 
-## کارگروه هوش مصنوعی دانشگاه فردوسی
+
 
 <img src="/assets/images/AI_WorkGroup_FUM.jpg" alt="AITeam" style="width:25%; height:25%; max-width:100%; height:auto;">
+## کارگروه هوش مصنوعی دانشگاه فردوسی
