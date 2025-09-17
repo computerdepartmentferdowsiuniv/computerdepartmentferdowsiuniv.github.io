@@ -1,21 +1,18 @@
 // _sass/persian.scss
 @import url('https://fonts.googleapis.com/earlyaccess/bnazanin.css');
+@import url('https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v30.1.0/dist/font-face.css');
 
-body.rtl-layout {
+/* استایل اصلی برای layout فارسی */
+body.rtl-layout,
+[dir="rtl"],
+[layout="persian"] {
     direction: rtl;
     text-align: right;
     font-family: 'B Nazanin', 'Vazir', 'Tanha', 'Shabnam', 'Segoe UI', Tahoma, sans-serif;
     font-size: 16px;
     line-height: 1.8;
     
-    // سایر استایل‌ها...
-}
-
-@import url('https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v30.1.0/dist/font-face.css');
-
-
-/* استایل خاص برای عناوین فارسی */
-.rtl-layout {
+    /* استایل برای عناوین فارسی */
     h1, h2, h3, h4, h5, h6 {
         font-family: 'B Nazanin', 'Vazir', 'Tanha', 'Shabnam', 'Segoe UI', Tahoma, sans-serif;
         font-weight: bold;
@@ -23,7 +20,7 @@ body.rtl-layout {
         text-align: right;
         margin: 1.5em 0 0.8em 0;
         line-height: 1.4;
-        color: #2e4057; /* رنگ متناسب با تم */
+        color: #2e4057;
         border-bottom: 2px solid #eaecef;
         padding-bottom: 0.3em;
     }
@@ -31,6 +28,14 @@ body.rtl-layout {
     h1 {
         font-size: 2.2em;
         font-weight: 900;
+        
+        /* برای صفحات single */
+        .single & {
+            text-align: center;
+            border-bottom: 3px solid #dc3545;
+            padding-bottom: 0.5em;
+            margin-bottom: 1em;
+        }
     }
     
     h2 {
@@ -58,23 +63,44 @@ body.rtl-layout {
         font-weight: 600;
         color: #6a737d;
     }
-}
-
-/* برای صفحات single */
-.single .rtl-layout {
-    h1 {
-        text-align: center;
-        border-bottom: 3px solid #dc3545;
-        padding-bottom: 0.5em;
-        margin-bottom: 1em;
-    }
-}
-
-body.rtl-layout {
-    direction: rtl;
-    text-align: right;
-    font-family: 'Vazir', 'Tanha', 'Shabnam', 'Segoe UI', Tahoma, sans-serif;
     
+    /* استایل برای navigation */
+    nav, 
+    .navigation,
+    .navbar,
+    .menu,
+    .main-nav {
+        direction: rtl;
+        text-align: right;
+        justify-content: flex-end;
+        font-family: 'B Nazanin', 'Vazir', 'Tanha', 'Shabnam', sans-serif;
+    }
+    
+    ul.nav__list, 
+    ul.menu {
+        flex-direction: row-reverse;
+        padding-right: 0;
+        padding-left: 0;
+    }
+    
+    .nav__item,
+    .menu-item,
+    .nav-item,
+    .navigation-item {
+        font-family: 'B Nazanin', 'Vazir', 'Tanha', 'Shabnam', sans-serif;
+        margin-left: 1.5em;
+        margin-right: 0;
+    }
+    
+    .nav__link,
+    .menu-link,
+    .nav-link {
+        font-family: 'B Nazanin', 'Vazir', 'Tanha', 'Shabnam', sans-serif;
+        font-weight: 600;
+        font-size: 1.1em;
+    }
+    
+    /* استایل‌های layout */
     .sidebar {
         right: 0;
         left: auto;
@@ -91,9 +117,46 @@ body.rtl-layout {
     
     .breadcrumbs,
     .pagination,
-    .footer,
-    nav {
+    .footer {
         direction: rtl;
         text-align: right;
+    }
+}
+
+/* استایل برای حالت‌های خاص */
+.single .rtl-layout {
+    nav, .navigation {
+        direction: rtl;
+        text-align: right;
+    }
+}
+
+/* استایل برای صفحاتی که ممکن است فارسی باشند اما کلاس rtl-layout ندارند */
+[lang="fa"], 
+[dir="rtl"]:not(.rtl-layout) {
+    nav, 
+    .navigation,
+    .navbar {
+        direction: rtl !important;
+        text-align: right !important;
+        justify-content: flex-end !important;
+        
+        ul {
+            flex-direction: row-reverse !important;
+        }
+        
+        li {
+            margin-left: 15px !important;
+            margin-right: 0 !important;
+        }
+    }
+}
+
+/* پشتیبانی از flexbox برای navigation */
+.rtl-layout {
+    .nav__list,
+    .menu {
+        display: flex;
+        flex-wrap: wrap;
     }
 }

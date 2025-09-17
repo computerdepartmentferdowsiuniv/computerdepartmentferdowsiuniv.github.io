@@ -137,6 +137,9 @@ author:
     - label: "University Profile"
       icon: "fas fa-university"
       url: "http://um.ac.ir"
+    - label: "AI Systems Architect"
+      icon: "fas fa-network-wired"
+      url: "http://hadisadoghiyazdi1971.github.io"
 
 
 
@@ -187,8 +190,8 @@ defaults:
       path: ""
       type: "posts"
     values:
-      layout: "single"
-      classes: "wide"
+      layout: persian
+      classes: wide rtl-layout
       
       
 # Reading Files
@@ -348,7 +351,7 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
+      layout: persian
       author_profile: true
       read_time: true
       comments: # true
@@ -356,3 +359,4 @@ defaults:
       related: true
       sidebar:
         nav: "main"
+

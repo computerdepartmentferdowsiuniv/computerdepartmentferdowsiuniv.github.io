@@ -1,6 +1,8 @@
 ---
-layout: single
-title: "Projects"
+layout: persian  # یا single با کلاس rtl-layout
+classes: wide rtl-layout
+dir: rtl
+title: "پروژه ها"
 permalink: /projects/
 author_profile: true
 classes: wide
