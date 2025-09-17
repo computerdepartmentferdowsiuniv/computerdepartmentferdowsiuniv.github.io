@@ -1,5 +1,5 @@
 ---
-layout: persian  # یا single با کلاس rtl-layout
+layout: persian  
 classes: wide rtl-layout
 dir: rtl
 title: "ارایه ها"
@@ -11,6 +11,8 @@ header:
   overlay_color: "#5e616c"
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 ---
+
+## ارایه ها
 
 <div class="projects-grid" style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 20px;">
 
